@@ -1,17 +1,15 @@
 [0] Config.pm:302> INFO - This is Biber 2.11
 [0] Config.pm:305> INFO - Logfile is 'naam_voornaam_voorstel.blg'
-[44] biber-darwin:313> INFO - === Tue Dec  4, 2018, 17:12:36
-[69] Biber.pm:371> INFO - Reading 'naam_voornaam_voorstel.bcf'
-[154] Biber.pm:857> INFO - Found 4 citekeys in bib section 0
-[167] Biber.pm:3976> INFO - Processing section 0
-[177] Biber.pm:4136> INFO - Looking for bibtex format file 'voorstel.bib' for section 0
-[178] bibtex.pm:1500> INFO - LaTeX decoding ...
-[184] bibtex.pm:1316> INFO - Found BibTeX data source 'voorstel.bib'
-[205] Utils.pm:193> WARN - I didn't find a database entry for 'Doll1954' (section 0)
-[218] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[218] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[218] Biber.pm:3804> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
-[218] Biber.pm:3810> INFO - No sort tailoring available for locale 'nl-NL'
-[231] bbl.pm:617> INFO - Writing 'naam_voornaam_voorstel.bbl' with encoding 'UTF-8'
-[233] bbl.pm:720> INFO - Output to naam_voornaam_voorstel.bbl
-[234] Biber.pm:110> INFO - WARNINGS: 1
+[33] biber-darwin:313> INFO - === Wed Dec  5, 2018, 21:02:36
+[51] Biber.pm:371> INFO - Reading 'naam_voornaam_voorstel.bcf'
+[128] Biber.pm:857> INFO - Found 5 citekeys in bib section 0
+[140] Biber.pm:3976> INFO - Processing section 0
+[148] Biber.pm:4136> INFO - Looking for bibtex format file 'voorstel.bib' for section 0
+[149] bibtex.pm:1500> INFO - LaTeX decoding ...
+[156] bibtex.pm:1316> INFO - Found BibTeX data source 'voorstel.bib'
+[214] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[215] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[215] Biber.pm:3804> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
+[215] Biber.pm:3810> INFO - No sort tailoring available for locale 'nl-NL'
+[223] bbl.pm:617> INFO - Writing 'naam_voornaam_voorstel.bbl' with encoding 'UTF-8'
+[227] bbl.pm:720> INFO - Output to naam_voornaam_voorstel.bbl

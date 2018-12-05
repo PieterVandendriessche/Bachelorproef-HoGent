@@ -1,0 +1,229 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/global//global/global}
+    \entry{Knacktoegankelijkheid2018}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=884e6e48ad85076815ab7bcea28f6258}{%
+           family={Belga},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{884e6e48ad85076815ab7bcea28f6258}
+      \strng{fullhash}{884e6e48ad85076815ab7bcea28f6258}
+      \strng{bibnamehash}{884e6e48ad85076815ab7bcea28f6258}
+      \strng{authorbibnamehash}{884e6e48ad85076815ab7bcea28f6258}
+      \strng{authornamehash}{884e6e48ad85076815ab7bcea28f6258}
+      \strng{authorfullhash}{884e6e48ad85076815ab7bcea28f6258}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{30}
+      \field{month}{3}
+      \field{title}{Overheidswebsites moeten vanaf najaar 2020 toegankelijk zijn voor mensen met beperking}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.knack.be/nieuws/belgie/overheidswebsites-moeten-vanaf-najaar-2020-toegankelijk-zijn-voor-mensen-met-beperking/article-belga-984433.html
+      \endverb
+      \verb{url}
+      \verb https://www.knack.be/nieuws/belgie/overheidswebsites-moeten-vanaf-najaar-2020-toegankelijk-zijn-voor-mensen-met-beperking/article-belga-984433.html
+      \endverb
+    \endentry
+    \entry{10.1007/978-3-319-07638-6_14}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=d14b3b8f0fd0cd13b320d1f24b59627c}{%
+           family={Darvishy},
+           familyi={D\bibinitperiod},
+           given={Alireza},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=28e4f412995cd32168f059866616faf0}{%
+           family={Marcus},
+           familyi={M\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{d14b3b8f0fd0cd13b320d1f24b59627c}
+      \strng{fullhash}{d14b3b8f0fd0cd13b320d1f24b59627c}
+      \strng{bibnamehash}{d14b3b8f0fd0cd13b320d1f24b59627c}
+      \strng{authorbibnamehash}{d14b3b8f0fd0cd13b320d1f24b59627c}
+      \strng{authornamehash}{d14b3b8f0fd0cd13b320d1f24b59627c}
+      \strng{authorfullhash}{d14b3b8f0fd0cd13b320d1f24b59627c}
+      \strng{editorbibnamehash}{28e4f412995cd32168f059866616faf0}
+      \strng{editornamehash}{28e4f412995cd32168f059866616faf0}
+      \strng{editorfullhash}{28e4f412995cd32168f059866616faf0}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper compares accessibility features of two popular platforms from a user perspective. The comparison is based on accessibility features for different kinds of disabilities such as vision, hearing or physically challenged users. A section on accessibility in mobile applications follows. According to a survey [1], the use of mobile platforms by people with disabilities is dramatically increasing. New accessibility features are introduced for each release of these platforms which makes them an affordable assistive technology.}
+      \field{booktitle}{Design, User Experience, and Usability. User Experience Design Practice}
+      \field{isbn}{978-3-319-07638-6}
+      \field{title}{Accessibility of Mobile Platforms}
+      \field{year}{2014}
+      \field{pages}{133\bibrangedash 140}
+      \range{pages}{8}
+    \endentry
+    \entry{diaz2014accessibility}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=b15746ef5449b2da517ff4f1d0e38ec8}{%
+           family={Diaz-Bossini},
+           familyi={D\bibinithyphendelim B\bibinitperiod},
+           given={Jos{é}-Manuel},
+           giveni={J\bibinithyphendelim M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=0f982a4ab35d377cc388d3791948b26f}{%
+           family={Moreno},
+           familyi={M\bibinitperiod},
+           given={Lourdes},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{83d73f49d1e51aa2214d419afac18756}
+      \strng{fullhash}{83d73f49d1e51aa2214d419afac18756}
+      \strng{bibnamehash}{83d73f49d1e51aa2214d419afac18756}
+      \strng{authorbibnamehash}{83d73f49d1e51aa2214d419afac18756}
+      \strng{authornamehash}{83d73f49d1e51aa2214d419afac18756}
+      \strng{authorfullhash}{83d73f49d1e51aa2214d419afac18756}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Procedia Computer Science}
+      \field{title}{Accessibility to mobile interfaces for older people}
+      \field{volume}{27}
+      \field{year}{2014}
+      \field{pages}{57\bibrangedash 66}
+      \range{pages}{10}
+    \endentry
+    \entry{leporini2012interacting}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=18753ad407d8e6fe031e694fd23dde82}{%
+           family={Leporini},
+           familyi={L\bibinitperiod},
+           given={Barbara},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c287a53bbacb9f5686fd81a20b10b3cd}{%
+           family={Buzzi},
+           familyi={B\bibinitperiod},
+           given={Maria\bibnamedelima Claudia},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2812028b78bc1ba291d4ee1d9422bc4e}{%
+           family={Buzzi},
+           familyi={B\bibinitperiod},
+           given={Marina},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{b6332f8c02cc3fff4cf0af41c7a7509c}
+      \strng{fullhash}{56230ad40482e4de5461d29d2f39f53f}
+      \strng{bibnamehash}{56230ad40482e4de5461d29d2f39f53f}
+      \strng{authorbibnamehash}{56230ad40482e4de5461d29d2f39f53f}
+      \strng{authornamehash}{b6332f8c02cc3fff4cf0af41c7a7509c}
+      \strng{authorfullhash}{56230ad40482e4de5461d29d2f39f53f}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 24th Australian Computer-Human Interaction Conference}
+      \field{title}{Interacting with mobile devices via VoiceOver: usability and accessibility issues}
+      \field{year}{2012}
+      \field{pages}{339\bibrangedash 348}
+      \range{pages}{10}
+    \endentry
+    \entry{morris2014wireless}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=972c30d60f7f6705ccdcce937c5aa04e}{%
+           family={Morris},
+           familyi={M\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=38ed533dc4c8823eb761b7b3e4cd16eb}{%
+           family={Mueller},
+           familyi={M\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5340e4edeae8eacf7cb7b0259c7874ae}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Michael\bibnamedelima L},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=bdbe21aea3e0588761b6d73e03f030ae}{%
+           family={Lippencott},
+           familyi={L\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {California State University, Northridge}%
+      }
+      \strng{namehash}{e30ac23e6632c81933a144c24af140ae}
+      \strng{fullhash}{7f51063a1e933a83ff1da9e60c1a0957}
+      \strng{bibnamehash}{7f51063a1e933a83ff1da9e60c1a0957}
+      \strng{authorbibnamehash}{7f51063a1e933a83ff1da9e60c1a0957}
+      \strng{authornamehash}{e30ac23e6632c81933a144c24af140ae}
+      \strng{authorfullhash}{7f51063a1e933a83ff1da9e60c1a0957}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Wireless technology use and disability: Results from a national survey}
+      \field{year}{2014}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

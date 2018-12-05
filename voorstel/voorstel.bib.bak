@@ -34,17 +34,4 @@
   pages        = {339--348},
 }
 
-@InProceedings{10.1007/978-3-319-07638-6_14,
-  author    = {Darvishy, Alireza},
-  title     = {Accessibility of Mobile Platforms},
-  booktitle = {Design, User Experience, and Usability. User Experience Design Practice},
-  year      = {2014},
-  editor    = {Marcus, Aaron},
-  publisher = {Springer International Publishing},
-  isbn      = {978-3-319-07638-6},
-  pages     = {133--140},
-  abstract  = {This paper compares accessibility features of two popular platforms from a user perspective. The comparison is based on accessibility features for different kinds of disabilities such as vision, hearing or physically challenged users. A section on accessibility in mobile applications follows. According to a survey [1], the use of mobile platforms by people with disabilities is dramatically increasing. New accessibility features are introduced for each release of these platforms which makes them an affordable assistive technology.},
-  address   = {Cham},
-}
-
 @Comment{jabref-meta: databaseType:biblatex;}
