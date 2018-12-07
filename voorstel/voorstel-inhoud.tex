@@ -5,6 +5,7 @@
 
 Smartphones hebben een grote impact op ons hedendaagse leven. Het heeft de sociale en economische betrokkenheid van een individu veranderd.  Toch is het gebruik van een smartphone gelimiteerd voor mensen met een beperking
 ~\autocite{morris2014wireless}. Deze groep dreigt door deze limitatie uitgesloten te worden van bepaalde informatie. De Belgische overheid heeft doelstellingen gemaakt om tegen 22 juni 2021 al hun mobiele applicaties toegankelijk te maken voor mensen met een beperking. Hierbij volgen ze de richtlijnen op van de Europese Unie voor toegankelijkheid van digitale informatie~\autocite{Knacktoegankelijkheid2018}.
+%TODO: EUROPEAN ACCESIBILLITY ACT
 \\~\\
 Hedendaags is toegankelijkheid een onderwerp die we niet kunnen vermijden. Toch is er binnen de software-development een gebrek aan duidelijke richtlijnen. Juist daarom wordt dit onderwerp vaak overgeslagen bij het maken van mobiele applicaties. Ook de exponentiële groei van innovatie bij smartphones beperkt het opleggen van duidelijke richtlijnen~\autocite{diaz2014accessibility}. \\~\\ Er zijn  tal van functionaliteiten die beschikbaar worden gesteld op mobiele platformen om deze toegankelijker te maken. Ontwikkelaars worden daarbij voorzien van uitgebreide software bibliotheken. Deze functionaliteiten en bibliotheken verschillen per platform, waardoor het aanbod aan voorzieningen voor bepaalde beperkingen kan verschillen. In dit onderzoek gaan we voor de platformen Android en IOS het volgende nagaan:
 
@@ -15,8 +16,8 @@ Hedendaags is toegankelijkheid een onderwerp die we niet kunnen vermijden. Toch 
 \begin{itemize}
     \setlength\itemsep{0.5 em}
     \item Wat zijn de overeenkomsten en verschillen tussen de platformen IOS en Android inzake toegankelijkheid?
-  \item Hoe kan men aanpassingen doen aan een mobiele applicatie met betrekking tot toegankelijkheid?
-  \item Hebben aanpassingen voor toegankelijkheid in mobiele applicaties een effect op het gebruik ervan door mensen met een beperking?
+  \item Hoe kan men verbeteringen aanbrengen in een mobiele applicatie die de toegankelijkheid voor gebruikers met een beperking verbeteren?
+  \item Hebben toegankelijkheid verbeteringen een positief effect op het algemene gebruikersgemak van apps? 
   
 \end{itemize}
 
@@ -25,47 +26,34 @@ Hedendaags is toegankelijkheid een onderwerp die we niet kunnen vermijden. Toch 
 \section{State-of-the-art}
 \label{sec:state-of-the-art}
 
-Onderzoek naar toegankelijkheid in mobiele applicaties heeft er in het verleden al plaatsgevonden. Door de snelle innovatie en groei van mobiele platformen lijken vele onderzoeken gedateerd. 
-
-Vaak zijn deze onderzoeken ook voor een specifieke beperking. Zo omschreef het onderzoek van \citeauthor{leporini2012interacting} wat de impact van de VoiceOver functie in IOS was op mensen met een visuele beperking. Er werd in dit onderzoek geconcludeerd dat ondaks de krachtige mogelijkheden van VoiceOver de applicaties niet voldoende de interactieve elementen beschrijven zodat VoiceOver deze beschrijving kan voorlezen~\autocite{leporini2012interacting}. 
-
-Het onderzoek van \citeauthor{diaz2014accessibility} focust zich op de oudste generatie, vaak hebben zij te kampen met een lichamelijke achteruitgang. Ook deze groep heeft daardoor nood aan toegankelijkheid in mobiele applicaties. Gedurende dit onderzoek heeft men onderzoek gedaan om duidelijke richtlijnen te maken voor toegankelijkheid bij ouderen. Ze concluderen dat elke applicatie zou toegankelijk moeten zijn om sociale uitsluiting te voorkomen~\autocite{diaz2014accessibility}. 
+Onderzoek naar toegankelijkheid in mobiele applicaties heeft er in het verleden al plaatsgevonden. Door de snelle innovatie en groei van mobiele platformen lijken vele onderzoeken gedateerd. Vele nieuwe functionaliteiten ontbreken in deze onderzoeken.
 \\~\\
-Een vergelijkende studie tussen Android en IOS over de beschikbare functionaliteiten werd door \citeauthor{10.1007/978-3-319-07638-6_14} uitgevoerd. Deze studie heeft per type beperking een opsomming gemaakt van enkele functionaliteiten die er per platform beschikbaar zijn. De onderzoeker vermelde dat er in de toekomst nieuwe functionaliteiten zullen zijn die nog betere toegankelijkheid zal verzorgen voor mensen met een beperking bij het gebruik van mobiele applicaties~\autocite{10.1007/978-3-319-07638-6_14}. Dit onderzoek is gepubliceerd in 2014, sinds dien zijn er tal van nieuwe functionaliteiten toegevoegd voor zowel de gebruiker als de ontwikkelaar toegevoegd aan beide platformen.
+Vaak zijn de onderzoeken ook voor een specifieke beperking. Zo omschreef het onderzoek van \citeauthor{leporini2012interacting} wat de impact van de VoiceOver functie in IOS was op mensen met een visuele beperking. Er werd in dit onderzoek geconcludeerd dat ondanks de krachtige mogelijkheden van VoiceOver de applicaties niet voldoende de interactieve elementen beschrijven zodat VoiceOver deze beschrijving kan voorlezen~\autocite{leporini2012interacting}. Het onderzoek van \citeauthor{diaz2014accessibility} focust zich op de oudste generatie, vaak hebben zij te kampen met een lichamelijke achteruitgang. Ook deze groep heeft daardoor nood aan toegankelijkheid in mobiele applicaties. Gedurende dit onderzoek heeft men onderzoek gedaan om duidelijke richtlijnen te maken voor toegankelijkheid bij ouderen. Ze concluderen dat elke applicatie zou toegankelijk moeten zijn om sociale uitsluiting te voorkomen~\autocite{diaz2014accessibility}. 
 \\~\\
-Het onderzoek zal de focus niet enkel op de functionaliteiten beschikbaar gesteld voor de gebruiker leggen maar ook op de functionaliteiten die de ontwikkelaar kan gebruiken om zijn mobiele applicatie meer toegankelijk te maken. Ook zal nagegaan worden in dit onderzoek of de richtlijnen die geformuleerd worden een effect hebben op het gebruik door mensen met een beperking.
-% TODO: state-of-art
-%Hier beschrijf je de \emph{state-of-the-art} rondom je gekozen onderzoeksdomein. Dit kan bijvoorbeeld een literatuurstudie zijn. Je mag de titel van deze sectie ook aanpassen (literatuurstudie, stand van zaken, enz.). Zijn er al gelijkaardige onderzoeken gevoerd? Wat concluderen ze? Wat is het verschil met jouw onderzoek? Wat is de relevantie met jouw onderzoek?
+Een vergelijkende studie tussen Android en IOS over de beschikbare functionaliteiten voor gebruikers werd door \citeauthor{10.1007/978-3-319-07638-6_14} uitgevoerd. Deze studie heeft per type beperking een opsomming gemaakt van enkele functionaliteiten die er per platform beschikbaar zijn voor de gebruiker. De onderzoeker vermelde dat er in de toekomst nieuwe functionaliteiten zullen zijn die nog betere toegankelijkheid zal verzorgen voor mensen met een beperking bij het gebruik van mobiele applicaties~\autocite{10.1007/978-3-319-07638-6_14}. 
+\\~\\
+Dit onderzoek zal verder gaan dan enkel de functionaliteiten voor gebruikers, ook de functionaliteiten die beschikbaar gesteld worden voor de ontwikkelaar om zijn app meer toegankelijk te maken voor zowel IOS en Android worden gekaderd. Ook wordt de focus op het aanbrengen van verbeteringen voor verschillende soorten beperkingen gelegd. Daarnaast zal er nagegaan worden of toegankelijkheid verbeteringen een positief effect zou kunnen hebben op het algemene gebruikersgemak van de gebruiker die geen of zich niet identificeert met een beperking.
 
-%Verwijs bij elke introductie van een term of bewering over het domein naar de vakliteratuur, bijvoorbeeld~\autocite{Doll1954}! Denk zeker goed na welke werken je refereert en waarom.
-
-% Voor literatuurverwijzingen zijn er twee belangrijke commando's:
-% \autocite{KEY} => (Auteur, jaartal) Gebruik dit als de naam van de auteur
-%   geen onderdeel is van de zin.
-% \textcite{KEY} => Auteur (jaartal)  Gebruik dit als de auteursnaam wel een
-%   functie heeft in de zin (bv. ``Uit onderzoek door Doll & Hill (1954) bleek
-%   ...'')
-
-%Je mag gerust gebruik maken van subsecties in dit onderdeel.
 
 %---------- Methodologie ------------------------------------------------------
 \section{Methodologie}
 \label{sec:methodologie}
 
-Voor ik de eerste onderzoeksvraag kan beantwoorden zal eerst een literatuurstudie naar de verschillende beperkingen plaatsvinden. Daarna volgt een onderzoek per platform wat de \\~\\
+Voor de onderzoeksvragen beantwoord worden is er nood aan inzicht in de verschillende beperkingen die aan bod zullen komen gedurende dit onderzoek. 
+\\~\\
+Wanneer we inzicht hebben gevormd in de verschillende beperkingen zal er voor de eerste onderzoeksvraag een literatuurstudie plaatsvinden waarin we per beperking de functionaliteiten voor de gebruiker en de ontwikkelaar die beschikbaar zijn voor zowel IOS als Android. Om antwoord te bieden op de tweede onderzoeksvraag zal dit onderzoek nagaan welke richtlijnen we kunnen vormen om ontwikkelaars in staat te stellen om een toegankelijke app te maken. Deze richtlijnen zullen we onderbrengen in een matrix met een bijhorende schaal. 
+Aan de hand van deze richtlijnen zullen er enkele populaire applicaties getest worden op toegankelijkheid. De matrix zal een ontwikkelaar in staat stellen om zijn applicatie te evalueren en eventueel aan te passen naar de bijpassende richtlijnen opgesteld in dit onderzoek. 
+\\~\\Tot slot zal er nagegaan worden wat relevante aanpassingen zijn voor toegankelijkheid die ook het gebruikersgemak verhoogt voor mensen zonder een beperking. Aan de hand van een vragenlijst zal bewezen worden of enkele aanpassingen effectief het gebruikersgemak verhoogt.
 
-% TODO: methadologie
-Hier beschrijf je hoe je van plan bent het onderzoek te voeren. Welke onderzoekstechniek ga je toepassen om elk van je onderzoeksvragen te beantwoorden? Gebruik je hiervoor experimenten, vragenlijsten, simulaties? Je beschrijft ook al welke tools je denkt hiervoor te gebruiken of te ontwikkelen.
 
 %---------- Verwachte resultaten ----------------------------------------------
 \section{Verwachte resultaten}
 \label{sec:verwachte_resultaten}
 
-Hier beschrijf je welke resultaten je verwacht. Als je metingen en simulaties uitvoert, kan je hier al mock-ups maken van de grafieken samen met de verwachte conclusies. Benoem zeker al je assen en de stukken van de grafiek die je gaat gebruiken. Dit zorgt ervoor dat je concreet weet hoe je je data gaat moeten structureren.
+Van dit onderzoek wordt er verwacht dat zowel Android als IOS een uitgebreid assortiment aan functionaliteiten aanbieden voor zowel de gebruiker als de ontwikkelaar. Er wordt verwacht dat een groot aantal bestaande apps onvoldoende zullen scoren op de richtlijnen die opgesteld werden in dit onderzoek. Voor de laatste onderzoeksvraag wordt er verwacht dat er vele positieve effecten zijn op gebruikers, vaak zullen ze niet beseffen dat een bepaalde functie ontworpen is voor mensen die nood hebben aan toegankelijkheid.
 
 %---------- Verwachte conclusies ----------------------------------------------
 \section{Verwachte conclusies}
 \label{sec:verwachte_conclusies}
 
-Hier beschrijf je wat je verwacht uit je onderzoek, met de motivatie waarom. Het is \textbf{niet} erg indien uit je onderzoek andere resultaten en conclusies vloeien dan dat je hier beschrijft: het is dan juist interessant om te onderzoeken waarom jouw hypothesen niet overeenkomen met de resultaten.
-
+Wanneer de resultaten van de testen op verschillende apps met onze richtlijnen kloppen mag er geconcludeerd worden dat er onvoldoende aandacht wordt besteed aan het ontwikkelen waarbij men toegankelijkheid in acht neemt. Ondanks de grote hoeveelheid resources heerst er een grote onwetendheid bij ontwikkelaars. Ook het onderwijs spendeert hier onvoldoende aandacht aan.
