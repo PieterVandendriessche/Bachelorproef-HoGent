@@ -1,0 +1,1075 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/global//global/global}
+    \entry{accessibility2019}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=e0e4fc6213e8b3593495a7260c3a4c2e}{%
+           family={Accessibility},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{e0e4fc6213e8b3593495a7260c3a4c2e}
+      \strng{fullhash}{e0e4fc6213e8b3593495a7260c3a4c2e}
+      \strng{bibnamehash}{e0e4fc6213e8b3593495a7260c3a4c2e}
+      \strng{authorbibnamehash}{e0e4fc6213e8b3593495a7260c3a4c2e}
+      \strng{authornamehash}{e0e4fc6213e8b3593495a7260c3a4c2e}
+      \strng{authorfullhash}{e0e4fc6213e8b3593495a7260c3a4c2e}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Verschillende beperkingen}
+      \field{urlday}{28}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.accessibility.nl/over-toegankelijkheid/handicaps/
+      \endverb
+      \verb{url}
+      \verb https://www.accessibility.nl/over-toegankelijkheid/handicaps/
+      \endverb
+    \endentry
+    \entry{achieveAU2019}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=d1a401586def0fab05d06fd082ffb3ed}{%
+           family={{Achieve Australia}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d1a401586def0fab05d06fd082ffb3ed}
+      \strng{fullhash}{d1a401586def0fab05d06fd082ffb3ed}
+      \strng{bibnamehash}{d1a401586def0fab05d06fd082ffb3ed}
+      \strng{authorbibnamehash}{d1a401586def0fab05d06fd082ffb3ed}
+      \strng{authornamehash}{d1a401586def0fab05d06fd082ffb3ed}
+      \strng{authorfullhash}{d1a401586def0fab05d06fd082ffb3ed}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{10}
+      \field{month}{1}
+      \field{title}{What is a physical disability?}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://achieveaustralia.org.au/disability-services/physical-disability/
+      \endverb
+      \verb{url}
+      \verb https://achieveaustralia.org.au/disability-services/physical-disability/
+      \endverb
+    \endentry
+    \entry{AndroidReleases}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=af05011ef932571b63118654e584db53}{%
+           family={{Android Developers}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{af05011ef932571b63118654e584db53}
+      \strng{fullhash}{af05011ef932571b63118654e584db53}
+      \strng{bibnamehash}{af05011ef932571b63118654e584db53}
+      \strng{authorbibnamehash}{af05011ef932571b63118654e584db53}
+      \strng{authornamehash}{af05011ef932571b63118654e584db53}
+      \strng{authorfullhash}{af05011ef932571b63118654e584db53}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Releases}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://developer.android.com/about/versions/
+      \endverb
+      \verb{url}
+      \verb https://developer.android.com/about/versions/
+      \endverb
+    \endentry
+    \entry{anySurferWat}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=35ffb3ef3a90c542bf6ce76bf5e17145}{%
+           family={AnySurfer},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{35ffb3ef3a90c542bf6ce76bf5e17145}
+      \strng{fullhash}{35ffb3ef3a90c542bf6ce76bf5e17145}
+      \strng{bibnamehash}{35ffb3ef3a90c542bf6ce76bf5e17145}
+      \strng{authorbibnamehash}{35ffb3ef3a90c542bf6ce76bf5e17145}
+      \strng{authornamehash}{35ffb3ef3a90c542bf6ce76bf5e17145}
+      \strng{authorfullhash}{35ffb3ef3a90c542bf6ce76bf5e17145}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Toegankelijkheid, wat is dat?}
+      \field{urlday}{19}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.anysurfer.be/nl/over-toegankelijkheid/wat
+      \endverb
+      \verb{url}
+      \verb https://www.anysurfer.be/nl/over-toegankelijkheid/wat
+      \endverb
+    \endentry
+    \entry{Knacktoegankelijkheid2018}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=884e6e48ad85076815ab7bcea28f6258}{%
+           family={Belga},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{884e6e48ad85076815ab7bcea28f6258}
+      \strng{fullhash}{884e6e48ad85076815ab7bcea28f6258}
+      \strng{bibnamehash}{884e6e48ad85076815ab7bcea28f6258}
+      \strng{authorbibnamehash}{884e6e48ad85076815ab7bcea28f6258}
+      \strng{authornamehash}{884e6e48ad85076815ab7bcea28f6258}
+      \strng{authorfullhash}{884e6e48ad85076815ab7bcea28f6258}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{30}
+      \field{month}{3}
+      \field{title}{Overheidswebsites moeten vanaf najaar 2020 toegankelijk zijn voor mensen met beperking}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.knack.be/nieuws/belgie/overheidswebsites-moeten-vanaf-najaar-2020-toegankelijk-zijn-voor-mensen-met-beperking/article-belga-984433.html
+      \endverb
+      \verb{url}
+      \verb https://www.knack.be/nieuws/belgie/overheidswebsites-moeten-vanaf-najaar-2020-toegankelijk-zijn-voor-mensen-met-beperking/article-belga-984433.html
+      \endverb
+    \endentry
+    \entry{LiLi2019Blind}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=1fab73b701a3e96435a5ebbdfc92bdad}{%
+           family={{Blindenzorg Licht en Liefde}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{1fab73b701a3e96435a5ebbdfc92bdad}
+      \strng{fullhash}{1fab73b701a3e96435a5ebbdfc92bdad}
+      \strng{bibnamehash}{1fab73b701a3e96435a5ebbdfc92bdad}
+      \strng{authorbibnamehash}{1fab73b701a3e96435a5ebbdfc92bdad}
+      \strng{authornamehash}{1fab73b701a3e96435a5ebbdfc92bdad}
+      \strng{authorfullhash}{1fab73b701a3e96435a5ebbdfc92bdad}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Blind of slechtziend: een visuele handicap}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.blindenzorglichtenliefde.be/nl/meerweten/index/2325
+      \endverb
+      \verb{url}
+      \verb https://www.blindenzorglichtenliefde.be/nl/meerweten/index/2325
+      \endverb
+    \endentry
+    \entry{Creeger2009}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=e888aba3556efbb8063540e3e2ae69b4}{%
+           family={Creeger},
+           familyi={C\bibinitperiod},
+           given={Mache},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e888aba3556efbb8063540e3e2ae69b4}
+      \strng{fullhash}{e888aba3556efbb8063540e3e2ae69b4}
+      \strng{bibnamehash}{e888aba3556efbb8063540e3e2ae69b4}
+      \strng{authorbibnamehash}{e888aba3556efbb8063540e3e2ae69b4}
+      \strng{authornamehash}{e888aba3556efbb8063540e3e2ae69b4}
+      \strng{authorfullhash}{e888aba3556efbb8063540e3e2ae69b4}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Communications of the ACM}
+      \field{number}{8}
+      \field{title}{{CTO Roundtable: Cloud Computing}}
+      \field{volume}{52}
+      \field{year}{2009}
+      \field{pages}{50\bibrangedash 56}
+      \range{pages}{7}
+    \endentry
+    \entry{10.1007/978-3-319-07638-6_14}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=d14b3b8f0fd0cd13b320d1f24b59627c}{%
+           family={Darvishy},
+           familyi={D\bibinitperiod},
+           given={Alireza},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=28e4f412995cd32168f059866616faf0}{%
+           family={Marcus},
+           familyi={M\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{d14b3b8f0fd0cd13b320d1f24b59627c}
+      \strng{fullhash}{d14b3b8f0fd0cd13b320d1f24b59627c}
+      \strng{bibnamehash}{d14b3b8f0fd0cd13b320d1f24b59627c}
+      \strng{authorbibnamehash}{d14b3b8f0fd0cd13b320d1f24b59627c}
+      \strng{authornamehash}{d14b3b8f0fd0cd13b320d1f24b59627c}
+      \strng{authorfullhash}{d14b3b8f0fd0cd13b320d1f24b59627c}
+      \strng{editorbibnamehash}{28e4f412995cd32168f059866616faf0}
+      \strng{editornamehash}{28e4f412995cd32168f059866616faf0}
+      \strng{editorfullhash}{28e4f412995cd32168f059866616faf0}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper compares accessibility features of two popular platforms from a user perspective. The comparison is based on accessibility features for different kinds of disabilities such as vision, hearing or physically challenged users. A section on accessibility in mobile applications follows. According to a survey [1], the use of mobile platforms by people with disabilities is dramatically increasing. New accessibility features are introduced for each release of these platforms which makes them an affordable assistive technology.}
+      \field{booktitle}{Design, User Experience, and Usability. User Experience Design Practice}
+      \field{isbn}{978-3-319-07638-6}
+      \field{title}{Accessibility of Mobile Platforms}
+      \field{year}{2014}
+      \field{pages}{133\bibrangedash 140}
+      \range{pages}{8}
+    \endentry
+    \entry{diaz2014accessibility}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=b15746ef5449b2da517ff4f1d0e38ec8}{%
+           family={Diaz-Bossini},
+           familyi={D\bibinithyphendelim B\bibinitperiod},
+           given={Jos{é}-Manuel},
+           giveni={J\bibinithyphendelim M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=0f982a4ab35d377cc388d3791948b26f}{%
+           family={Moreno},
+           familyi={M\bibinitperiod},
+           given={Lourdes},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{83d73f49d1e51aa2214d419afac18756}
+      \strng{fullhash}{83d73f49d1e51aa2214d419afac18756}
+      \strng{bibnamehash}{83d73f49d1e51aa2214d419afac18756}
+      \strng{authorbibnamehash}{83d73f49d1e51aa2214d419afac18756}
+      \strng{authornamehash}{83d73f49d1e51aa2214d419afac18756}
+      \strng{authorfullhash}{83d73f49d1e51aa2214d419afac18756}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Procedia Computer Science}
+      \field{title}{Accessibility to mobile interfaces for older people}
+      \field{volume}{27}
+      \field{year}{2014}
+      \field{pages}{57\bibrangedash 66}
+      \range{pages}{10}
+    \endentry
+    \entry{eaa2015}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=6ace0abd6c412d4ad70ce6dc10cfa0f2}{%
+           family={{European Commission}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{6ace0abd6c412d4ad70ce6dc10cfa0f2}
+      \strng{fullhash}{6ace0abd6c412d4ad70ce6dc10cfa0f2}
+      \strng{bibnamehash}{6ace0abd6c412d4ad70ce6dc10cfa0f2}
+      \strng{authorbibnamehash}{6ace0abd6c412d4ad70ce6dc10cfa0f2}
+      \strng{authornamehash}{6ace0abd6c412d4ad70ce6dc10cfa0f2}
+      \strng{authorfullhash}{6ace0abd6c412d4ad70ce6dc10cfa0f2}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{European Accessibility Act}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://ec.europa.eu/social/BlobServlet?docId=14869&langId=en
+      \endverb
+      \verb{url}
+      \verb https://ec.europa.eu/social/BlobServlet?docId=14869&langId=en
+      \endverb
+    \endentry
+    \entry{directive2016}{online}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=1c33ac0dc8c768ef4e9c9d68eedef9ac}{%
+           family={{European Parliament}},
+           familyi={E\bibinitperiod}}}%
+        {{uniquename=0,uniquepart=base,hash=fd745c7bdaee441ac777ba32d5009089}{%
+           family={{Council of the European Union}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{4f4464e875367e0cada489191bbc9f61}
+      \strng{fullhash}{4f4464e875367e0cada489191bbc9f61}
+      \strng{bibnamehash}{4f4464e875367e0cada489191bbc9f61}
+      \strng{authorbibnamehash}{4f4464e875367e0cada489191bbc9f61}
+      \strng{authornamehash}{4f4464e875367e0cada489191bbc9f61}
+      \strng{authorfullhash}{4f4464e875367e0cada489191bbc9f61}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{26}
+      \field{month}{10}
+      \field{title}{Directive (EU) 2016/2102 of the European Parliament and of the Council of 26 October 2016 on the accessibility of the websites and mobile applications of public sector bodies (Text with EEA relevance )}
+      \field{urlday}{22}
+      \field{urlmonth}{2}
+      \field{urlyear}{2019}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32016L2102
+      \endverb
+      \verb{url}
+      \verb https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32016L2102
+      \endverb
+    \endentry
+    \entry{statMobile2019}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=38ce612cc2805b3305510528164f2db7}{%
+           family={GlobalStats},
+           familyi={G\bibinitperiod},
+           given={StatCounter},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{38ce612cc2805b3305510528164f2db7}
+      \strng{fullhash}{38ce612cc2805b3305510528164f2db7}
+      \strng{bibnamehash}{38ce612cc2805b3305510528164f2db7}
+      \strng{authorbibnamehash}{38ce612cc2805b3305510528164f2db7}
+      \strng{authornamehash}{38ce612cc2805b3305510528164f2db7}
+      \strng{authorfullhash}{38ce612cc2805b3305510528164f2db7}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{31}
+      \field{month}{3}
+      \field{title}{Mobile Operating System Market Share Worldwide}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb http://gs.statcounter.com/os-market-share/mobile/worldwide/#monthly-201802-201902
+      \endverb
+      \verb{url}
+      \verb http://gs.statcounter.com/os-market-share/mobile/worldwide/#monthly-201802-201902
+      \endverb
+    \endentry
+    \entry{android1.6Blog}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=8b36e9207c24c76e6719268e49201d94}{%
+           family={Google},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{fullhash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{bibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorbibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{20}
+      \field{month}{10}
+      \field{title}{More accessibility features in Android 1.6}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://googleblog.blogspot.com/2009/10/more-accessibility-features-in-android.html
+      \endverb
+      \verb{url}
+      \verb https://googleblog.blogspot.com/2009/10/more-accessibility-features-in-android.html
+      \endverb
+    \endentry
+    \entry{Knuth1998}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=fcbea740aeb72b8e941e0d4aa9f6a9c6}{%
+           family={Knuth},
+           familyi={K\bibinitperiod},
+           given={Donald\bibnamedelima E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Redwood City, CA, USA}%
+      }
+      \list{publisher}{1}{%
+        {Addison Wesley Longman Publishing Co., Inc.}%
+      }
+      \strng{namehash}{fcbea740aeb72b8e941e0d4aa9f6a9c6}
+      \strng{fullhash}{fcbea740aeb72b8e941e0d4aa9f6a9c6}
+      \strng{bibnamehash}{fcbea740aeb72b8e941e0d4aa9f6a9c6}
+      \strng{authorbibnamehash}{fcbea740aeb72b8e941e0d4aa9f6a9c6}
+      \strng{authornamehash}{fcbea740aeb72b8e941e0d4aa9f6a9c6}
+      \strng{authorfullhash}{fcbea740aeb72b8e941e0d4aa9f6a9c6}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The art of computer programming, volume 3: (2nd ed.) sorting and searching}
+      \field{year}{1998}
+    \endentry
+    \entry{leporini2012interacting}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=18753ad407d8e6fe031e694fd23dde82}{%
+           family={Leporini},
+           familyi={L\bibinitperiod},
+           given={Barbara},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c287a53bbacb9f5686fd81a20b10b3cd}{%
+           family={Buzzi},
+           familyi={B\bibinitperiod},
+           given={Maria\bibnamedelima Claudia},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2812028b78bc1ba291d4ee1d9422bc4e}{%
+           family={Buzzi},
+           familyi={B\bibinitperiod},
+           given={Marina},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{b6332f8c02cc3fff4cf0af41c7a7509c}
+      \strng{fullhash}{56230ad40482e4de5461d29d2f39f53f}
+      \strng{bibnamehash}{56230ad40482e4de5461d29d2f39f53f}
+      \strng{authorbibnamehash}{56230ad40482e4de5461d29d2f39f53f}
+      \strng{authornamehash}{b6332f8c02cc3fff4cf0af41c7a7509c}
+      \strng{authorfullhash}{56230ad40482e4de5461d29d2f39f53f}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 24th Australian Computer-Human Interaction Conference}
+      \field{title}{Interacting with mobile devices via VoiceOver: usability and accessibility issues}
+      \field{year}{2012}
+      \field{pages}{339\bibrangedash 348}
+      \range{pages}{10}
+    \endentry
+    \entry{inclusiveMicrosoft}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={{Microsoft}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Inclusive design toolkit}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://download.microsoft.com/download/b/0/d/b0d4bf87-09ce-4417-8f28-d60703d672ed/inclusive_toolkit_manual_final.pdf
+      \endverb
+      \verb{url}
+      \verb https://download.microsoft.com/download/b/0/d/b0d4bf87-09ce-4417-8f28-d60703d672ed/inclusive_toolkit_manual_final.pdf
+      \endverb
+    \endentry
+    \entry{morris2014wireless}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=972c30d60f7f6705ccdcce937c5aa04e}{%
+           family={Morris},
+           familyi={M\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=38ed533dc4c8823eb761b7b3e4cd16eb}{%
+           family={Mueller},
+           familyi={M\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5340e4edeae8eacf7cb7b0259c7874ae}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Michael\bibnamedelima L},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=bdbe21aea3e0588761b6d73e03f030ae}{%
+           family={Lippencott},
+           familyi={L\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {California State University, Northridge}%
+      }
+      \strng{namehash}{e30ac23e6632c81933a144c24af140ae}
+      \strng{fullhash}{7f51063a1e933a83ff1da9e60c1a0957}
+      \strng{bibnamehash}{7f51063a1e933a83ff1da9e60c1a0957}
+      \strng{authorbibnamehash}{7f51063a1e933a83ff1da9e60c1a0957}
+      \strng{authornamehash}{e30ac23e6632c81933a144c24af140ae}
+      \strng{authorfullhash}{7f51063a1e933a83ff1da9e60c1a0957}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Wireless technology use and disability: Results from a national survey}
+      \field{year}{2014}
+    \endentry
+    \entry{patel2016mental}{book}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,uniquepart=base,hash=23d11af242f6f43ea72bf08181dbd058}{%
+           family={Patel},
+           familyi={P\bibinitperiod},
+           given={Vikram},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e56019566ed56d5c8363f568d7d35723}{%
+           family={Chisholm},
+           familyi={C\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1a77a157cff9515ca7197bc42428fe97}{%
+           family={Dua},
+           familyi={D\bibinitperiod},
+           given={Tarun},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=55b6fc11a3ac803cb8010a4a21299ad3}{%
+           family={Laxminarayan},
+           familyi={L\bibinitperiod},
+           given={Ramanan},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=14e13ed93ee6c6712aa0666059d9a627}{%
+           family={Medina-Mora},
+           familyi={M\bibinithyphendelim M\bibinitperiod},
+           given={Mar{ı́}a\bibnamedelima Elena},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {The International Bank for Reconstruction}%
+        {Development/The World Bank}%
+      }
+      \strng{namehash}{63c087556b99ea4bfee7010f842ea5b1}
+      \strng{fullhash}{a4d97001e7222ba340aeb491dd422c04}
+      \strng{bibnamehash}{a4d97001e7222ba340aeb491dd422c04}
+      \strng{authorbibnamehash}{a4d97001e7222ba340aeb491dd422c04}
+      \strng{authornamehash}{63c087556b99ea4bfee7010f842ea5b1}
+      \strng{authorfullhash}{a4d97001e7222ba340aeb491dd422c04}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Mental, Neurological, and Substance Use Disorders: Disease Control Priorities, (Volume 4)}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/books/NBK361945/pdf/Bookshelf_NBK361945.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/books/NBK361945/pdf/Bookshelf_NBK361945.pdf
+      \endverb
+    \endentry
+    \entry{Pollefliet2011}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=7ca343ebcc6de1727ac22a1a847c21e5}{%
+           family={Pollefliet},
+           familyi={P\bibinitperiod},
+           given={Leen},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Gent}%
+      }
+      \list{publisher}{1}{%
+        {Academia Press}%
+      }
+      \strng{namehash}{7ca343ebcc6de1727ac22a1a847c21e5}
+      \strng{fullhash}{7ca343ebcc6de1727ac22a1a847c21e5}
+      \strng{bibnamehash}{7ca343ebcc6de1727ac22a1a847c21e5}
+      \strng{authorbibnamehash}{7ca343ebcc6de1727ac22a1a847c21e5}
+      \strng{authornamehash}{7ca343ebcc6de1727ac22a1a847c21e5}
+      \strng{authorfullhash}{7ca343ebcc6de1727ac22a1a847c21e5}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Schrijven van verslag tot eindwerk: do's en don'ts}
+      \field{year}{2011}
+    \endentry
+    \entry{unia2006}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=a54d5d197fd835bc4a8a19a0bbdade38}{%
+           family={Unia},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{a54d5d197fd835bc4a8a19a0bbdade38}
+      \strng{fullhash}{a54d5d197fd835bc4a8a19a0bbdade38}
+      \strng{bibnamehash}{a54d5d197fd835bc4a8a19a0bbdade38}
+      \strng{authorbibnamehash}{a54d5d197fd835bc4a8a19a0bbdade38}
+      \strng{authornamehash}{a54d5d197fd835bc4a8a19a0bbdade38}
+      \strng{authorfullhash}{a54d5d197fd835bc4a8a19a0bbdade38}
+      \field{sortinit}{U}
+      \field{sortinithash}{36a2444f5238e0dcf4bb59704df6624d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{13}
+      \field{month}{12}
+      \field{title}{Het Verdrag van de Verenigde Naties inzake de Rechten van Personen met een Handicap}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.unia.be/nl/discriminatiegronden/handicap/het-verdrag-van-de-verenigde-naties-inzake-de-rechten-van-personen-met-een-handicap
+      \endverb
+      \verb{url}
+      \verb https://www.unia.be/nl/discriminatiegronden/handicap/het-verdrag-van-de-verenigde-naties-inzake-de-rechten-van-personen-met-een-handicap
+      \endverb
+    \endentry
+    \entry{un2006}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=a71d9df00b1454331e31c41a4c22084b}{%
+           family={{United Nations}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{a71d9df00b1454331e31c41a4c22084b}
+      \strng{fullhash}{a71d9df00b1454331e31c41a4c22084b}
+      \strng{bibnamehash}{a71d9df00b1454331e31c41a4c22084b}
+      \strng{authorbibnamehash}{a71d9df00b1454331e31c41a4c22084b}
+      \strng{authornamehash}{a71d9df00b1454331e31c41a4c22084b}
+      \strng{authorfullhash}{a71d9df00b1454331e31c41a4c22084b}
+      \field{sortinit}{U}
+      \field{sortinithash}{36a2444f5238e0dcf4bb59704df6624d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Convention on the Rights of Persons with Disabilities (CRPD)}
+      \field{year}{2006}
+      \verb{urlraw}
+      \verb https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-%20persons-with-disabilities.html
+      \endverb
+      \verb{url}
+      \verb https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-%20persons-with-disabilities.html
+      \endverb
+    \endentry
+    \entry{visioKleur2019}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=5f5736b60a263f141203b17d617ee3d7}{%
+           family={Visio},
+           familyi={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{5f5736b60a263f141203b17d617ee3d7}
+      \strng{fullhash}{5f5736b60a263f141203b17d617ee3d7}
+      \strng{bibnamehash}{5f5736b60a263f141203b17d617ee3d7}
+      \strng{authorbibnamehash}{5f5736b60a263f141203b17d617ee3d7}
+      \strng{authornamehash}{5f5736b60a263f141203b17d617ee3d7}
+      \strng{authorfullhash}{5f5736b60a263f141203b17d617ee3d7}
+      \field{sortinit}{V}
+      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Kleurenblindheid}
+      \field{urlday}{28}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.visio.org/nl-nl/slechtziend-of-blind/oogziekten/kleurenblindheid
+      \endverb
+      \verb{url}
+      \verb https://www.visio.org/nl-nl/slechtziend-of-blind/oogziekten/kleurenblindheid
+      \endverb
+    \endentry
+    \entry{vlaanderenVerplichting}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=0044d2a642463bb24e7500ce9793c896}{%
+           family={{Vlaamse overheid}},
+           familyi={V\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Dienst Diversiteitsbeleid}%
+      }
+      \strng{namehash}{0044d2a642463bb24e7500ce9793c896}
+      \strng{fullhash}{0044d2a642463bb24e7500ce9793c896}
+      \strng{bibnamehash}{0044d2a642463bb24e7500ce9793c896}
+      \strng{authorbibnamehash}{0044d2a642463bb24e7500ce9793c896}
+      \strng{authornamehash}{0044d2a642463bb24e7500ce9793c896}
+      \strng{authorfullhash}{0044d2a642463bb24e7500ce9793c896}
+      \field{sortinit}{V}
+      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Wettelijk kader webtoegankelijkheid}
+      \field{urlday}{16}
+      \field{urlmonth}{2}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://overheid.vlaanderen.be/wettelijke-verplichtingen-webtoegankelijkheid
+      \endverb
+      \verb{url}
+      \verb https://overheid.vlaanderen.be/wettelijke-verplichtingen-webtoegankelijkheid
+      \endverb
+    \endentry
+    \entry{w3mobileConsider}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=446a1ae6601a5c59360c7d591c3992da}{%
+           family={W3C},
+           familyi={W\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=cb505edfc4af45c06d1d6a9fae8d6646}{%
+           family={Kim\bibnamedelima Patch},
+           familyi={K\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Jeanne\bibnamedelimb Spellman\bibnamedelimb \& Kathy\bibnamedelima Wahlbin},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim \~K\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{446a1ae6601a5c59360c7d591c3992da}
+      \strng{fullhash}{446a1ae6601a5c59360c7d591c3992da}
+      \strng{bibnamehash}{446a1ae6601a5c59360c7d591c3992da}
+      \strng{authorbibnamehash}{446a1ae6601a5c59360c7d591c3992da}
+      \strng{authornamehash}{446a1ae6601a5c59360c7d591c3992da}
+      \strng{authorfullhash}{446a1ae6601a5c59360c7d591c3992da}
+      \strng{editorbibnamehash}{cb505edfc4af45c06d1d6a9fae8d6646}
+      \strng{editornamehash}{cb505edfc4af45c06d1d6a9fae8d6646}
+      \strng{editorfullhash}{cb505edfc4af45c06d1d6a9fae8d6646}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{26}
+      \field{month}{2}
+      \field{title}{Mobile Accessibility: How WCAG 2.0 and Other W3C/WAI Guidelines Apply to Mobile}
+      \field{urlday}{22}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.w3.org/TR/mobile-accessibility-mapping/
+      \endverb
+      \verb{url}
+      \verb http://www.w3.org/TR/mobile-accessibility-mapping/
+      \endverb
+    \endentry
+    \entry{introAccesibilityw3c}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=446a1ae6601a5c59360c7d591c3992da}{%
+           family={W3C},
+           familyi={W\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=074be7ce979abcff8e737fe4d56de212}{%
+           family={Henry},
+           familyi={H\bibinitperiod},
+           given={Shawn\bibnamedelima Lawton},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{446a1ae6601a5c59360c7d591c3992da}
+      \strng{fullhash}{446a1ae6601a5c59360c7d591c3992da}
+      \strng{bibnamehash}{446a1ae6601a5c59360c7d591c3992da}
+      \strng{authorbibnamehash}{446a1ae6601a5c59360c7d591c3992da}
+      \strng{authornamehash}{446a1ae6601a5c59360c7d591c3992da}
+      \strng{authorfullhash}{446a1ae6601a5c59360c7d591c3992da}
+      \strng{editorbibnamehash}{074be7ce979abcff8e737fe4d56de212}
+      \strng{editornamehash}{074be7ce979abcff8e737fe4d56de212}
+      \strng{editorfullhash}{074be7ce979abcff8e737fe4d56de212}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction to Web Accessibility}
+      \field{urlday}{21}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.w3.org/WAI/fundamentals/accessibility-intro/
+      \endverb
+      \verb{url}
+      \verb https://www.w3.org/WAI/fundamentals/accessibility-intro/
+      \endverb
+    \endentry
+    \entry{w3cMobileGuidelines}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=446a1ae6601a5c59360c7d591c3992da}{%
+           family={W3C},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{446a1ae6601a5c59360c7d591c3992da}
+      \strng{fullhash}{446a1ae6601a5c59360c7d591c3992da}
+      \strng{bibnamehash}{446a1ae6601a5c59360c7d591c3992da}
+      \strng{authorbibnamehash}{446a1ae6601a5c59360c7d591c3992da}
+      \strng{authornamehash}{446a1ae6601a5c59360c7d591c3992da}
+      \strng{authorfullhash}{446a1ae6601a5c59360c7d591c3992da}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Mobile Accessibility at W3C}
+      \field{urlday}{21}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.w3.org/WAI/standards-guidelines/mobile/
+      \endverb
+      \verb{url}
+      \verb https://www.w3.org/WAI/standards-guidelines/mobile/
+      \endverb
+    \endentry
+    \entry{webAIMSurvey}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=790eee551afe5a8832859712ba1b5f4f}{%
+           family={WebAIM},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{790eee551afe5a8832859712ba1b5f4f}
+      \strng{fullhash}{790eee551afe5a8832859712ba1b5f4f}
+      \strng{bibnamehash}{790eee551afe5a8832859712ba1b5f4f}
+      \strng{authorbibnamehash}{790eee551afe5a8832859712ba1b5f4f}
+      \strng{authornamehash}{790eee551afe5a8832859712ba1b5f4f}
+      \strng{authorfullhash}{790eee551afe5a8832859712ba1b5f4f}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{27}
+      \field{month}{12}
+      \field{title}{Screen Reader User Survey \#7 Results}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://webaim.org/projects/screenreadersurvey7/
+      \endverb
+      \verb{url}
+      \verb https://webaim.org/projects/screenreadersurvey7/
+      \endverb
+    \endentry
+    \entry{who2018}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=5d292a222024f1b13e98a059c94a9b75}{%
+           family={{World Health Organization}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{5d292a222024f1b13e98a059c94a9b75}
+      \strng{fullhash}{5d292a222024f1b13e98a059c94a9b75}
+      \strng{bibnamehash}{5d292a222024f1b13e98a059c94a9b75}
+      \strng{authorbibnamehash}{5d292a222024f1b13e98a059c94a9b75}
+      \strng{authornamehash}{5d292a222024f1b13e98a059c94a9b75}
+      \strng{authorfullhash}{5d292a222024f1b13e98a059c94a9b75}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{16}
+      \field{month}{1}
+      \field{title}{Disability and health}
+      \field{urlday}{18}
+      \field{urlmonth}{2}
+      \field{urlyear}{2019}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.who.int/news-room/fact-sheets/detail/disability-and-health
+      \endverb
+      \verb{url}
+      \verb https://www.who.int/news-room/fact-sheets/detail/disability-and-health
+      \endverb
+    \endentry
+    \entry{whoDAHL2019}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=5d292a222024f1b13e98a059c94a9b75}{%
+           family={{World Health Organization}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{5d292a222024f1b13e98a059c94a9b75}
+      \strng{fullhash}{5d292a222024f1b13e98a059c94a9b75}
+      \strng{bibnamehash}{5d292a222024f1b13e98a059c94a9b75}
+      \strng{authorbibnamehash}{5d292a222024f1b13e98a059c94a9b75}
+      \strng{authornamehash}{5d292a222024f1b13e98a059c94a9b75}
+      \strng{authorfullhash}{5d292a222024f1b13e98a059c94a9b75}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{20}
+      \field{month}{3}
+      \field{title}{Deafness and hearing loss}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss
+      \endverb
+      \verb{url}
+      \verb https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss
+      \endverb
+    \endentry
+    \entry{whoDis2019}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=5d292a222024f1b13e98a059c94a9b75}{%
+           family={{World Health Organization}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{5d292a222024f1b13e98a059c94a9b75}
+      \strng{fullhash}{5d292a222024f1b13e98a059c94a9b75}
+      \strng{bibnamehash}{5d292a222024f1b13e98a059c94a9b75}
+      \strng{authorbibnamehash}{5d292a222024f1b13e98a059c94a9b75}
+      \strng{authornamehash}{5d292a222024f1b13e98a059c94a9b75}
+      \strng{authorfullhash}{5d292a222024f1b13e98a059c94a9b75}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Disabilities}
+      \field{urlday}{28}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.who.int/topics/disabilities/en/
+      \endverb
+      \verb{url}
+      \verb https://www.who.int/topics/disabilities/en/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

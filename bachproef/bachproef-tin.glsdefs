@@ -1,0 +1,120 @@
+\ifglsentryexists{utc}{}%
+{%
+\gls@defglossaryentry{utc}%
+{%
+name={utc},%
+sort={utc},%
+type={main},%
+first={utc},%
+firstplural={utcs},%
+text={utc},%
+plural={utcs},%
+description={Coordinated Universal Time},%
+descriptionplural={Coordinated Universal Time},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{adt}{}%
+{%
+\gls@defglossaryentry{adt}%
+{%
+name={adt},%
+sort={adt},%
+type={main},%
+first={adt},%
+firstplural={adts},%
+text={adt},%
+plural={adts},%
+description={Atlantic Daylight Time},%
+descriptionplural={Atlantic Daylight Time},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{est}{}%
+{%
+\gls@defglossaryentry{est}%
+{%
+name={est},%
+sort={est},%
+type={main},%
+first={est},%
+firstplural={ests},%
+text={est},%
+plural={ests},%
+description={Eastern Standard Time},%
+descriptionplural={Eastern Standard Time},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{lfs}{}%
+{%
+\gls@defglossaryentry{lfs}%
+{%
+name={LFS},%
+sort={LFS},%
+type={acronym},%
+first={Labour Force Survey\glsspace (LFS)},%
+firstplural={Labour Force Surveys\glsspace (LFSs)},%
+text={LFS},%
+plural={LFSs},%
+description={Labour Force Survey},%
+descriptionplural={Labour Force Survey\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Labour Force Survey},%
+longplural={Labour Force Surveys},%
+short={LFS},%
+shortplural={LFSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%

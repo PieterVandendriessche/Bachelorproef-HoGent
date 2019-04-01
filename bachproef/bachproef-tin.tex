@@ -5,28 +5,31 @@
 
 \documentclass{bachproef-tin}
 
+\usepackage[acronym]{glossaries}
 \usepackage{hogent-thesis-titlepage} % Titelpagina conform aan HOGENT huisstijl
+
+
 
 %%---------- Documenteigenschappen ---------------------------------------------
 % TODO: Vul dit aan met je eigen info:
 
 % De titel van het rapport/bachelorproef
-\title{Titel}
+\title{Toegankelijkheid native apps in Android en iOS}
 
 % Je eigen naam
-\author{Steven Stevens}
+\author{Pieter Vandendriessche}
 
 % De naam van je promotor (lector van de opleiding)
-\promotor{Jan Janssens}
+\promotor{Steven Van Impe}
 
 % De naam van je co-promotor. Als je promotor ook je opdrachtgever is en je
 % dus ook inhoudelijk begeleidt (en enkel dan!), mag je dit leeg laten.
-\copromotor{Piet Pieters}
+\copromotor{Roel Van Gils}
 
 % Indien je bachelorproef in opdracht van/in samenwerking met een bedrijf of
 % externe organisatie geschreven is, geef je hier de naam. Zoniet laat je dit
 % zoals het is.
-\instelling{---}
+\instelling{Eleven Ways}
 
 % Academiejaar
 \academiejaar{2018-2019}
@@ -40,7 +43,12 @@
 %===============================================================================
 % Inhoud document
 %===============================================================================
-
+\makeglossaries
+\newacronym{CNN}{CNN}{Convolutional Neural Network}
+\newacronym{WWDC}{WWDC}{Worldwide Developers Conference}
+\newacronym{API}{API}{Application Programming Interface}
+\newacronym{CPU}{CPU}{Central Processing Unit}
+\newacronym{GPU}{GPU}{Graphics Processing Unit}
 \begin{document}
 
 %---------- Taalselectie -------------------------------------------------------
@@ -76,6 +84,10 @@
 
 \listoffigures
 \listoftables
+\printglossary[type=\acronymtype,title=Woordenlijst]
+
+
+
 
 % Als je een lijst van afkortingen of termen wil toevoegen, dan hoort die
 % hier thuis. Gebruik bijvoorbeeld de ``glossaries'' package.
