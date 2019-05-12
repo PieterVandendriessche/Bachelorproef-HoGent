@@ -1,0 +1,485 @@
+\chapter{\IfLanguageName{dutch}{Functionaliteiten in Android en iOS}{Methodology}}
+\label{ch:Functionaliteiten in Android en iOS}
+Voor het succesvol toegankelijker maken van mobiele applicaties moeten we nagaan welke functionaliteiten er beschikbaar zijn in iOS en Android, en hoe men deze functionaliteiten optimaal  bruikbaar kan maken in een mobiele applicatie. De belangrijkste functionaliteiten worden per domein besproken, zoals deze reeds besproken zijn in sectie \ref{sec:beperkingen}.
+\section{Toegankelijkheidsfunctionaliteiten in Android}
+\label{sec:ToegankelijkheidsfunctionaliteitenAndroid}
+\subsection{Zelfgebouwde toegankelijkheidsfunctionaliteiten}
+In \ref{sec:Android} werd toegankelijkheid in Android al besproken, waar we de functionaliteiten toegevoegd per versie kunnen zien. Daaruit werd ook duidelijk dat het mogelijk is om als ontwikkelaar zelfgemaakte toegankelijkheidsfunctionaliteiten te maken. Het is de Accessibility Service \gls{API} die dit mogelijk maakt. 
+
+In deze zelfgemaakte functionaliteit kunnen er verschillende gebeurtenissen geregistreerd worden.  Waarop dan ook aangepast gereageerd kan worden. Ook kan men bepaalde taken, waar de gebruiker moeite mee zou hebben uitvoeren. 
+\lstinputlisting[language=Java,label=powerAPI, caption=Voorbeeld in Java: uitschakelen van toestel met Accessibility Service \gls{API} ,frame=single, basicstyle=\scriptsize]{../code/Android/OwnAccesibilityFeature/service.java}
+Voorbeeld \ref{powerAPI} is gericht op gebruikers met een motorische beperking. Wanneer op de knop die gedefinieerd is geklikt wordt, zal het apparaat zichzelf proberen uitschakelen. De Accessibility Service \gls{API} laat ons toe om taken voor de gebruiker uit te voeren. In dit geval het 'indrukken' van de powerknop.
+
+Meer informatie over de Accessibility service \gls{API} en hoe het geïmplementeerd moet worden is te vinden in de developer documentatie van Android\footnote{\url{https://developer.android.com/guide/topics/ui/accessibility/service/}}.
+
+\subsection{Visueel}
+\subsubsection{TalkBack}
+\label{subsec:TalkBack}
+In Android laat TalkBack een gebruiker toe om aan de hand van audio feedback zijn smartphone te bedienen. De verschillende elementen, en eventuele beschrijvingen worden uitgesproken wanneer deze functie is geactiveerd. Een gebruiker met een visuele beperking navigeert door zijn vinger(s) over de verschillende elementen te slepen. Audio feedback laat de gebruiker weten waar hij zich bevindt. Aan de hand van touch gebaren kunnen gebruikers op een specifieke manier navigeren.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.4\linewidth]{img/talkback_focus}
+    \caption{Groene omkadering toont focus in TalkBack }
+    \label{fig:talkbackfocus}
+\end{figure}
+
+De groene omkadering in figuur \ref{fig:talkbackfocus} toont waar een gebruiker zich op focust. Alle tekst en beschrijvingen die dit element bevat zullen uitgesproken worden door TalkBack.
+
+Wanneer er tekst gedefinieerd staat in een element bv: een knop, dan zal deze tekst steeds voorgelezen worden bij het focussen. Toch is het van groot belang dat er wanneer een element niet duidelijk genoeg is, een extra beschrijving meegegeven wordt. Dit kan bijvoorbeeld zijn wanneer men de volgende situaties heeft: 
+\begin{itemize}
+    \item Meerdere elementen met dezelfde naam
+     \item Afbeeldingen
+       \item Aanpasbare elementen (tekstvelden, ...)
+\end{itemize}
+Deze extra beschrijving is een 'Content Description', deze wordt samen met het elementtype steeds voorgelezen door TalkBack. 
+De declaratie ervan kan statisch gebeuren bij het aanmaken van de layout. Dit kan ook op een dynamische wijze aangepast worden.
+
+
+
+\lstinputlisting[language=XML,label=talkbackStatic, caption={Voorbeeld in XML: Declaratie van een knop, met een statische 'Content Description'},frame=single, basicstyle=\scriptsize, firstline=9,lastline=23]{../code/Android/TalkBack/app/src/main/res/layout/activity_main.xml }
+
+\lstinputlisting[language=Java,label=talkbackDynamic, caption={Voorbeeld in Java: Indrukken van een knop resulteert in dynamisch veranderen 'Content Description'.},frame=single, basicstyle=\scriptsize, firstline=29,lastline=38]{../code/Android/TalkBack/app/src/main/java/be/pietervandendriessche/talkback/MainActivity.java}
+
+In zowel voorbeeld \ref{talkbackStatic}, als \ref{talkbackDynamic} wordt een beschrijving gegeven aan een element. In \ref{talkbackStatic} staat deze beschrijving statisch ingesteld. Vanaf dat de desbetreffende layout op het scherm komt krijgt deze een beschrijving. Bij het voorbeeld \ref{talkbackDynamic} wordt met de code: \emph{element.setContentDescription()}, de beschrijving toegepast/verandert wanneer op het element geklikt wordt. Een combinatie van statische en dynamische toekenning van beschrijvingen is uiteraard toegelaten, en zelfs aan te raden.
+
+Wanneer men elementen heeft die elkaar kunnen aanvullen, kan men ervoor kiezen om deze in 1 keer uit te laten spreken door TalkBack. Dit kan men bereiken door deze elementen te groeperen in een container element. Blinde gebruikers kunnen dankzij deze groepering in één keer alle nodige informatie, die ook logisch opgebouwd is, voorgelezen krijgen.
+\lstinputlisting[language=XML,label=talkbackGrouping, caption={Voorbeeld in XML: Groeperen twee tekstelementen door Linearlayout},frame=single, basicstyle=\scriptsize, firstline=25,lastline=44]{../code/Android/TalkBack/app/src/main/res/layout/activity_main.xml }
+In de declaratie van de layout in voorbeeld \ref{talkbackGrouping} wordt gebruik gemaakt van een `LinearLayout`-container voor de groepering van elementen. Doordat we het attribuut \emph{android:focusable="true"} toevoegen aan de container, weet TalkBack dat hij deze kan voorlezen. Voor normale gebruikers te verhinderen dat er op de container geklikt kan worden, kan het attribuut \emph{android:focusableInTouchMode="false"}  toegevoegd worden.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.6\linewidth]{img/talkback_grouped_vs_notgrouped}
+    \caption{Voorbeeld van niet gegroepeerde elementen versus gegroepeerde elementen}
+    \label{fig:talkbackgroupedvsnotgrouped}
+\end{figure}
+
+In figuur \ref{fig:talkbackgroupedvsnotgrouped} wordt een onderscheid gemaakt tussen een layout waar 2 gerelateerde elementen NIET gegroepeerd zijn, en een layout waarbij deze wel gegroepeerd zijn. De focus bij gegroepeerde elementen is groter, en beide elementen zullen tezamen uitgesproken worden. 
+
+Naast het definiëren van een 'Content Description', kunnen elementen ook aankondigingen maken. Dit kan gebeuren wanneer er bijvoorbeeld een gebruiker klikt op een element, en er updaten andere elementen door die actie.
+\lstinputlisting[language=Java,label=talkBackAnnounce, caption={Voorbeeld in Java: Indrukken van een knop resulteert in aankondiging TalkBack.},frame=single, basicstyle=\scriptsize, firstline=40,lastline=49]{../code/Android/TalkBack/app/src/main/java/be/pietervandendriessche/talkback/MainActivity.java}
+In de code van voorbeeld \ref{talkBackAnnounce} doet de knop een aankondiging wanneer op hem geklikt wordt. De regel met code: \emph{element.announceForAccessibility()}, laat ons toe om deze aankondigingen te doen naar de eindgebruiker.
+
+Een ontwikkelaar kan dankzij de Accessibility service API van android nagaan of TalkBack geactiveerd is. Hierdoor kunnen ze eventueel programmatisch enkele aanpassingen uitvoeren aan hun applicatie.
+\lstinputlisting[language=Java,label=talkBackIsEnanled, caption={Voorbeeld in Java: Ophalen van status TalkBack},frame=single, basicstyle=\scriptsize,breaklines, firstline=23,lastline=25]{../code/Android/TalkBack/app/src/main/java/be/pietervandendriessche/talkback/MainActivity.java}
+
+In voorbeeld \ref{talkBackIsEnanled} wordt aan de Accessibility service \gls{API} gevraagd of TalkBack geactiveerd is. De methode \emph{am.isTouchExplorationEnabled()} retourneert een boolean die overeenkomt met de activatie status van TalkBack.
+
+
+\subsubsection{Vergroten lettertype}
+Het aanpassen van de grote van letters kan de leesbaarheid drastisch verhogen. In Android kan de grootte van de letters aangepast worden.
+Er kan gekozen worden voor de volgende groottes:
+\begin{itemize}
+    \item Klein
+    \item Standaard
+    \item Groot
+    \item Grootst
+\end{itemize}
+
+Ontwikkelaars hebben de optie om de tekstgrootte in hun applicatie te definiëren aan de hand van verschillende eenheden\footnote{https://developer.android.com/guide/topics/resources/more-resources.html\#Dimension}.
+
+Wanneer men wilt dat tekst schaalt naar gelang de gewenste tekstgrootte van de gebruiker moet men de eenheid \emph{sp (Scale-independent Pixels)} gebruiken. Deze eenheid heeft dezelfde capaciteiten als \emph{dp (Density-independent Pixels)}, maar wordt ook nog geschaald naar de eisen van de gebruiker.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\linewidth]{img/Android_Scale_font}
+    \caption{Verschil sp en dp met aanpassingen font}
+    \label{fig:androidscalefont}
+\end{figure}
+
+In figuur \ref{fig:androidscalefont} is het verschil tussen sp en dp zichtbaar, in alle gevallen waar de schaal is aangepast verandert de tekst met eenheid dp niet. De tekst elementen die een grootte toegewezen hebben gekregen met de eenheid sp veranderen wel mee.
+
+
+
+Als ontwikkelaar kan men ook nagaan welke schaal een gebruiker heeft ingesteld. Dit kan door het opvragen van de waarde van de instelling: \emph{FONT\_SCALE}.
+
+
+\lstinputlisting[language=Java,label=fontscaleAndroid, caption={Voorbeeld in Java: Ophalen van schaalgrootte tekst.},frame=single, breaklines,basicstyle=\scriptsize, firstline=17,lastline=25]{../code/Android/VergrotenLettertype/app/src/main/java/be/pietervandendriessche/vergrotenlettertype/MainActivity.java }
+
+In voorbeeld \ref{fontscaleAndroid} is er een methode die de tekstschaal ophaalt die de gebruiker heeft ingesteld.
+De waarden die men zal terugkrijgen zijn respectievelijk:
+\begin{itemize}
+    \item Klein: 0.85
+    \item Standaard: 1.00
+    \item Groot: 1.15
+    \item Grootst: 1.30
+\end{itemize}
+
+
+\subsubsection{Weergavegrootte aanpassen }
+Deze functie laat een gebruiker toe om alles groter weer te geven. De elementen in een applicatie krijgen een grotere schaal. Alle elementen worden geschaald, onafhankelijk van welke eenheid men voor grootte heeft gebruikt. Dus tekst met de eenheid dp worden ook vergroot.
+
+\subsubsection{Vergroting}
+Android bevat een vergrotingsfunctionaliteit, deze zal de gebruiker toelaten om in te zoomen op het volledige scherm. Deze kan bestuurt worden met touchgebaren. 
+
+Een ontwikkelaar kan aan individuele elementen van zijn applicatie ook een vergrotingsfunctionaliteit koppelen. Daarbij kan een gebruiker het element indrukken, en een vergroting komt tevoorschijn. 
+\lstinputlisting[language=Java,label=magnifierAndroidElement, caption={Voorbeeld in Java: Toekennen van een vergrootglas aan een element},frame=single, breaklines,basicstyle=\scriptsize, firstline=20,lastline=36]{../code/Android/magnifier/app/src/main/java/be/pietervandendriessche/magnifier/MainActivity.java}
+In voorbeeld \ref{magnifierAndroidElement} wordt gebruik gemaakt van de Magnifier-\gls{API} om een vergrotingsmogelijkheden te koppelen aan een element. De methode \emph{magnifier.show()} activeert het vergrootglas. De methode \emph{magnifier.dismiss()} verbergt het vergrootglas terug. In figuur \ref{fig:magnifyinapp} is er een visuele representatie van bovenstaande code.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.4\linewidth]{img/magnify_in_App}
+    \caption{Vergroten van een tekstelement}
+    \label{fig:magnifyinapp}
+\end{figure}
+\newpage
+\subsubsection{Filters voor kleurenblindheid}
+Android biedt een schermfilter aan waarbij  kleuren aangepast worden zodat deze beter zichtbaar worden voor kleurenblinden. Deze filtering gebeurt dan voor alles wat op het scherm tevoorschijn komt. Sectie \ref{sec:Visueel} biedt uitleg over de verschillende soorten kleurenblindheid. Voor de 3 belangrijkste soorten kleurenblindheid worden filters voorzien. Ontwikkelaars hebben geen mogelijkheid om deze functie te faciliteren. Het gebruik van kleuren die goede contrasten hebben is wel aangeraden.
+
+
+
+\subsubsection{Hoger contrast tekst}
+Bij het gebruik van deze optie zal de kleur van tekst verdwijnen, en wordt die vervangen door zwart en wit.
+In figuur \ref{fig:contrastInAndroid} is zichtbaar dat de tekst vervangen wordt voor het verhogen van het contrast. De tekst valt nu beter te onderscheiden van andere interface elementen. De functionaliteit werd geactiveerd in de rechterkant van de figuur.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.6\linewidth]{img/contrastInAndroid}
+    \caption{Voorbeeld hoger contrast tekst functionaliteit in Android}
+    \label{fig:contrastInAndroid}
+\end{figure}
+\newpage
+\subsubsection{Inverteren kleuren}
+
+Het inverteren van kleuren helpt mensen met een zwak zicht om het scherm beter leesbaar te maken. Kleuren worden letterlijk geïnverteerd voor een hoger contrast te creëren. Witte achtergronden worden zwart, zwarte tekst wordt wit, etc. Deze functie fungeert als een filter en zal dus ALLE kleuren inverteren.
+Naast het verhogen van de leesbaarheid voor mensen met een visuele beperking heeft deze functie ook nut voor mensen die hun smartphone in donkere ruimtes wensen te gebruiken.
+
+\subsection{Auditief}
+\subsubsection{Mono-geluid}
+In sommige gevallen hebben mensen nood aan geluid vanuit 1 kant van de headset. Met deze functionaliteit wordt geluid geconverteerd naar 1 audio-kanaal in de plaats van 2. Bij stereo-geluid hoor je de audio opgesplitst in 2 audio-kanalen.
+
+\subsubsection{Ondertitelingen}
+\label{subsec:ondertitelAndroid}
+Wanneer deze functionaliteit geactiveerd is kunnen mensen die doof zijn of hardhorig zijn gebruik maken van ondertitelingen in bepaalde applicaties. Android laat ook toe om voorkeuren te geven over hoe de ondertiteling getoond wordt. De voorkeuren die men kan opgeven zijn:
+\begin{itemize}
+\item Taal (taal waarin ondertiteling wordt weergegeven)
+\item Tekengrootte (de grootte van de ondertitelingstekst)
+\item Ondertitelstijl (kleur ondertitelingstekst en achtergrond)
+\end{itemize}
+De tekengrootte varieert van zeer klein tot zeer groot, bij de ondertitelstijl kan gekozen worden uit verschillende combinaties in letterkleur en achtergrondkleur. Een voorbeeld van hoe de ondertiteling er uit zal zien is zichtbaar wanneer men zijn voorkeuren ingeeft.
+
+Ondertitelingen worden enkel zichtbaar wanneer deze worden toegevoegd aan een video.
+
+\lstinputlisting[language=Java,label=AndroidAddCaptions, caption={Voorbeeld in Java: Toekennen van ondertitelingen aan een VideoView},frame=single, breaklines,basicstyle=\scriptsize, firstline=58 , lastline=60]{../code/Android/Subtitles/app/src/main/java/be/pietervandendriessche/subtitles/MainActivity.java}
+In voorbeeld \ref{AndroidAddCaptions} worden ondertitelingen toegevoegd aan een VideoView. VideoView is in staat om de ondertitelingen aan te passen aan de voorkeuren van de gebruiker. Dit wil zeggen dat de ontwikkelaar geen moeite moet doen om zijn ondertitelingen aan te passen aan de voorkeuren van de gebruiker van zijn applicatie.
+\lstinputlisting[language=Java,label=AndroidCaptionsInformation, caption={Voorbeeld in Java: Toekennen van ondertitelingen aan een VideoView},frame=single, breaklines,basicstyle=\scriptsize, firstline=24,lastline=28]{../code/Android/Subtitles/app/src/main/java/be/pietervandendriessche/subtitles/MainActivity.java}
+Wanneer een ontwikkelaar niet gebruik maakt van een VideoView, maar wel van ondertitelingen moet men de waarden van de voorkeuren van de gebruiker opvragen. Aan de hand van die waarden kan de ontwikkelaar de ondertiteling aanpassen aan de voorkeuren. In voorbeeld \ref{AndroidCaptionsInformation} wordt via de \emph{CaptionManager} nagegaan welke voorkeuren een gebruiker heeft. Elk type voorkeur heeft een corresponderende methode.
+
+\lstinputlisting[language=Java,label=AndroidCaptionsInformationEventHandler, caption={Voorbeeld in Java: Eventhandler bij het veranderen van voorkeuren ondertitelingen},frame=single, breaklines,basicstyle=\scriptsize, firstline=32,lastline=53]{../code/Android/Subtitles/app/src/main/java/be/pietervandendriessche/subtitles/MainActivity.java}
+
+Men kan ook een Eventhandler koppelen aan de \emph{CaptionManager}, wanneer een voorkeur veranderd of de ondertiteling wordt uitgeschakeld kan dat opgevangen worden. Voorbeeld \ref{AndroidCaptionsInformationEventHandler} toont hoe deze Eventhandler gedefinieerd kan worden en hoe welke veranderingen in voorkeuren men kan opvangen. Bij elke methode die zo'n verandering opvangt krijgt men de nieuwe waarde mee wanneer een verandering is gebeurd.
+\subsubsection{Geluidsversterker}
+De geluidsversterker functionaliteit in Android laat een gebruiker toe om geluiden in sterkte aan te passen. Een gebruiker kan zwakkere geluiden luider laten klinken, maar ook de verhinderende geluiden stiller maken. Wanneer men een koptelefoon gebruikt kan het geluid per oor geregeld worden.
+\subsection{Motorisch}
+\subsubsection{Toegang via schakelaars}
+Gebruikers met een motorische beperking kunnen aan de hand van een schakelaar (extern apparaat) de smartphone bedienen. Alle elementen op het scherm worden overlopen, wanneer het element dat men wenst aangeduid is moet men een bepaalde toets indrukken. Via het systeem van het scannen van de elementen, en het indrukken van toetsten kan er genavigeerd worden \autocite{switchAndroid}.
+
+Er zijn verschillende soorten schakelaars die gebruikt kunnen worden: 
+\begin{itemize}
+    \item Externe schakelaar
+    \item Extern toetsenbord
+    \item Fysieke knoppen smartphone
+\end{itemize}
+
+    \lstinputlisting[language=Java,label=switchAccessAndroid, caption={Voorbeeld in XML: ImageView klikbaar in Toegang via schakelaars},frame=single, breaklines,basicstyle=\scriptsize, firstline=9,lastline=20]{../code/Android/SwitchAccess/app/src/main/res/layout/activity_main.xml}
+
+Wanneer een bepaald element niet gescant wordt binnen een applicatie moet men dat element 'klikbaar' maken. Met het XML-attribuut \emph{android:clickable=''true''} maakt men een element 'klikbaar'. In voorbeeld \ref{switchAccessAndroid} werd een ImageView 'klikbaar' gemaakt door het toevoegen van het XML-attribuut.
+\\
+Ontwikkelaars kunnen deze functionaliteit testen door een extern toetsenbord toe te voegen of gebruik te maken van de fysieke knoppen. Meer informatie over hoe men dit kan testen kan gevonden worden in de developer guide 'Test your app's accessibility' .\footnote{https://developer.android.com/guide/topics/ui/accessibility/testing}
+\subsubsection{Scherm automatisch draaien}
+Gebruikers met een fysieke beperking kunnen vaak moeite ervaren met het draaien van hun scherm. Daardoor is het voor hun wenselijk dat hun scherm in dezelfde rotatie blijft gedurende het gebruik. De functie 'scherm automatisch draaien' laat een gebruiker toe om in te stellen of het scherm automatisch draait.
+
+Ook de gebruiker zonder beperking heeft voordeel bij deze functie. Men kan het automatisch roteren blokkeren wanneer dit gewenst is.
+
+\subsubsection{Vertraging voor blijvend aanraken}
+In Android kunnen gebruikers bij het klikken op een element vaak nog extra opties of acties krijgen. Dit komt doordat men dat element 'blijvend aanraakt'. Standaard moet men heel kort blijven indrukken om deze extra opties of acties te krijgen. 
+
+Bij sommige gebruikers, waaronder vooral mensen met een motorische beperking zorgt deze korte periode dat er ongewenst acties uitgevoerd worden. Android heeft een functionaliteit waarbij men kan instellen hoelang het systeem moet wachten tot hij het registreert als een 'blijvende aanraking', gebruikers kunnen kiezen uit:
+\begin{itemize}
+    \item Kort
+    \item Medium
+    \item Lang
+\end{itemize}
+In bepaalde smartphones die Android draaien kan men zelfs het aantal seconden ingeven voordat het systeem het moet detecteren als een 'blijvende aanraking'. 
+\subsubsection{Hardware shortcut voor activatie functionaliteiten}
+De volumeknop van een Android smartphone kan gebruikt worden voor het activeren van een toegankelijkheidsfunctionaliteit. Dit laat mensen met een beperking toe om gemakkelijk hun meest gebruikte functionaliteit in te schakelen. Dankzij deze functionaliteit wordt de navigatie naar de instellingen voor de ingestelde functionaliteit overbodig.
+\subsection{Cognitief}
+ 
+\subsubsection{Animaties verwijderen}
+Animaties kunnen mensen met een cognitieve beperking afleiden, frustreren of verwarren. Daarom bezit Android een functionaliteit die deze animaties compleet van het mobiele platform doet verdwijnen. Alle afleidende animaties vinden niet meer plaats.
+
+\section{Toegankelijkheidsfunctionaliteiten in iOS}
+\label{sec:ToegankelijkheidsfunctionaliteiteniOS}
+\subsection{Visueel}
+
+\subsubsection{VoiceOver}
+\label{subsec:VoiceOver}
+VoiceOver laat een iOS gebruiker navigeren aan de hand van audio feedback. VoiceOver zal wanneer deze geactiveerd is alle elementen op het scherm voorlezen. Men kan zonder te kijken navigeren in iOS enkel op geluid en met gebruik van je vingers. VoiceOver kent verschillende gebaren die men kan gebruiken om te navigeren als ook een rotor. Deze rotor laat je efficiënt navigeren binnen de applicatie, hij past zich aan eraan. VoiceOver bevat tal van functionaliteiten die zeer wenselijk zijn, zo kan je bij het gebruik van een koptelefoon een audiokanaal kiezen voor de audio feedback. Een persoon met een beperking kan zijn ervaring met VoiceOver volledig personaliseren.
+
+\begin{figure}[h]
+    \centering
+   \frame{ \includegraphics[width=0.35\linewidth]{img/VoiceOver_focus}}
+    \caption{Zwarte omkadering toont focus in VoiceOver }
+    \label{fig:VoiceOverfocus}
+\end{figure}
+
+In figuur \ref{fig:VoiceOverfocus} toont de zwarte omkadering waar de gebruiker op dat moment op gefocust is. Het element die de focus heeft zal uitgesproken worden door VoiceOver. In het geval van figuur \ref{fig:VoiceOverfocus} wordt ook de inhoud van het TextField uitgesproken.
+
+Zoals in Android's TalkBack zal de tekst die gedefinieerd staat steeds uitgesproken worden. Toch is het steeds van belang om een zinvolle beschrijving te geven aan elementen. 
+In VoiceOver wordt een ImageView niet standaard voorgelezen, een ontwikkelaar moet het element inschakelen voor toegankelijkheid. Dit kan dynamisch gedaan worden, maar ook bij het declareren van de elementen in het 'Storyboard'.
+\newpage
+In VoiceOver kunnen naast een beschrijving kunnen ook andere verschillende waarden toegevoegd worden om VoiceOver te laten uitspreken. Enkele hiervan zijn:
+\begin{itemize}
+    \item Label: beschrijving van het element (bijvoorbeeld: Foto van een honds)
+    \item Traits: eigenschappen van het element (bijvoorbeeld: knop, geselecteerd, header, ...)
+    \item Hints: Beschrijft welke actie een element kan volbrengen (bijvoorbeeld: verhogen van waarde)
+\end{itemize}
+
+    \lstinputlisting[language=java,label=dynamicAccessVoiceOverDescription, caption={Voorbeeld in Swift: Toekennen van een beschrijving aan een ImageView},frame=single, breaklines,basicstyle=\scriptsize, firstline=29,lastline=34]{../code/iOS/VoiceOver/VoiceOver/ViewController.swift}
+
+In voorbeeld \ref{dynamicAccessVoiceOverDescription} wordt er dynamisch een beschrijving toegekend aan een ImageView. De regel met \emph{element.isAccessibilityElement = true} zorgt dat het element gevonden kan worden door VoiceOver.  Bepaalde elementen zoals een ImageView worden niet standaard gevonden door VoiceOver, deze dienen eerst geactiveerd te worden. De regel \emph{element.accessibilityLabel = "beschrijving"} laat ons toe om dynamisch een beschrijving te koppelen aan een element.
+
+    \lstinputlisting[language=java,label=dynamicAccessVoiceOverTrait, caption={Voorbeeld in Swift: Toekennen van eigenschap knop aan ImageView},frame=single, breaklines,basicstyle=\scriptsize, firstline=36,lastline=39]{../code/iOS/VoiceOver/VoiceOver/ViewController.swift}
+
+Voorbeeld \ref{dynamicAccessVoiceOverTrait} toont dan weer hoe men VoiceOver aangeeft dat de ImageView niet enkel een foto is, maar ook een knop. Dit gebeurt door de regel \emph{petPicture.accessibilityTraits.insert()}, waarbij we de eigenschap 'knop' toevoegen aan de ImageView.
+
+    \lstinputlisting[language=java,label=dynamicAccessVoiceOverHint, caption={Voorbeeld in Swift: Toekennen van een hint aan een Button},frame=single, breaklines,basicstyle=\scriptsize, firstline=41,lastline=43]{../code/iOS/VoiceOver/VoiceOver/ViewController.swift}
+    Wanneer men wilt vertellen wat er gebeurt wanneer men een bepaalde knop indrukt kan men best een hint toevoegen. In voorbeeld \ref{dynamicAccessVoiceOverHint} wordt gebruik gemaakt van een hint wanneer men op de knop drukt. Deze wordt uitgesproken bij het focussen op de knop. De regel \emph{element.accessibilityHint = "hintBeschrijving"} laat ons toe om een hint toe te kennen aan een element.
+    
+   Naast het dynamisch instellen van beschrijvingen voor het verhogen van de toegankelijkheid met VoiceOver, kan dit ook op een statische manier. Dit gebeurt wanneer men de verschillende elementen declareert in het Storyboard.
+   
+   Dit kan wanneer men in de  'Storyboard editor' een element selecteert en de 'identity inspector' opent. In de 'identity inspector' kan men de sectie 'accessibility' vinden. 
+   \newpage
+   \begin{figure}[h]
+       \centering
+       \frame{ \includegraphics[width=0.7\linewidth]{img/storyboardAccessibility}}
+       \caption{Voorbeeld van sectie 'accessibility' in de 'identity inspector' van een Storyboard }
+       \label{fig:storyboardAccessibility}
+   \end{figure}
+In figuur \ref{fig:storyboardAccessibility} werd een afbeelding geselecteerd, bij deze afbeelding staat 'Accessibility' niet aangevinkt. Dit wil zeggen dat VoiceOver dit element niet zal voorlezen. Verder kan men een beschrijving toevoegen in het veld 'Label', een hint in het veld 'Hint'. Ook kunnen er eigenschappen toegevoegd worden door deze in de sectie 'Traits' aan te vinken.
+ \lstinputlisting[language=java,label=dynamicAccessVoiceOverGrouping, caption={Voorbeeld in Swift: Toekennen van een beschrijving voor gegroepeerde elementen},frame=single, breaklines,basicstyle=\scriptsize, firstline=44,lastline=49]{../code/iOS/VoiceOver/VoiceOver/ViewController.swift}
+
+Voorbeeld \ref{dynamicAccessVoiceOverGrouping} toont hoe men elementen kan groeperen en VoiceOver die ook kan laten uitspreken als een gegroepeerd element. In iOS volstaat het niet enkel om de elementen te groeperen en een attribuut aan te passen. In voorbeeld \ref{dynamicAccessVoiceOverGrouping} wordt er voor een StackView met 2 labels een beschrijving toegekend. De regel \emph{element.accessibilityElements = []} is noodzakelijk om VoiceOver duidelijk te maken welke elementen gegroepeerd zijn. Daarnaast moeten er kenbaar maken dat de groepering mag gezien worden door VoiceOver, dit gebeurt met de regel \emph{element.isAccessibilityElement = true}. Als laatste wordt er in de laatste regel een beschrijving van de container toegekend.
+\newpage
+   \begin{figure}[h]
+    \centering
+    \frame{ \includegraphics[width=0.3\linewidth]{img/rotor}}
+    \caption{Voorbeeld van rotor in VoiceOver }
+    \label{fig:voiceOverRotor}
+\end{figure}
+VoiceOver bevat een functionaliteit waarbij gebruikers makkelijk door verschillende soorten elementen kunnen scrollen. Deze functionaliteit heet 'rotor', en kan men gebruiken door een draaibeweging te maken met 2 vingers wanneer VoiceOver is geactiveerd. In voorbeeld \ref{fig:voiceOverRotor} wordt het scrollen tussen alle verschillende woorden geactiveerd. Men kan scrollen tussen de elementen door met je vinger omhoog of omlaag te slepen.
+
+Als ontwikkelaar is het mogelijk om een filter toe te voegen aan de rotor voor gebruik binnen zijn applicatie.  Meer informatie daarover is te vinden in de developer documentatie van Apple\footnote{\url{https://developer.apple.com/documentation/uikit/uiaccessibilitycustomrotor}}. Een ontwikkelaar kan dankzij de property \emph{UIAccessibility.isVoiceOverRunning} nagaan of deze functionaliteit is ingeschakeld. 
+
+\subsubsection{Zoom}
+Zoom is een functie in iOS die toelaat om in te zoomen op het volledige scherm. Deze functie fungeert letterlijk als een vergrootglas in de display van je iOS smartphone. Aan de hand van enkele gebaren kan je deze functie besturen. Zo is het dubbel tappen met 3 vingers de functie activeren. Ook is deze functionaliteit is voldoende te personaliseren naar de noden van de gebruiker. Één van de mogelijkheden tot personaliseren is dat men kan kiezen uit het zoomen in een bepaald frame, of het volledige scherm te laten zoomen. Ook kan men instellen dat bij het inzoomen een filter op de zoom komt, deze filters kunnen het volgende: \begin{itemize}
+    \item Kleuren inverteren
+    \item Kleuren omzetten naar grijswaarden
+    \item Kleuren inverteren en omzetten naar grijswaarden
+    \item Kleuren verminderen en contrast verhogen voor weinig licht
+\end{itemize}
+
+\subsubsection{Vergrootglas}
+De functie Vergrootglas laat een gebruiker toe om zijn camera te laten werken als een vergrootglas. De functie wordt geactiveerd door driemaal kort de homeknop in te drukken. 
+Slechtzienden kunnen dankzij deze functie de wereld rondom zich vergroten. Wanneer men de functie heeft geactiveerd kan men allerlei filters activeren om de zichtbaarheid te verhogen.
+\subsubsection{Inverteren kleuren}
+Deze functionaliteit bevat 2 opties, namelijk 'Slim omgekeerd'  en 'Klassiek omgekeerd'. Bij 'Slim omgekeerd' worden de kleuren geïnverteerd behalve die van afbeeldingen, media en apps die voldoende donkere kleuren bevatten. 'Klassiek omgekeerd' inverteert alle kleuren die op de display komen.
+
+Bij de optie 'Slim omgekeerd' worden enkel in vooraf geïnstalleerde applicaties de kleuren van afbeeldingen niet geïnverteerd.  Een ontwikkelaar kan voorkomen dat de kleuren van een element geïnverteerd worden door de volgende regel uit te voeren op het element: \emph{element.accessibilityIgnoresInvertColors = true}.
+
+Een ontwikkelaar kan dankzij de property \emph{UIAccessibility.isInvertColorsEnabled} nagaan of deze functionaliteit is ingeschakeld. 
+\subsubsection{Kleurenfilters}
+Aan de hand van deze functionaliteit kunnen kleuren aangepast weergegeven worden, zodat deze zichtbaarder zijn voor kleurenblinden. Deze filtering gebeurt over de volledige display. Bij deze functie kan ook de intensiteit van de kleurenfilterring ingesteld worden. De volgende filters zijn voorzien in deze functionaliteit: \begin{itemize}
+    \item Grijstinten
+    \item Rood/groen-filter (Protanoop)
+    \item Groen/rood-filter (Deuteranoop)
+    \item Blauw/geel-filter (Triranoop)
+        \item Kleurentint (instellen van een eigen gekozen kleur)
+\end{itemize}
+\subsubsection{Vergroten tekst}
+iOS heeft een functionaliteit die een gebruiker toelaat om de grootte van het lettertype in te stellen. Bij deze functionaliteit heeft de gebruiker een groot aantal opties voor het vergroten van het lettertype. In applicaties wordt de grootte van het lettertype geschaald naar gelang de instelling van de gebruiker. Een ontwikkelaar moet aandacht besteden voor het ondersteunen van deze schaalbare lettertypes. In tegenstelling van Android gaat iOS niet standaard alle lettertypen schalen.
+In iOS wordt er een onderscheid gemaakt tussen 3 verschillende soorten lettertypes:
+\begin{itemize}
+    \item System
+    \item Text styles
+    \item Custom
+\end{itemize}
+Enkel de soort 'Text styles' zal automatisch schalen naar de voorkeur van de gebruiker. Wanneer men gebruikt maakt van de soort 'Custom' of 'System' zal men deze moeten schalen via enkele regels code. 
+
+ \lstinputlisting[language=java,label=dynamicTypeiOS, caption={Voorbeeld in Swift: Toekennen van geschaald lettertype},frame=single, breaklines,basicstyle=\scriptsize, firstline=11,lastline=25]{../code/iOS/largerText/largerText/ViewController.swift }
+In voorbeeld \ref{dynamicTypeiOS} wordt het lettertype (Arial 17.0) van de soort 'Custom' geschaald naar de voorkeuren van de gebruiker. Allereerst wordt het font van het label opgehaald, waarna het lettertype  geschaald wordt  aan de hand van de methode \emph{UIFontMetrics()}. Er wordt  een lettertype van de soort 'Text styles' meegegeven als parameter. Het font van ons label wordt dan ingesteld als de geschaalde variant. De regel \emph{element.adjustsFontForContentSizeCategory = true} laat ons label toe om dynamisch mee te schalen met de voorkeur van de gebruiker gedurende dat de applicatie actief is.
+
+\begin{figure}[h]
+    \centering
+    \frame{ \includegraphics[width=0.7\linewidth]{img/iosFontCompare}}
+    \caption{Voorbeeld vergroten tekst in iOS, links: custom lettertype niet schaalbaar, rechts: custom lettertype schaalbaar }
+    \label{fig:iosFontCompare}
+\end{figure}
+\newpage
+In figuur \ref{fig:iosFontCompare} is links de code uit voorbeeld \ref{dynamicTypeiOS} niet toegepast, het lettertype van type 'Custom' schaalt niet mee naar de wensen van de gebruiker. Rechts is de code uit voorbeeld \ref{dynamicTypeiOS} wel toegepast, de tekst schaalt mee.
+
+Wanneer men een lettertype van de soort 'Text styles' gebruikt schaalt deze mee wanneer de applicatie opgestart wordt. Wanneer men dynamisch het lettertype wil schalen gedurende dat de applicatie actief is moet men de optie 'Automatically Adjusts Font' activeren. Deze optie kan gevonden worden in de 'Storyboard editor' in de 'Attribute inspector' van het corresponderende element.
+
+\subsubsection{Verminderen transparantie}
+Deze functionaliteit oogt op het verhogen van de leesbaarheid door transparantie te laten verdwijnen. Door de transparantie te laten verdwijnen verhoogt het contrast ook. In figuur \ref{fig:transparantieiOS} ziet u aan de linkerkant een voorbeeld van het besturingssysteem zonder dat de functionaliteit is geactiveerd. Aan de rechterkant is de functionaliteit geactiveerd, waarbij duidelijk te zien valt dat de transparantie minimaal is.
+Een ontwikkelaar kan dankzij de property \emph{UIAccessibility.isReduceTransparencyEnabled} nagaan of deze functionaliteit is ingeschakeld. 
+\begin{figure}[h]
+    \centering
+    \frame{ \includegraphics[width=0.7\linewidth]{img/transparantieiOS}}
+    \caption{Voorbeeld verminderen transparantie in iOS, links: functionaliteit uit, rechts: functionaliteit aan}
+    \label{fig:transparantieiOS}
+\end{figure}
+\newpage
+\subsubsection{Verhogen contrast}
+Deze functionaliteit maakt kleuren van elementen donkerder om een hogere contrast te krijgen. Afbeeldingen worden niet aangepast.
+Een ontwikkelaar kan via de property \emph{UIAccessibility.isDarkerSystemColorsEnabled} nagaan of deze functionaliteit is ingeschakeld. 
+\subsubsection{Vette tekst}
+In iOS kan men met de functionaliteit 'Vette tekst' tekst beter leesbaar maken. Alle tekst wordt bij het inschakelen van deze functionaliteit omgezet naar vette tekst.
+Via de property \emph{UIAccessibility.isBoldTextEnabled} kan men nagaan of deze functionaliteit is ingeschakeld. 
+\subsection{Auditief}
+\subsubsection{LED Flash voor notificaties}
+Wanneer iemand deze functionaliteit ingeschakeld heeft zal bij een melding zal uit de flits van het toestel een reeks lichtflitsen maken. Deze functionaliteit kan gezien worden als een alternatief voor meldingen met geluid. Men heeft de optie om deze functionaliteit enkel te gebruiken wanneer het geluid van het toestel uit staat.
+\subsubsection{Mono-geluid}
+Wanneer iemand slechthorend is aan 1 kant kan het wenselijk zijn om beide audio kanalen te combineren naar 1 kanaal. Daardoor kan men alles horen, en mist men geen geluid omdat men maar 1 van de 2 kanalen kon horen. Dankzij deze functionaliteit wordt stereo-geluid aangepast naar mono-geluid.
+Via de property \emph{UIAccessibility.isMonoAudioEnabled} kan men nagaan of deze functionaliteit is ingeschakeld.
+\subsubsection{Kiezen van balans tussen linker en rechter audiokanaal}
+Met deze functionaliteit kan gekozen worden aan de hand van een schuifknop welk audiokanaal men wilt horen. De audiokanalen worden NIET gecombineerd, men zal dus een deel van het afgespeelde geluid verliezen als men de functionaliteit 'Mono-geluid' niet inschakelt. 
+\subsubsection{Ondertiteling}
+\label{subsec:ondertiteliOS}
+Dove of hardhorige mensen gebruiken ondertitelingen als alternatief op audio. Met het inschakelen van deze functionaliteit zullen ondertitelingen weergegeven worden wanneer deze beschikbaar zijn.
+
+Deze functionaliteit is ook nog aanpasbaar naar de voorkeur van de gebruiker. Men kan de stijl van ondertitelingen aanpassen. Er zijn standaard 4 verschillende stijlen, maar die zijn uitbreidbaar met een eigen gemaakte stijl. Wanneer men een nieuwe stijl creëert kan men de tekstkleur, tekstgrootte en lettertype aanpassen. Ook kan de achtergrond en de doorzichtigheid aangepast worden. 
+
+Vaak zullen video's hun vaste stijl gedefinieerd hebben voor ondertiteling, wanneer men een eigen gecreëerde stijl wilt gebruiken zal men  'Video overschrijven' moeten uitschakelen bij alle opties van de eigen gecreëerde stijl.
+
+Een ontwikkelaar kan nagaan of een gebruiker ondertiteling heeft ingeschakeld via de property \emph{UIAccessibility.isClosedCaptioningEnabled}.
+
+Raadpleeg de developer documentatie voor het toevoegen van ondertitelingen aan een AVMediaPlayer\footnote{\url{https://developer.apple.com/streaming/}}.
+\subsection{Motorisch}
+\subsubsection{Shortcut activatie toegankelijkheidsfunctionaliteiten}
+Met deze functionaliteit kunnen personen met een motorische beperking, maar ook met andere beperkingen heel snel hun favoriete functionaliteit activeren. Bij het driemaal indrukken van de homeknop zal de functionaliteit die men geselecteerd heeft geactiveerd worden. Wanneer men meerdere functionaliteiten heeft geselecteerd zal een menu met deze functionaliteiten verschijnen.
+\subsubsection{Switch Control}
+Switch Control ook wel schakelbediening genoemd laat een gebruiker met een motorische beperking toe om te navigeren binnen iOS. Alle elementen op het scherm worden als het ware één voor één overlopen, waarbij men een element kan activeren door een schakel te gebruiken. Deze schakels kunnen extern zijn, maar kan ook komen vanuit het apparaat. De invoer vanuit het apparaat kunnen knoppen, maar ook touch gebaren zijn. Ook de camera van een apparaat kan gebruikt worden als switch, hierbij kijkt de camera naar bewegingen met het hoofd.
+
+Switch Control is een functionaliteit die zeer aanpasbaar is. Men kan kiezen voor het groeperen van elementen voor snellere navigatie, of voor het afspelen van geluid bij het navigeren, etc.
+
+Een ontwikkelaar kan aan de hand van de property \emph{UIAccessibility.isSwitchControlRunning} weten of iemand Switch Control gebruikt in zijn applicatie. Verder kunnen ontwikkelaars het navigeren in hun applicatie makkelijker maken door elementen te groeperen zoals dit gedaan werd in voorbeeld \ref{dynamicAccessVoiceOverGrouping}.
+\subsubsection{AssistiveTouch}
+AssistiveTouch maakt het mogelijk om een iOS-apparaat te bedienen zonder de fysieke knoppen te hoeven gebruiken. Bij het activeren van deze functionaliteit krijgt men een menu (AssistiveTouch-menu) op het scherm. Dit menu bevat iconen waarop men kan drukken, elk icoon heeft zijn corresponderende actie in iOS. Zo kan men bijvoorbeeld het scherm vergrendelen, het geluid verhogen, de homeknop bedienen, etc.
+
+Naast het uitvoeren van acties waarvoor men de fysieke knoppen voor zou gebruiken kan men ook touch-gebaren toevoegen als een actie.  Deze gebaren worden dan uitgevoerd wanneer de actie geactiveerd wordt. Deze functionaliteit kan men zeer goed personaliseren, zo kan men kiezen hoeveel acties men in het menu wenst weer te geven. Of men kan 3D Touch gebruiken voor het activeren van een specifieke actie.  Maar ook de doorzichtigheid van het menu kan ingesteld worden.
+
+Als ontwikkelaar kan men nagaan of deze functionaliteit is geactiveerd tijdens het gebruik van zijn applicatie via de volgende propery \emph{UIAccessibility.isAssistiveTouchRunning}.
+\subsubsection{Aangepaste aanraking}
+
+De functionaliteit 'Aangepaste aanraking' is een gecombineerde functionaliteit bestaande uit 3 verschillende functionaliteiten. Ze hebben alle 3 hetzelfde doel, namelijk het aanpassen van hoe het systeem reageert op aanrakingen. Voor onderstaande functionaliteiten te kunnen gebruiken moet men een schakelaar activeren.
+
+De eerste functionaliteit is 'Vasthoudduur' waarbij men kan aanpassen hoelang men het scherm moet indrukken voor iOS het ziet als een aanraking op het touchscreen. Als men een aanraking doet maar men tilt de vinger op voor dat de ingestelde tijd is verstreken zal deze aanraking genegeerd worden. 
+
+
+Met de functionaliteit 'Negeer herhaling' kan men instellen hoeveel tijd er tussen 2 aanrakingen moet zitten. Hoe langer de tijd die men instelt, hoe langer het besturingssysteem meerdere aanrakingen achter elkaar ziet als 1 aanraking.
+
+
+De derde functionaliteit 'Tikassistentie' ondersteunt mensen met een motorische beperking die hun vingers ongewenst verplaatsen tijdens het aanraken van het scherm. Zonder deze functionaliteit kan men mogelijk een foutieve selectie maken. Men kan instellen dat iOS bij het aanraken van het scherm ofwel de laatste positie van de aanraking of de eerste positie registreert.
+
+\subsection{Cognitief}
+\subsubsection{Verminderen van bewegingen}
+Een gebruiker kan met 'Verminderen van bewegingen' ervoor kiezen om animaties te vermijden binnen iOS. Bij het activeren van deze optie worden animaties van het besturingssysteem zelf verwijderd. In tegenstelling tot Android is dit niet het geval bij zelfontwikkelde applicaties.
+
+\lstinputlisting[language=java,label=reduceMotioniOS, caption={Voorbeeld in Swift: Controleren of verminderen van bewegingen is ingeschakeld},frame=single, breaklines,basicstyle=\scriptsize, firstline=18,lastline=30]{../code/iOS/AnimationSample/AnimationSample/ViewController.swift}
+
+Een ontwikkelaar zou bij het gebruik van animaties moeten controleren of een gebruiker deze functionaliteit heeft ingeschakeld. Indien dit het geval is moet de animatie vermeden worden. In voorbeeld \ref{reduceMotioniOS} wordt een animatie uitgevoerd als de optie \emph{UIAccessibility.isReduceMotionEnabled} niet is ingeschakeld.
+
+\subsubsection{Begeleide toegang}
+De functionaliteit 'Begeleide toegang' kan wanneer deze geactiveerd is voorkomen dat een gebruiker de applicatie sluit. Dit voorkomt dat een gebruiker afgeleid kan zijn. Enkel bij het ingeven van een wachtwoord, of het aanmelden met FaceID of TouchID kan de applicatie gesloten worden. Naast het voorkomen dat een applicatie gesloten kan worden, kan ook ingesteld worden door een gebruiker in welk gebied geen interactie mogelijk is. Daarnaast kunnen nog diverse zaken ingesteld worden bij het gebruik van een applicatie. Dit kan zijn:
+\begin{itemize}
+    \item Mogelijkheid tot sluimerknop te gebruiken
+    \item Mogelijkheid tot gebruik volumeknoppen
+    \item Mogelijkheid tot roteren van scherm
+    \item Mogelijkheid tot gebruik toetsenbord
+    \item Mogelijkheid tot aanraken van scherm
+    \item Tijdslimiet (hoelang de applicatie mag gebruikt worden)
+\end{itemize}
+
+Deze functionaliteit kan wanneer deze is ingeschakeld in de instellingen, geactiveerd en gedeactiveerd worden door driemaal kort op de homeknop te drukken. Een ontwikkelaar kan detecteren als de functionaliteit is ingeschakeld in zijn applicatie via de volgende property: \emph{UIAccessibility.isGuidedAccessEnabled}. 
+
+\lstinputlisting[language=java,label=iosAppIdentifierGuided, caption={Voorbeeld in Swift: AppDelegate met applicatie specifieke instellingen voor 'Begeleide toegang'},frame=single, breaklines,basicstyle=\scriptsize, firstline=12,lastline=26]{../code/iOS/GuidedAccess/GuidedAccess/AppDelegate.swift}
+
+Een applicatie kan ook applicatie specifieke instellingen hebben. Deze kunnen bij het activeren van de functionaliteit in de applicatie aan- of uitgezet worden. Met deze instellingen kunnen bepaalde onderdelen van de applicatie geblokkeerd worden, bijvoorbeeld: Toegang tot online wedstrijden in een spelletje.  In voorbeeld \ref{iosAppIdentifierGuided} wordt een applicatie specifieke instelling gedefinieerd. Dit is mogelijk gemaakt door het invullen van de methodes die  overgeërfd werden van het protocol \emph{UIGuidedAccessRestrictionDelegate} in de AppDelegate . De methode \emph{guidedAccessRestrictionIdentifiers} bevat een lijst met alle applicatie specifieke instellingen die men wilt toevoegen. De methode \emph{detailTextForGuidedAccessRestriction(withIdentifier restrictionIdentifier: String)} retourneert voor elke instelling een bijpassende naam. Deze naam is zichtbaar in het instellingen menu.
+
+In voorbeeld \ref{iosAppIdentifierGuidedReaction} wordt een methode gedefinieerd die ook overgeërfd is in de AppDelegate. Deze methode is: \emph{guidedAccessRestriction(withIdentifier restrictionIdentifier: String, didChange newRestrictionState: UIAccessibility.GuidedAccessRestrictionState)}. Met deze methode kan nagegaan worden of een applicatie specifieke instelling geactiveerd werd. Indien dit het geval is kan men dit verder behandelen in de applicatie.
+\newpage
+\lstinputlisting[language=java,label=iosAppIdentifierGuidedReaction, caption={Voorbeeld in Swift: AppDelegate met methode voor nagaan of applicatie specifieke instelling voor 'Begeleide toegang' werd geactiveerd.'},frame=single, breaklines,basicstyle=\scriptsize, firstline=28,lastline=44]{../code/iOS/GuidedAccess/GuidedAccess/AppDelegate.swift}
+%\lipsum[76-80]
+\section{Verschillen/gelijkenissen in functionaliteiten Android en iOS}
+Uit de bespreking van de toegankelijkheidsfunctionaliteiten in secties \ref{sec:ToegankelijkheidsfunctionaliteitenAndroid} en \ref{sec:ToegankelijkheidsfunctionaliteiteniOS} blijkt,  dat zowel Android als iOS een zeer uitgebreide set aan functionaliteiten bezit. Er kan niet duidelijk gesteld worden dat een besturingssysteem primeert, dit komt vooral door de gelijkenissen en verschillen tussen beide platformen. Wel kan er gesteld worden dat het aantal standaard meegeleverde functionaliteiten kleiner is in Android dan in iOS. In Android is dan weer de mogelijkheid om toegankelijkheidsfunctionaliteiten te downloaden en te ontwikkelen. In de bespreking van de functionaliteiten werden de meest relevante besproken. De virtuele assistenten 'Google Assistant' en 'Siri' werden buiten beschouwing gelaten.
+
+
+In tabel \ref{overzichtFunctionaliteitenBesproken} vindt u een overzicht met de besproken functionaliteiten. Ook wordt het verschil ten opzichte van functionaliteiten duidelijk gemaakt. Duidelijk zichtbaar is dat de meeste functionaliteiten beschikbaar zijn op beide besturingssystemen. Bij Android werden enkel de standaardfunctionaliteiten besproken. Sommige smartphones met Android kunnen nog extra standaard meegeleverde functionaliteiten bevatten. iOS heeft niet de mogelijkheid om extra functionaliteiten toe te voegen, maar het besturingssysteem bevat wel een brede basis. 
+
+Zowel Android als iOS laten ontwikkelaars toe om toegankelijkheidsfunctionaliteiten te faciliteren in hun applicaties. iOS geeft de ontwikkelaar veel inzicht in welke functionaliteiten ingeschakeld zijn. Wat minder vanzelfsprekend is in Android. Opvallend is dat het schaalbaar maken van tekst veel omslachtiger is in iOS dan in Android. 
+
+\begin{table}
+    \centering
+    \caption{Overzicht besproken functionaliteiten in Android en iOS per domein}
+    \label{overzichtFunctionaliteitenBesproken}
+    \begin{tabular}{|l|l|l|} 
+        \hline
+        \multicolumn{3}{|l|}{\textbf{Visueel} }                                                        \\ 
+        \hline
+        \textbf{Beschrijving}                                 & \textbf{Android}  & \textbf{iOS}       \\ 
+        \hline
+        Navigeren via audio feedback                          & TalkBack          & VoiceOver          \\ 
+        \hline
+        Schalen van lettertypes                               & Ja                & Ja                 \\ 
+        \hline
+        Schalen van weergave grootte~                         & Ja                & Nee                \\ 
+        \hline
+        Inzoomen op elementen                                 & Ja                & Ja                 \\ 
+        \hline
+        Filters voor kleurenblindheid                         & Ja                & Ja                 \\ 
+        \hline
+        Verhogen contrast~                                    & Ja                & Ja                 \\ 
+        \hline
+        Inverteren kleuren                                    & Ja                & Ja                 \\ 
+        \hline
+        Vette tekst                                           & Nee~              & Ja                 \\ 
+        \hline
+        \multicolumn{3}{|l|}{}                                                                         \\ 
+        \hline
+        \multicolumn{3}{|l|}{\textbf{Auditief}}                                                        \\ 
+        \hline
+        \textbf{Beschrijving}                                 & \textbf{Android~} & \textbf{iOS}       \\ 
+        \hline
+        Mono-geluid                                           & Ja                & Ja                 \\ 
+        \hline
+        (Aanpasbare) ondertiteling                            & Ja                & Ja                 \\ 
+        \hline
+        Geluidsversterker                                     & Ja                & Beperkt            \\ 
+        \hline
+        LED flash voor notificaties                           & Nee               & Ja                 \\ 
+        \hline
+        \multicolumn{3}{|l|}{}                                                                         \\ 
+        \hline
+        \multicolumn{3}{|l|}{\textbf{Motorisch}}                                                       \\ 
+        \hline
+        \textbf{Beschrijving}                                 & \textbf{Android}  & \textbf{iOS}       \\ 
+        \hline
+        Hardware knoppen voor besturen                        & Ja                & Ja                 \\ 
+        \hline
+        Scherm automatisch draaien                            & Ja                & Ja                 \\ 
+        \hline
+        Vertragingen bij aanraken                             & Ja                & Ja                 \\ 
+        \hline
+        Hardware activatie van functionaliteiten              & Ja                & Ja                 \\ 
+        \hline
+        Vervanging van hardware knoppen                       & Nee               & AssistiveTouch     \\ 
+        \hline
+        \multicolumn{3}{|l|}{}                                                                         \\ 
+        \hline
+        \multicolumn{3}{|l|}{\textbf{Cognitief}}                                                       \\ 
+        \hline
+        \textbf{Beschrijving}                                 & \textbf{Android}  & \textbf{iOS}       \\ 
+        \hline
+        Verwijderen van animaties                             & Ja                & Ja                 \\ 
+        \hline
+        Beperken van afleiding bij gebruik van een applicatie & Nee               & Begeleide toegang  \\
+        \hline
+    \end{tabular}
+\end{table}

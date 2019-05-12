@@ -1,0 +1,264 @@
+% Encoding: UTF-8
+@book{Knuth1998,
+ author = {Knuth, Donald E.},
+ title = {The art of computer programming,  volume 3: (2nd ed.) sorting and searching},
+ year = {1998},
+ publisher = {Addison Wesley Longman Publishing Co., Inc.},
+ address = {Redwood City, CA, USA}
+}
+
+@book{Pollefliet2011,
+  author = {Pollefliet, Leen},
+  title = {Schrijven van verslag tot eindwerk: do's en don'ts},
+  year = {2011},
+  publisher = {Academia Press},
+  address = {Gent}
+}
+
+@Online{vlaanderenVerplichting,
+  author       = {{Vlaamse overheid}},
+  title        = {Wettelijk kader webtoegankelijkheid},
+  year         = {2019},
+  url          = {https://overheid.vlaanderen.be/wettelijke-verplichtingen-webtoegankelijkheid},
+  organization = {Dienst Diversiteitsbeleid},
+  urldate      = {2019-02-16},
+}
+
+@Online{anySurferWat,
+  author  = {AnySurfer},
+  title   = {Toegankelijkheid, wat is dat?},
+  year    = {2019},
+  url     = {https://www.anysurfer.be/nl/over-toegankelijkheid/wat},
+  urldate = {2019-03-19},
+}
+
+@Online{introAccesibilityw3c,
+  author  = {W3C},
+  editor  = {Shawn Lawton Henry},
+  title   = {Introduction to Web Accessibility},
+  year    = {2019},
+  url     = {https://www.w3.org/WAI/fundamentals/accessibility-intro/},
+  urldate = {2019-03-21},
+}
+
+@Online{un2006,
+  author  = {{United Nations}},
+  title   = {Convention on the Rights of Persons with Disabilities (CRPD)},
+  year    = {2006},
+  url     = {https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-%20persons-with-disabilities.html},
+  urldate = {2019-03-18},
+}
+
+@Online{unia2006,
+  author  = {Unia},
+  title   = {Het Verdrag van de Verenigde Naties inzake de Rechten van Personen met een Handicap},
+  year    = {2006},
+  date    = {2006-12-13},
+  url     = {https://www.unia.be/nl/discriminatiegronden/handicap/het-verdrag-van-de-verenigde-naties-inzake-de-rechten-van-personen-met-een-handicap},
+  urldate = {2019-03-18},
+}
+
+@Misc{eaa2015,
+  author = {{European Commission}},
+  title  = {European Accessibility Act},
+  date   = {2015},
+  url    = {https://ec.europa.eu/social/BlobServlet?docId=14869&langId=en},
+}
+
+@Online{directive2016,
+  author  = {{European Parliament} and {Council of the European Union}},
+  title   = {Directive (EU) 2016/2102 of the European Parliament and of the Council of 26 October 2016 on the accessibility of the websites and mobile applications of public sector bodies (Text with EEA relevance )},
+  year    = {2016},
+  date    = {2016-10-26},
+  url     = {https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32016L2102},
+  urldate = {2019-02-22},
+}
+
+@Online{w3mobileConsider,
+  author  = {W3C},
+  editor  = {Kim Patch, Jeanne Spellman \& Kathy Wahlbin},
+  title   = {Mobile Accessibility: How WCAG 2.0 and Other W3C/WAI Guidelines Apply to Mobile},
+  year    = {2015},
+  date    = {2015-02-26},
+  url     = {http://www.w3.org/TR/mobile-accessibility-mapping/},
+  urldate = {2019-03-22},
+}
+
+@Online{w3cMobileGuidelines,
+  author  = {W3C},
+  title   = {Mobile Accessibility at W3C},
+  year    = {2019},
+  url     = {https://www.w3.org/WAI/standards-guidelines/mobile/},
+  urldate = {2019-03-21},
+}
+
+@Online{who2018,
+  author  = {{World Health Organization}},
+  title   = {Disability and health},
+  year    = {2018},
+  date    = {2018-01-16},
+  url     = {https://www.who.int/news-room/fact-sheets/detail/disability-and-health},
+  urldate = {2019-02-18},
+}
+
+@Article{diaz2014accessibility,
+  author    = {Diaz-Bossini, Jos{\'e}-Manuel and Moreno, Lourdes},
+  title     = {Accessibility to mobile interfaces for older people},
+  journal   = {Procedia Computer Science},
+  year      = {2014},
+  volume    = {27},
+  pages     = {57--66},
+  publisher = {Elsevier},
+}
+
+@Misc{inclusiveMicrosoft,
+  author = {{Microsoft}},
+  title  = {Inclusive design toolkit},
+  year   = {2016},
+  url    = {https://download.microsoft.com/download/b/0/d/b0d4bf87-09ce-4417-8f28-d60703d672ed/inclusive_toolkit_manual_final.pdf},
+}
+
+@Online{whoDis2019,
+  author  = {{World Health Organization}},
+  title   = {Disabilities},
+  year    = {2019},
+  url     = {https://www.who.int/topics/disabilities/en/},
+  urldate = {2019-03-28},
+}
+
+@Online{visioKleur2019,
+  author  = {Visio},
+  title   = {Kleurenblindheid},
+  year    = {2019},
+  url     = {https://www.visio.org/nl-nl/slechtziend-of-blind/oogziekten/kleurenblindheid},
+  urldate = {2019-03-28},
+}
+
+@Online{LiLi2019Blind,
+  author  = {{Blindenzorg Licht en Liefde}},
+  title   = {Blind of slechtziend: een visuele handicap},
+  year    = {2014},
+  url     = {https://www.blindenzorglichtenliefde.be/nl/meerweten/index/2325},
+  urldate = {2019-03-29},
+}
+
+@Online{whoDAHL2019,
+  author  = {{World Health Organization}},
+  title   = {Deafness and hearing loss},
+  year    = {2019},
+  date    = {2019-03-20},
+  url     = {https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss},
+  urldate = {2019-03-29},
+}
+
+@Online{achieveAU2019,
+  author  = {{Achieve Australia}},
+  title   = {What is a physical disability?},
+  year    = {2019},
+  date    = {2019-01-10},
+  url     = {https://achieveaustralia.org.au/disability-services/physical-disability/},
+  urldate = {2019-03-29},
+}
+
+@Online{accessibility2019,
+  author  = {Accessibility},
+  title   = {Verschillende beperkingen},
+  year    = {2019},
+  url     = {https://www.accessibility.nl/over-toegankelijkheid/handicaps/},
+  urldate = {2019-03-28},
+}
+
+@Book{patel2016mental,
+  author    = {Patel, Vikram and Chisholm, Dan and Dua, Tarun and Laxminarayan, Ramanan and Medina-Mora, Mar{\'\i}a Elena},
+  title     = {Mental, Neurological, and Substance Use Disorders: Disease Control Priorities, (Volume 4)},
+  year      = {2016},
+  publisher = {The International Bank for Reconstruction and Development/The World Bank},
+  url       = {https://www.ncbi.nlm.nih.gov/books/NBK361945/pdf/Bookshelf_NBK361945.pdf},
+}
+
+@Online{statMobile2019,
+  author  = {StatCounter GlobalStats},
+  title   = {Mobile Operating System Market Share Worldwide},
+  year    = {2019},
+  date    = {2019-03-31},
+  url     = {http://gs.statcounter.com/os-market-share/mobile/worldwide/#monthly-201802-201902},
+  urldate = {2019-03-25},
+}
+
+@Online{webAIMSurvey,
+  author  = {WebAIM},
+  title   = {Screen Reader User Survey \#7 Results},
+  year    = {2017},
+  date    = {2017-12-27},
+  url     = {https://webaim.org/projects/screenreadersurvey7/},
+  urldate = {2019-03-28},
+}
+
+@Online{AndroidReleases,
+  author  = {{Android Developers}},
+  title   = {Releases},
+  year    = {2019},
+  url     = {https://developer.android.com/about/versions/},
+  urldate = {2019-03-30},
+}
+
+@Online{appleReleaseNotes,
+  author    = {{Apple Support}},
+  title     = {Release notes iOS},
+  date      = {2019-04-03},
+  url       = {https://support.apple.com/accessibility},
+  urldate   = {2019-03-31},
+  keywords  = {iOS 4.0, iOS 5.0, iOS 6.0, iOS 7.0, iOS 8.0, iOS 9.0, iOS 10.0, iOS 11.0, iOS 12.0},
+  timestamp = {2019-04-03},
+}
+
+@Misc{digitalApartheid,
+  author = {Hampus Sethfors},
+  title  = {Apple’s new feature a step towards digital apartheid},
+  year   = {2019},
+  date   = {2019-03-28},
+  url    = {https://axesslab.com/digital-apartheid/},
+}
+
+@Misc{shokuhi2017study,
+  author = {Shokuhi Targhi, Samaneh},
+  title  = {A Study of Mobile Accessibility for users of IOS VoiceOver},
+  year   = {2017},
+}
+
+@Article{serra2015accessibility,
+  author    = {Serra, Leandro Coelho and Carvalho, Lucas Pedroso and Ferreira, Lucas Pereira and Vaz, Jorge Belimar Silva and Freire, Andr{\'e} Pimenta},
+  title     = {Accessibility evaluation of e-government mobile applications in Brazil},
+  journal   = {Procedia Computer Science},
+  year      = {2015},
+  volume    = {67},
+  pages     = {348--357},
+  publisher = {Elsevier},
+}
+
+@Misc{switchAndroid,
+  author  = {{Android Accessibility Help}},
+  title   = {Over 'Toegang via schakelaar' voor Android},
+  year    = {2019},
+  url     = {https://support.google.com/accessibility/android/answer/6122836?hl=nl},
+  urldate = {2019-04-27},
+}
+
+@Misc{w3cTechnologyNeutral,
+  author  = {W3C},
+  title   = {W3C Issues Improved Accessibility Guidance for Websites and Applications},
+  date    = {2018-06-05},
+  url     = {https://www.w3.org/2018/06/pressrelease-wcag21.html.en},
+  urldate = {2019-05-12},
+}
+
+@Misc{W,
+  author  = {W3C},
+  title   = {Web Content Accessibility Guidelines (WCAG) 2.1},
+  year    = {2018},
+  date    = {2018-06-05},
+  url     = {https://www.w3.org/TR/WCAG21/},
+  urldate = {2019-05-12},
+}
+
+@Comment{jabref-meta: databaseType:biblatex;}

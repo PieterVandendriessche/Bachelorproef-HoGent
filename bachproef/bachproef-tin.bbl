@@ -86,6 +86,38 @@
       \verb https://achieveaustralia.org.au/disability-services/physical-disability/
       \endverb
     \endentry
+    \entry{switchAndroid}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=ad169516200dd8634f05a8be899ad283}{%
+           family={{Android Accessibility Help}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{ad169516200dd8634f05a8be899ad283}
+      \strng{fullhash}{ad169516200dd8634f05a8be899ad283}
+      \strng{bibnamehash}{ad169516200dd8634f05a8be899ad283}
+      \strng{authorbibnamehash}{ad169516200dd8634f05a8be899ad283}
+      \strng{authornamehash}{ad169516200dd8634f05a8be899ad283}
+      \strng{authorfullhash}{ad169516200dd8634f05a8be899ad283}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Over 'Toegang via schakelaar' voor Android}
+      \field{urlday}{27}
+      \field{urlmonth}{4}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://support.google.com/accessibility/android/answer/6122836?hl=nl
+      \endverb
+      \verb{url}
+      \verb https://support.google.com/accessibility/android/answer/6122836?hl=nl
+      \endverb
+    \endentry
     \entry{AndroidReleases}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=af05011ef932571b63118654e584db53}{%
@@ -106,7 +138,11 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Releases}
+      \field{urlday}{30}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
       \field{year}{2019}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://developer.android.com/about/versions/
       \endverb
@@ -145,6 +181,42 @@
       \verb{url}
       \verb https://www.anysurfer.be/nl/over-toegankelijkheid/wat
       \endverb
+    \endentry
+    \entry{appleReleaseNotes}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=3dddb8784f45c4c9aa76b9fdfe4ef95e}{%
+           family={{Apple Support}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{3dddb8784f45c4c9aa76b9fdfe4ef95e}
+      \strng{fullhash}{3dddb8784f45c4c9aa76b9fdfe4ef95e}
+      \strng{bibnamehash}{3dddb8784f45c4c9aa76b9fdfe4ef95e}
+      \strng{authorbibnamehash}{3dddb8784f45c4c9aa76b9fdfe4ef95e}
+      \strng{authornamehash}{3dddb8784f45c4c9aa76b9fdfe4ef95e}
+      \strng{authorfullhash}{3dddb8784f45c4c9aa76b9fdfe4ef95e}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{3}
+      \field{month}{4}
+      \field{title}{Release notes iOS}
+      \field{urlday}{31}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://support.apple.com/accessibility
+      \endverb
+      \verb{url}
+      \verb https://support.apple.com/accessibility
+      \endverb
+      \keyw{iOS 4.0,iOS 5.0,iOS 6.0,iOS 7.0,iOS 8.0,iOS 9.0,iOS 10.0,iOS 11.0,iOS 12.0}
     \endentry
     \entry{Knacktoegankelijkheid2018}{online}{}
       \name{author}{1}{}{%
@@ -208,36 +280,6 @@
       \verb{url}
       \verb https://www.blindenzorglichtenliefde.be/nl/meerweten/index/2325
       \endverb
-    \endentry
-    \entry{Creeger2009}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=e888aba3556efbb8063540e3e2ae69b4}{%
-           family={Creeger},
-           familyi={C\bibinitperiod},
-           given={Mache},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{e888aba3556efbb8063540e3e2ae69b4}
-      \strng{fullhash}{e888aba3556efbb8063540e3e2ae69b4}
-      \strng{bibnamehash}{e888aba3556efbb8063540e3e2ae69b4}
-      \strng{authorbibnamehash}{e888aba3556efbb8063540e3e2ae69b4}
-      \strng{authornamehash}{e888aba3556efbb8063540e3e2ae69b4}
-      \strng{authorfullhash}{e888aba3556efbb8063540e3e2ae69b4}
-      \field{sortinit}{C}
-      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Communications of the ACM}
-      \field{number}{8}
-      \field{title}{{CTO Roundtable: Cloud Computing}}
-      \field{volume}{52}
-      \field{year}{2009}
-      \field{pages}{50\bibrangedash 56}
-      \range{pages}{7}
     \endentry
     \entry{10.1007/978-3-319-07638-6_14}{inproceedings}{}
       \name{author}{1}{}{%
@@ -415,76 +457,18 @@
       \field{day}{31}
       \field{month}{3}
       \field{title}{Mobile Operating System Market Share Worldwide}
+      \field{urlday}{25}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
       \field{year}{2019}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb http://gs.statcounter.com/os-market-share/mobile/worldwide/#monthly-201802-201902
       \endverb
       \verb{url}
       \verb http://gs.statcounter.com/os-market-share/mobile/worldwide/#monthly-201802-201902
       \endverb
-    \endentry
-    \entry{android1.6Blog}{misc}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=8b36e9207c24c76e6719268e49201d94}{%
-           family={Google},
-           familyi={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{8b36e9207c24c76e6719268e49201d94}
-      \strng{fullhash}{8b36e9207c24c76e6719268e49201d94}
-      \strng{bibnamehash}{8b36e9207c24c76e6719268e49201d94}
-      \strng{authorbibnamehash}{8b36e9207c24c76e6719268e49201d94}
-      \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
-      \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
-      \field{sortinit}{G}
-      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{day}{20}
-      \field{month}{10}
-      \field{title}{More accessibility features in Android 1.6}
-      \field{year}{2009}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://googleblog.blogspot.com/2009/10/more-accessibility-features-in-android.html
-      \endverb
-      \verb{url}
-      \verb https://googleblog.blogspot.com/2009/10/more-accessibility-features-in-android.html
-      \endverb
-    \endentry
-    \entry{Knuth1998}{book}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=fcbea740aeb72b8e941e0d4aa9f6a9c6}{%
-           family={Knuth},
-           familyi={K\bibinitperiod},
-           given={Donald\bibnamedelima E.},
-           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Redwood City, CA, USA}%
-      }
-      \list{publisher}{1}{%
-        {Addison Wesley Longman Publishing Co., Inc.}%
-      }
-      \strng{namehash}{fcbea740aeb72b8e941e0d4aa9f6a9c6}
-      \strng{fullhash}{fcbea740aeb72b8e941e0d4aa9f6a9c6}
-      \strng{bibnamehash}{fcbea740aeb72b8e941e0d4aa9f6a9c6}
-      \strng{authorbibnamehash}{fcbea740aeb72b8e941e0d4aa9f6a9c6}
-      \strng{authornamehash}{fcbea740aeb72b8e941e0d4aa9f6a9c6}
-      \strng{authorfullhash}{fcbea740aeb72b8e941e0d4aa9f6a9c6}
-      \field{sortinit}{K}
-      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{The art of computer programming, volume 3: (2nd ed.) sorting and searching}
-      \field{year}{1998}
     \endentry
     \entry{leporini2012interacting}{inproceedings}{}
       \name{author}{3}{}{%
@@ -662,36 +646,120 @@
       \verb https://www.ncbi.nlm.nih.gov/books/NBK361945/pdf/Bookshelf_NBK361945.pdf
       \endverb
     \endentry
-    \entry{Pollefliet2011}{book}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=7ca343ebcc6de1727ac22a1a847c21e5}{%
-           family={Pollefliet},
-           familyi={P\bibinitperiod},
-           given={Leen},
-           giveni={L\bibinitperiod},
+    \entry{serra2015accessibility}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,uniquepart=base,hash=71f8fbf3683ef4cba196e712dc62d27a}{%
+           family={Serra},
+           familyi={S\bibinitperiod},
+           given={Leandro\bibnamedelima Coelho},
+           giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=044ea1d486422e26855989ac45c5d650}{%
+           family={Carvalho},
+           familyi={C\bibinitperiod},
+           given={Lucas\bibnamedelima Pedroso},
+           giveni={L\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f7afed13e561c263dd0a22a5bfb849f5}{%
+           family={Ferreira},
+           familyi={F\bibinitperiod},
+           given={Lucas\bibnamedelima Pereira},
+           giveni={L\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=441872eb8edaa9d1d3e821cc7bd5bdff}{%
+           family={Vaz},
+           familyi={V\bibinitperiod},
+           given={Jorge\bibnamedelimb Belimar\bibnamedelima Silva},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b0f489bcd062647f7869c0c70d8cfadf}{%
+           family={Freire},
+           familyi={F\bibinitperiod},
+           given={Andr{é}\bibnamedelima Pimenta},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
            givenun=0}}%
       }
-      \list{location}{1}{%
-        {Gent}%
-      }
       \list{publisher}{1}{%
-        {Academia Press}%
+        {Elsevier}%
       }
-      \strng{namehash}{7ca343ebcc6de1727ac22a1a847c21e5}
-      \strng{fullhash}{7ca343ebcc6de1727ac22a1a847c21e5}
-      \strng{bibnamehash}{7ca343ebcc6de1727ac22a1a847c21e5}
-      \strng{authorbibnamehash}{7ca343ebcc6de1727ac22a1a847c21e5}
-      \strng{authornamehash}{7ca343ebcc6de1727ac22a1a847c21e5}
-      \strng{authorfullhash}{7ca343ebcc6de1727ac22a1a847c21e5}
-      \field{sortinit}{P}
-      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \strng{namehash}{b74ab36ca574e03363dda77ee21ad23c}
+      \strng{fullhash}{ed600ad7d3b20f2dbd1f71df74a94d5b}
+      \strng{bibnamehash}{ed600ad7d3b20f2dbd1f71df74a94d5b}
+      \strng{authorbibnamehash}{ed600ad7d3b20f2dbd1f71df74a94d5b}
+      \strng{authornamehash}{b74ab36ca574e03363dda77ee21ad23c}
+      \strng{authorfullhash}{ed600ad7d3b20f2dbd1f71df74a94d5b}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Schrijven van verslag tot eindwerk: do's en don'ts}
-      \field{year}{2011}
+      \field{journaltitle}{Procedia Computer Science}
+      \field{title}{Accessibility evaluation of e-government mobile applications in Brazil}
+      \field{volume}{67}
+      \field{year}{2015}
+      \field{pages}{348\bibrangedash 357}
+      \range{pages}{10}
+    \endentry
+    \entry{digitalApartheid}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=f5419e587c5f01990f70790a2b0d812a}{%
+           family={Sethfors},
+           familyi={S\bibinitperiod},
+           given={Hampus},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f5419e587c5f01990f70790a2b0d812a}
+      \strng{fullhash}{f5419e587c5f01990f70790a2b0d812a}
+      \strng{bibnamehash}{f5419e587c5f01990f70790a2b0d812a}
+      \strng{authorbibnamehash}{f5419e587c5f01990f70790a2b0d812a}
+      \strng{authornamehash}{f5419e587c5f01990f70790a2b0d812a}
+      \strng{authorfullhash}{f5419e587c5f01990f70790a2b0d812a}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{28}
+      \field{month}{3}
+      \field{title}{Apple’s new feature a step towards digital apartheid}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://axesslab.com/digital-apartheid/
+      \endverb
+      \verb{url}
+      \verb https://axesslab.com/digital-apartheid/
+      \endverb
+    \endentry
+    \entry{shokuhi2017study}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=68207a7f87e1532138e0729a790cdaa1}{%
+           family={Shokuhi\bibnamedelima Targhi},
+           familyi={S\bibinitperiod\bibinitdelim T\bibinitperiod},
+           given={Samaneh},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{68207a7f87e1532138e0729a790cdaa1}
+      \strng{fullhash}{68207a7f87e1532138e0729a790cdaa1}
+      \strng{bibnamehash}{68207a7f87e1532138e0729a790cdaa1}
+      \strng{authorbibnamehash}{68207a7f87e1532138e0729a790cdaa1}
+      \strng{authornamehash}{68207a7f87e1532138e0729a790cdaa1}
+      \strng{authorfullhash}{68207a7f87e1532138e0729a790cdaa1}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Study of Mobile Accessibility for users of IOS VoiceOver}
+      \field{year}{2017}
     \endentry
     \entry{unia2006}{online}{}
       \name{author}{1}{}{%
@@ -715,8 +783,12 @@
       \field{day}{13}
       \field{month}{12}
       \field{title}{Het Verdrag van de Verenigde Naties inzake de Rechten van Personen met een Handicap}
+      \field{urlday}{18}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
       \field{year}{2006}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.unia.be/nl/discriminatiegronden/handicap/het-verdrag-van-de-verenigde-naties-inzake-de-rechten-van-personen-met-een-handicap
       \endverb
@@ -744,7 +816,11 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Convention on the Rights of Persons with Disabilities (CRPD)}
+      \field{urlday}{18}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
       \field{year}{2006}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-%20persons-with-disabilities.html
       \endverb
@@ -863,6 +939,76 @@
       \verb http://www.w3.org/TR/mobile-accessibility-mapping/
       \endverb
     \endentry
+    \entry{w3cTechnologyNeutral}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=446a1ae6601a5c59360c7d591c3992da}{%
+           family={W3C},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{446a1ae6601a5c59360c7d591c3992da}
+      \strng{fullhash}{446a1ae6601a5c59360c7d591c3992da}
+      \strng{bibnamehash}{446a1ae6601a5c59360c7d591c3992da}
+      \strng{authorbibnamehash}{446a1ae6601a5c59360c7d591c3992da}
+      \strng{authornamehash}{446a1ae6601a5c59360c7d591c3992da}
+      \strng{authorfullhash}{446a1ae6601a5c59360c7d591c3992da}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{5}
+      \field{month}{6}
+      \field{title}{W3C Issues Improved Accessibility Guidance for Websites and Applications}
+      \field{urlday}{12}
+      \field{urlmonth}{5}
+      \field{urlyear}{2019}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.w3.org/2018/06/pressrelease-wcag21.html.en
+      \endverb
+      \verb{url}
+      \verb https://www.w3.org/2018/06/pressrelease-wcag21.html.en
+      \endverb
+    \endentry
+    \entry{WCAG2.1Criteria}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=446a1ae6601a5c59360c7d591c3992da}{%
+           family={W3C},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{446a1ae6601a5c59360c7d591c3992da}
+      \strng{fullhash}{446a1ae6601a5c59360c7d591c3992da}
+      \strng{bibnamehash}{446a1ae6601a5c59360c7d591c3992da}
+      \strng{authorbibnamehash}{446a1ae6601a5c59360c7d591c3992da}
+      \strng{authornamehash}{446a1ae6601a5c59360c7d591c3992da}
+      \strng{authorfullhash}{446a1ae6601a5c59360c7d591c3992da}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{5}
+      \field{month}{6}
+      \field{title}{Web Content Accessibility Guidelines (WCAG) 2.1}
+      \field{urlday}{12}
+      \field{urlmonth}{5}
+      \field{urlyear}{2019}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.w3.org/TR/WCAG21/
+      \endverb
+      \verb{url}
+      \verb https://www.w3.org/TR/WCAG21/
+      \endverb
+    \endentry
     \entry{introAccesibilityw3c}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=446a1ae6601a5c59360c7d591c3992da}{%
@@ -959,8 +1105,12 @@
       \field{day}{27}
       \field{month}{12}
       \field{title}{Screen Reader User Survey \#7 Results}
+      \field{urlday}{28}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
       \field{year}{2017}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://webaim.org/projects/screenreadersurvey7/
       \endverb

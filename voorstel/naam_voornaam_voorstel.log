@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.27)  9 DEC 2018 22:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.27)  23 FEB 2019 16:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -970,6 +970,22 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
+! Undefined control sequence.
+<recently read> \@CoPromotor 
+                             
+l.67 \tableofcontents
+                      % Print the contents section
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+
+ []
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 67.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
@@ -984,7 +1000,6 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 67.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 67.
-
 (./naam_voornaam_voorstel.toc)
 \tf@toc=\write6
 \openout6 = `naam_voornaam_voorstel.toc'.
@@ -1081,11 +1096,11 @@ Package logreq Info: Writing requests to 'naam_voornaam_voorstel.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18869 strings out of 492649
- 312171 string characters out of 6129621
- 871720 words of memory out of 5000000
- 22295 multiletter control sequences out of 15000+600000
- 59587 words of font info for 216 fonts, out of 8000000 for 9000
+ 18864 strings out of 492649
+ 312108 string characters out of 6129621
+ 871687 words of memory out of 5000000
+ 22293 multiletter control sequences out of 15000+600000
+ 57777 words of font info for 213 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  50i,15n,62p,879b,3825s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
@@ -1094,10 +1109,10 @@ xlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2
 018/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2018/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fo
 nts/type1/urw/times/utmri8a.pfb>
-Output written on naam_voornaam_voorstel.pdf (2 pages, 623370 bytes).
+Output written on naam_voornaam_voorstel.pdf (2 pages, 622725 bytes).
 PDF statistics:
  97 PDF objects out of 1000 (max. 8388607)
  80 compressed objects within 1 object stream
  14 named destinations out of 1000 (max. 500000)
- 49206 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 48694 words of extra memory for PDF output out of 51595 (max. 10000000)
 

@@ -1,16 +1,16 @@
-\ifglsentryexists{utc}{}%
+\ifglsentryexists{API}{}%
 {%
-\gls@defglossaryentry{utc}%
+\gls@defglossaryentry{API}%
 {%
-name={utc},%
-sort={utc},%
+name={API},%
+sort={API},%
 type={main},%
-first={utc},%
-firstplural={utcs},%
-text={utc},%
-plural={utcs},%
-description={Coordinated Universal Time},%
-descriptionplural={Coordinated Universal Time},%
+first={API},%
+firstplural={APIs},%
+text={API},%
+plural={APIs},%
+description={Application programming interface},%
+descriptionplural={Application programming interface},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -28,19 +28,19 @@ parent={},%
 %
 }%
 }%
-\ifglsentryexists{adt}{}%
+\ifglsentryexists{Text-to-speech}{}%
 {%
-\gls@defglossaryentry{adt}%
+\gls@defglossaryentry{Text-to-speech}%
 {%
-name={adt},%
-sort={adt},%
+name={Text-to-speech},%
+sort={Text-to-speech},%
 type={main},%
-first={adt},%
-firstplural={adts},%
-text={adt},%
-plural={adts},%
-description={Atlantic Daylight Time},%
-descriptionplural={Atlantic Daylight Time},%
+first={Text-to-speech},%
+firstplural={Text-to-speechs},%
+text={Text-to-speech},%
+plural={Text-to-speechs},%
+description={Produceren van gesproken taal uit tekst},%
+descriptionplural={Produceren van gesproken taal uit tekst},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -58,19 +58,19 @@ parent={},%
 %
 }%
 }%
-\ifglsentryexists{est}{}%
+\ifglsentryexists{talkback}{}%
 {%
-\gls@defglossaryentry{est}%
+\gls@defglossaryentry{talkback}%
 {%
-name={est},%
-sort={est},%
+name={Talkback},%
+sort={Talkback},%
 type={main},%
-first={est},%
-firstplural={ests},%
-text={est},%
-plural={ests},%
-description={Eastern Standard Time},%
-descriptionplural={Eastern Standard Time},%
+first={Talkback},%
+firstplural={Talkbacks},%
+text={Talkback},%
+plural={Talkbacks},%
+description={Talkback geeft feedback wat er op een Android toestel gebeurt, zo kan men het toestel besturen zonder te kijken.},%
+descriptionplural={Talkback geeft feedback wat er op een Android toestel gebeurt, zo kan men het toestel besturen zonder te kijken.},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -88,19 +88,19 @@ parent={},%
 %
 }%
 }%
-\ifglsentryexists{lfs}{}%
+\ifglsentryexists{zoom}{}%
 {%
-\gls@defglossaryentry{lfs}%
+\gls@defglossaryentry{zoom}%
 {%
-name={LFS},%
-sort={LFS},%
-type={acronym},%
-first={Labour Force Survey\glsspace (LFS)},%
-firstplural={Labour Force Surveys\glsspace (LFSs)},%
-text={LFS},%
-plural={LFSs},%
-description={Labour Force Survey},%
-descriptionplural={Labour Force Survey\acrpluralsuffix },%
+name={Zoom},%
+sort={Zoom},%
+type={main},%
+first={Zoom},%
+firstplural={Zooms},%
+text={Zoom},%
+plural={Zooms},%
+description={Met Zoom kan het scherm op een iOS apparaat vergroot worden},%
+descriptionplural={Met Zoom kan het scherm op een iOS apparaat vergroot worden},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -109,10 +109,130 @@ user3={},%
 user4={},%
 user5={},%
 user6={},%
-long={Labour Force Survey},%
-longplural={Labour Force Surveys},%
-short={LFS},%
-shortplural={LFSs},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Begeleide toegang}{}%
+{%
+\gls@defglossaryentry{Begeleide toegang}%
+{%
+name={Begeleide toegang},%
+sort={Begeleide toegang},%
+type={main},%
+first={Begeleide toegang},%
+firstplural={Begeleide toegangs},%
+text={Begeleide toegang},%
+plural={Begeleide toegangs},%
+description={Met begeleide toegang kan op een iOS apparaat bepaalde functies uitgeschakeld worden},%
+descriptionplural={Met begeleide toegang kan op een iOS apparaat bepaalde functies uitgeschakeld worden},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Switch_Control}{}%
+{%
+\gls@defglossaryentry{Switch_Control}%
+{%
+name={Switch Control},%
+sort={Switch Control},%
+type={main},%
+first={Switch Control},%
+firstplural={Switch Controls},%
+text={Switch Control},%
+plural={Switch Controls},%
+description={Met Switch Control kan op een iOS apparaat bedienen met schakelaar. Dit kan extern zijn, op het scherm, of met de camera van het apparaat},%
+descriptionplural={Met Switch Control kan op een iOS apparaat bedienen met schakelaar. Dit kan extern zijn, op het scherm, of met de camera van het apparaat},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Aangepaste_aanraking}{}%
+{%
+\gls@defglossaryentry{Aangepaste_aanraking}%
+{%
+name={Aangepaste aanraking},%
+sort={Aangepaste aanraking},%
+type={main},%
+first={Aangepaste aanraking},%
+firstplural={Aangepaste aanrakings},%
+text={Aangepaste aanraking},%
+plural={Aangepaste aanrakings},%
+description={Met aangepaste aanrakingen kan op een iOS apparaat de reactie op aanrakingen aangepast worden (vertraagde reactie, ...)},%
+descriptionplural={Met aangepaste aanrakingen kan op een iOS apparaat de reactie op aanrakingen aangepast worden (vertraagde reactie, ...)},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{VoiceOver}{}%
+{%
+\gls@defglossaryentry{VoiceOver}%
+{%
+name={VoiceOver},%
+sort={VoiceOver},%
+type={main},%
+first={VoiceOver},%
+firstplural={VoiceOvers},%
+text={VoiceOver},%
+plural={VoiceOvers},%
+description={Met VoiceOver kan je een iOS apparaat besturen op basis van gesproken feedback en gebaren, het wordt ookwel screen reader genoemd},%
+descriptionplural={Met VoiceOver kan je een iOS apparaat besturen op basis van gesproken feedback en gebaren, het wordt ookwel screen reader genoemd},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
 counter={page},%
 parent={},%
 %

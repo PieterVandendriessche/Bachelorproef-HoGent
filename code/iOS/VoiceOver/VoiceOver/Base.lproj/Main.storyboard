@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="VoiceOver" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dog" translatesAutoresizingMaskIntoConstraints="NO" id="K1O-4w-dYq">
+                                <rect key="frame" x="91.5" y="54" width="231" height="322"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="231" id="Cyl-GB-Z8p"/>
+                                    <constraint firstAttribute="height" constant="322" id="lQ4-Qq-TTz"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="niF-3i-jXe">
+                                <rect key="frame" x="91" y="384" width="30" height="30"/>
+                                <state key="normal" title="Like"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GaD-UQ-U4V">
+                                <rect key="frame" x="277" y="384" width="50" height="33"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <state key="normal" title="Dislike">
+                                    <color key="titleColor" red="0.75294117650000003" green="0.22352941179999999" blue="0.16862745100000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="mCR-44-znm">
+                                <rect key="frame" x="20" y="422" width="170" height="20.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Totale likes:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dq4-4D-fF3">
+                                        <rect key="frame" x="0.0" y="0.0" width="85" height="20.5"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleCallout"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YsI-cw-Mml">
+                                        <rect key="frame" x="85" y="0.0" width="85" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="mCR-44-znm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="6Fz-7g-gr3"/>
+                            <constraint firstItem="niF-3i-jXe" firstAttribute="top" secondItem="K1O-4w-dYq" secondAttribute="bottom" constant="8" id="8CX-uX-0Pu"/>
+                            <constraint firstItem="K1O-4w-dYq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Cfr-wM-ptB"/>
+                            <constraint firstItem="niF-3i-jXe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="91" id="DG1-17-jQI"/>
+                            <constraint firstItem="mCR-44-znm" firstAttribute="top" secondItem="niF-3i-jXe" secondAttribute="bottom" constant="8" id="LzF-Mp-w5Q"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GaD-UQ-U4V" secondAttribute="trailing" constant="87" id="h3k-l1-09x"/>
+                            <constraint firstItem="GaD-UQ-U4V" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="niF-3i-jXe" secondAttribute="trailing" constant="8" symbolic="YES" id="hgm-6M-AiN"/>
+                            <constraint firstItem="GaD-UQ-U4V" firstAttribute="top" secondItem="K1O-4w-dYq" secondAttribute="bottom" constant="8" id="rGM-G1-TFe"/>
+                            <constraint firstItem="K1O-4w-dYq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="wcr-KA-1Ck"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="likeButton" destination="niF-3i-jXe" id="xIM-E0-2GT"/>
+                        <outlet property="likesStackView" destination="mCR-44-znm" id="ZOG-Mf-UiJ"/>
+                        <outlet property="petPicture" destination="K1O-4w-dYq" id="Hrh-Zb-jEW"/>
+                        <outlet property="totalLikes" destination="Dq4-4D-fF3" id="3Sm-zM-fcR"/>
+                        <outlet property="totalLikesAmount" destination="YsI-cw-Mml" id="lDR-0j-APL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="133.92857142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="dog" width="2776" height="3866"/>
+    </resources>
+</document>

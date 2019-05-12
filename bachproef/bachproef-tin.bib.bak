@@ -15,16 +15,6 @@
   address = {Gent}
 }
 
-@article{Creeger2009,
-  author = {Creeger, Mache},
-  journal = {Communications of the ACM},
-  number = {8},
-  pages = {50--56},
-  title = {{CTO Roundtable: Cloud Computing}},
-  volume = {52},
-  year = {2009}
-}
-
 @Online{vlaanderenVerplichting,
   author       = {{Vlaamse overheid}},
   title        = {Wettelijk kader webtoegankelijkheid},
@@ -52,18 +42,20 @@
 }
 
 @Online{un2006,
-  author = {{United Nations}},
-  title  = {Convention on the Rights of Persons with Disabilities (CRPD)},
-  year   = {2006},
-  url    = {https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-%20persons-with-disabilities.html},
+  author  = {{United Nations}},
+  title   = {Convention on the Rights of Persons with Disabilities (CRPD)},
+  year    = {2006},
+  url     = {https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-%20persons-with-disabilities.html},
+  urldate = {2019-03-18},
 }
 
 @Online{unia2006,
-  author = {Unia},
-  title  = {Het Verdrag van de Verenigde Naties inzake de Rechten van Personen met een Handicap},
-  year   = {2006},
-  date   = {2006-12-13},
-  url    = {https://www.unia.be/nl/discriminatiegronden/handicap/het-verdrag-van-de-verenigde-naties-inzake-de-rechten-van-personen-met-een-handicap},
+  author  = {Unia},
+  title   = {Het Verdrag van de Verenigde Naties inzake de Rechten van Personen met een Handicap},
+  year    = {2006},
+  date    = {2006-12-13},
+  url     = {https://www.unia.be/nl/discriminatiegronden/handicap/het-verdrag-van-de-verenigde-naties-inzake-de-rechten-van-personen-met-een-handicap},
+  urldate = {2019-03-18},
 }
 
 @Misc{eaa2015,
@@ -185,34 +177,88 @@
 }
 
 @Online{statMobile2019,
-  author = {StatCounter GlobalStats},
-  title  = {Mobile Operating System Market Share Worldwide},
-  year   = {2019},
-  date   = {2019-03-31},
-  url    = {http://gs.statcounter.com/os-market-share/mobile/worldwide/#monthly-201802-201902},
+  author  = {StatCounter GlobalStats},
+  title   = {Mobile Operating System Market Share Worldwide},
+  year    = {2019},
+  date    = {2019-03-31},
+  url     = {http://gs.statcounter.com/os-market-share/mobile/worldwide/#monthly-201802-201902},
+  urldate = {2019-03-25},
 }
 
 @Online{webAIMSurvey,
-  author = {WebAIM},
-  title  = {Screen Reader User Survey \#7 Results},
-  year   = {2017},
-  date   = {2017-12-27},
-  url    = {https://webaim.org/projects/screenreadersurvey7/},
-}
-
-@Misc{android1.6Blog,
-  author = {Google},
-  title  = {More accessibility features in Android 1.6},
-  year   = {2009},
-  date   = {2009-10-20},
-  url    = {https://googleblog.blogspot.com/2009/10/more-accessibility-features-in-android.html},
+  author  = {WebAIM},
+  title   = {Screen Reader User Survey \#7 Results},
+  year    = {2017},
+  date    = {2017-12-27},
+  url     = {https://webaim.org/projects/screenreadersurvey7/},
+  urldate = {2019-03-28},
 }
 
 @Online{AndroidReleases,
-  author = {{Android Developers}},
-  title  = {Releases},
+  author  = {{Android Developers}},
+  title   = {Releases},
+  year    = {2019},
+  url     = {https://developer.android.com/about/versions/},
+  urldate = {2019-03-30},
+}
+
+@Online{appleReleaseNotes,
+  author    = {{Apple Support}},
+  title     = {Release notes iOS},
+  date      = {2019-04-03},
+  url       = {https://support.apple.com/accessibility},
+  urldate   = {2019-03-31},
+  keywords  = {iOS 4.0, iOS 5.0, iOS 6.0, iOS 7.0, iOS 8.0, iOS 9.0, iOS 10.0, iOS 11.0, iOS 12.0},
+  timestamp = {2019-04-03},
+}
+
+@Misc{digitalApartheid,
+  author = {Hampus Sethfors},
+  title  = {Apple’s new feature a step towards digital apartheid},
   year   = {2019},
-  url    = {https://developer.android.com/about/versions/},
+  date   = {2019-03-28},
+  url    = {https://axesslab.com/digital-apartheid/},
+}
+
+@Misc{shokuhi2017study,
+  author = {Shokuhi Targhi, Samaneh},
+  title  = {A Study of Mobile Accessibility for users of IOS VoiceOver},
+  year   = {2017},
+}
+
+@Article{serra2015accessibility,
+  author    = {Serra, Leandro Coelho and Carvalho, Lucas Pedroso and Ferreira, Lucas Pereira and Vaz, Jorge Belimar Silva and Freire, Andr{\'e} Pimenta},
+  title     = {Accessibility evaluation of e-government mobile applications in Brazil},
+  journal   = {Procedia Computer Science},
+  year      = {2015},
+  volume    = {67},
+  pages     = {348--357},
+  publisher = {Elsevier},
+}
+
+@Misc{switchAndroid,
+  author  = {{Android Accessibility Help}},
+  title   = {Over 'Toegang via schakelaar' voor Android},
+  year    = {2019},
+  url     = {https://support.google.com/accessibility/android/answer/6122836?hl=nl},
+  urldate = {2019-04-27},
+}
+
+@Misc{w3cTechnologyNeutral,
+  author  = {W3C},
+  title   = {W3C Issues Improved Accessibility Guidance for Websites and Applications},
+  date    = {2018-06-05},
+  url     = {https://www.w3.org/2018/06/pressrelease-wcag21.html.en},
+  urldate = {2019-05-12},
+}
+
+@Misc{WCAG2.1Criteria,
+  author  = {W3C},
+  title   = {Web Content Accessibility Guidelines (WCAG) 2.1},
+  year    = {2018},
+  date    = {2018-06-05},
+  url     = {https://www.w3.org/TR/WCAG21/},
+  urldate = {2019-05-12},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
