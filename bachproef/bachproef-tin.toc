@@ -165,71 +165,61 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.1}WCAG richtlijnen}{59}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.1}Principe 1: Waarneembaar}{61}{subsection.5.1.1}
+\contentsline {section}{\numberline {5.2}WCAG-richtlijnen voor mobiele applicaties}{61}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.1.1}Richtlijn 1.1 - Tekst alternatieven}{61}{subsubsection.5.1.1.1}
+\contentsline {subsection}{\numberline {5.2.1}Principe 1: Waarneembaar}{61}{subsection.5.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.1.2}Richtlijn 1.2: Tijds-gebaseerde media}{61}{subsubsection.5.1.1.2}
+\contentsline {subsubsection}{\numberline {5.2.1.1}Richtlijn 1.1 - Tekst alternatieven}{61}{subsubsection.5.2.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Succesfactor 1.2.4: Ondertitelingen bij live video's met audio (AA)}{63}{section*.8}
+\contentsline {subsubsection}{\numberline {5.2.1.2}Richtlijn 1.2: Tijds-gebaseerde media}{62}{subsubsection.5.2.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Succesfactor 1.2.5: Audiodescriptie bij vooraf opgenomen video's met audio (AA)}{64}{section*.9}
+\contentsline {subsubsection}{\numberline {5.2.1.3}Richtlijn 1.3 - Aanpasbaar}{66}{subsubsection.5.2.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.1.3}Richtlijn 1.3 - Aanpasbaar}{64}{subsubsection.5.1.1.3}
+\contentsline {subsubsection}{\numberline {5.2.1.4}Richtlijn 1.4 - Onderscheidbaar}{69}{subsubsection.5.2.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Succesfactor 1.3.1: Informatie en relaties tussen informatie (A)}{64}{section*.10}
+\contentsline {paragraph}{Succesfactor 1.4.12: tekst regelafstand (AA)}{73}{section*.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Succesfactor 1.3.2: Betekenisvolle volgorde (A)}{65}{section*.11}
+\contentsline {paragraph}{Succesfactor 1.4.13: inhoud bij focussen op element (AA)}{73}{section*.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Succesfactor 1.3.3: Zintuiglijke eigenschappen (A)}{65}{section*.12}
+\contentsline {subsection}{\numberline {5.2.2}Principe 2: Bedienbaar}{73}{subsection.5.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Succesfactor 1.3.4: Ori\IeC {\"e}ntatie scherm (AA)}{65}{section*.13}
+\contentsline {subsubsection}{\numberline {5.2.2.1}Richtlijn 2.1 - Toetsenbord toegankelijk}{73}{subsubsection.5.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Succesfactor 1.3.5: Identificeerbaar doel van invoerveld (AA)}{66}{section*.14}
+\contentsline {subsubsection}{\numberline {5.2.2.2}Richtlijn 2.2 - Genoeg tijd}{75}{subsubsection.5.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.1.4}Richtlijn 1.4 - Onderscheidbaar}{66}{subsubsection.5.1.1.4}
+\contentsline {subsubsection}{\numberline {5.2.2.3}Richtlijn 2.3 - Aanvallen en fysieke reacties}{76}{subsubsection.5.2.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Succesfactor 1.4.1: Gebruik van kleur (A)}{67}{section*.15}
+\contentsline {subsubsection}{\numberline {5.2.2.4}Richtlijn 2.4 - Navigeerbaar}{76}{subsubsection.5.2.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Succesfactor 1.4.2: Controle over geluid (A)}{67}{section*.16}
+\contentsline {subsubsection}{\numberline {5.2.2.5}Richtlijn 2.5 - Invoermogelijkheden}{78}{subsubsection.5.2.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Succesfactor 1.4.3: Contrast (Minimum) (AA)}{67}{section*.17}
+\contentsline {subsection}{\numberline {5.2.3}Principe 3: Verstaanbaar}{81}{subsection.5.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Succesfactor 1.4.4: Schalen van tekst (AA)}{67}{section*.18}
+\contentsline {subsubsection}{\numberline {5.2.3.1}Richtlijn 3.1 - Leesbaar}{81}{subsubsection.5.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Succesfactor 1.4.5: Tekst in een afbeelding (AA)}{67}{section*.19}
+\contentsline {subsubsection}{\numberline {5.2.3.2}Richtlijn 3.2 - Voorspelbaar}{81}{subsubsection.5.2.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Succesfactor 1.4.10: ENGLISG REFLOW (AA)}{67}{section*.20}
+\contentsline {subsubsection}{\numberline {5.2.3.3}Richtlijn 3.2 - Invoer assistentie}{83}{subsubsection.5.2.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Succesfactor 1.4.11: Niet-tekst contrast (AA)}{67}{section*.21}
+\contentsline {chapter}{\numberline {6}Toetsen van applicaties a.d.h.v. richtlijnen}{85}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Succesfactor 1.4.12: Tekst regelafstand (AA)}{67}{section*.22}
+\contentsline {section}{\numberline {6.1}Opstellen van checklist }{85}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Succesfactor 1.4.13: Inhoud bij focussen op element (AA)}{67}{section*.23}
+\contentsline {section}{\numberline {6.2}Toetsen van mobiele applicaties a.d.h.v. checklist}{86}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.2}Principe 2: Bedienbaar}{67}{subsection.5.1.2}
+\contentsline {chapter}{\numberline {7}Conclusie}{89}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.2.1}Richtlijn 2.1 - Toetsenbord toegankelijk}{67}{subsubsection.5.1.2.1}
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{91}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Succesfactor 2.1.1: Toetsenbord (A)}{67}{section*.24}
+\contentsline {section}{\numberline {A.1}Introductie}{91}{section.A.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Succesfactor 2.1.2: Geen toetsenbordval (A)}{67}{section*.25}
+\contentsline {section}{\numberline {A.2}State-of-the-art}{92}{section.A.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.2.2}Richtlijn 2.2 - Genoeg tijd}{67}{subsubsection.5.1.2.2}
+\contentsline {section}{\numberline {A.3}Methodologie}{93}{section.A.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Conclusie}{69}{chapter.6}
+\contentsline {section}{\numberline {A.4}Verwachte resultaten}{93}{section.A.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{71}{appendix.A}
+\contentsline {section}{\numberline {A.5}Verwachte conclusies}{93}{section.A.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Introductie}{71}{section.A.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}State-of-the-art}{72}{section.A.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Methodologie}{73}{section.A.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Verwachte resultaten}{73}{section.A.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.5}Verwachte conclusies}{73}{section.A.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografie}{75}{appendix*.26}
+\contentsline {chapter}{Bibliografie}{95}{appendix*.10}
 \contentsfinish 

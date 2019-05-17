@@ -66,6 +66,7 @@ In voorbeeld \ref{talkBackIsEnanled} wordt aan de Accessibility service \gls{API
 
 
 \subsubsection{Vergroten lettertype}
+\label{subsec:androidSchalenTekst}
 Het aanpassen van de grote van letters kan de leesbaarheid drastisch verhogen. In Android kan de grootte van de letters aangepast worden.
 Er kan gekozen worden voor de volgende groottes:
 \begin{itemize}
@@ -168,6 +169,7 @@ Men kan ook een Eventhandler koppelen aan de \emph{CaptionManager}, wanneer een 
 De geluidsversterker functionaliteit in Android laat een gebruiker toe om geluiden in sterkte aan te passen. Een gebruiker kan zwakkere geluiden luider laten klinken, maar ook de verhinderende geluiden stiller maken. Wanneer men een koptelefoon gebruikt kan het geluid per oor geregeld worden.
 \subsection{Motorisch}
 \subsubsection{Toegang via schakelaars}
+\label{subsec:schakelAndroid}
 Gebruikers met een motorische beperking kunnen aan de hand van een schakelaar (extern apparaat) de smartphone bedienen. Alle elementen op het scherm worden overlopen, wanneer het element dat men wenst aangeduid is moet men een bepaalde toets indrukken. Via het systeem van het scannen van de elementen, en het indrukken van toetsten kan er genavigeerd worden \autocite{switchAndroid}.
 
 Er zijn verschillende soorten schakelaars die gebruikt kunnen worden: 
@@ -188,6 +190,7 @@ Gebruikers met een fysieke beperking kunnen vaak moeite ervaren met het draaien 
 Ook de gebruiker zonder beperking heeft voordeel bij deze functie. Men kan het automatisch roteren blokkeren wanneer dit gewenst is.
 
 \subsubsection{Vertraging voor blijvend aanraken}
+\label{subsec:AndroidAangepast}
 In Android kunnen gebruikers bij het klikken op een element vaak nog extra opties of acties krijgen. Dit komt doordat men dat element 'blijvend aanraakt'. Standaard moet men heel kort blijven indrukken om deze extra opties of acties te krijgen. 
 
 Bij sommige gebruikers, waaronder vooral mensen met een motorische beperking zorgt deze korte periode dat er ongewenst acties uitgevoerd worden. Android heeft een functionaliteit waarbij men kan instellen hoelang het systeem moet wachten tot hij het registreert als een 'blijvende aanraking', gebruikers kunnen kiezen uit:
@@ -293,6 +296,7 @@ Aan de hand van deze functionaliteit kunnen kleuren aangepast weergegeven worden
         \item Kleurentint (instellen van een eigen gekozen kleur)
 \end{itemize}
 \subsubsection{Vergroten tekst}
+\label{subsec:iOSSchalenTekst}
 iOS heeft een functionaliteit die een gebruiker toelaat om de grootte van het lettertype in te stellen. Bij deze functionaliteit heeft de gebruiker een groot aantal opties voor het vergroten van het lettertype. In applicaties wordt de grootte van het lettertype geschaald naar gelang de instelling van de gebruiker. Een ontwikkelaar moet aandacht besteden voor het ondersteunen van deze schaalbare lettertypes. In tegenstelling van Android gaat iOS niet standaard alle lettertypen schalen.
 In iOS wordt er een onderscheid gemaakt tussen 3 verschillende soorten lettertypes:
 \begin{itemize}
@@ -355,6 +359,7 @@ Raadpleeg de developer documentatie voor het toevoegen van ondertitelingen aan e
 \subsubsection{Shortcut activatie toegankelijkheidsfunctionaliteiten}
 Met deze functionaliteit kunnen personen met een motorische beperking, maar ook met andere beperkingen heel snel hun favoriete functionaliteit activeren. Bij het driemaal indrukken van de homeknop zal de functionaliteit die men geselecteerd heeft geactiveerd worden. Wanneer men meerdere functionaliteiten heeft geselecteerd zal een menu met deze functionaliteiten verschijnen.
 \subsubsection{Switch Control}
+\label{subsec:schakeliOS}
 Switch Control ook wel schakelbediening genoemd laat een gebruiker met een motorische beperking toe om te navigeren binnen iOS. Alle elementen op het scherm worden als het ware één voor één overlopen, waarbij men een element kan activeren door een schakel te gebruiken. Deze schakels kunnen extern zijn, maar kan ook komen vanuit het apparaat. De invoer vanuit het apparaat kunnen knoppen, maar ook touch gebaren zijn. Ook de camera van een apparaat kan gebruikt worden als switch, hierbij kijkt de camera naar bewegingen met het hoofd.
 
 Switch Control is een functionaliteit die zeer aanpasbaar is. Men kan kiezen voor het groeperen van elementen voor snellere navigatie, of voor het afspelen van geluid bij het navigeren, etc.
@@ -367,7 +372,7 @@ Naast het uitvoeren van acties waarvoor men de fysieke knoppen voor zou gebruike
 
 Als ontwikkelaar kan men nagaan of deze functionaliteit is geactiveerd tijdens het gebruik van zijn applicatie via de volgende propery \emph{UIAccessibility.isAssistiveTouchRunning}.
 \subsubsection{Aangepaste aanraking}
-
+\label{subsec:iOSAangepast}
 De functionaliteit 'Aangepaste aanraking' is een gecombineerde functionaliteit bestaande uit 3 verschillende functionaliteiten. Ze hebben alle 3 hetzelfde doel, namelijk het aanpassen van hoe het systeem reageert op aanrakingen. Voor onderstaande functionaliteiten te kunnen gebruiken moet men een schakelaar activeren.
 
 De eerste functionaliteit is 'Vasthoudduur' waarbij men kan aanpassen hoelang men het scherm moet indrukken voor iOS het ziet als een aanraking op het touchscreen. Als men een aanraking doet maar men tilt de vinger op voor dat de ingestelde tijd is verstreken zal deze aanraking genegeerd worden. 
