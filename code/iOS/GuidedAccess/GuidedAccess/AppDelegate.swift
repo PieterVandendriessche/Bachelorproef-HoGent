@@ -9,7 +9,42 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate,UIGuidedAccessRestrictionDelegate {
+    
+    var guidedAccessRestrictionIdentifiers: [String]?
+    {
+        return ["be.pietervdd.onlineRestriction"]
+    }
+    
+    func textForGuidedAccessRestriction(withIdentifier restrictionIdentifier: String) -> String? {
+        switch restrictionIdentifier {
+        case "be.pietervdd.onlineRestriction":
+            return "Gebruik online functionaliteiten"
+        default:
+            return ""
+        }
+    }
+    
+    func guidedAccessRestriction(withIdentifier restrictionIdentifier: String, didChange newRestrictionState: UIAccessibility.GuidedAccessRestrictionState) {
+     
+        if restrictionIdentifier == "be.pietervdd.onlineRestriction"
+        {
+            if newRestrictionState == UIAccessibility.GuidedAccessRestrictionState.allow
+            {
+                // Restrictie wordt toegelaten
+            }
+            else
+            {
+                //Restrictie wordt niet toegelaten (blokkeer bepaalde zaken)
+                //Verdere handelingen met de restrictionIdentifier (vb: notficationCenter)
+                print("Instelling werd geactiveerd, blokkeer online features")
+            }
+        }
+        
+    }
+    
+   
+    
 
     var window: UIWindow?
 

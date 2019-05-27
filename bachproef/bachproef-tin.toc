@@ -1,225 +1,253 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {dutch}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Inleiding}{17}{chapter.1}
+\contentsline {chapter}{\numberline {1}Inleiding}{19}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Probleemstelling}{17}{section.1.1}
+\contentsline {section}{\numberline {1.1}Probleemstelling}{19}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Onderzoeksvraag}{18}{section.1.2}
+\contentsline {section}{\numberline {1.2}Onderzoeksvraag}{20}{section.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Onderzoeksdoelstelling}{18}{section.1.3}
+\contentsline {section}{\numberline {1.3}Onderzoeksdoelstelling}{20}{section.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Opzet van deze bachelorproef}{18}{section.1.4}
+\contentsline {section}{\numberline {1.4}Opzet van deze bachelorproef}{20}{section.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Stand van zaken}{19}{chapter.2}
+\contentsline {chapter}{\numberline {2}Stand van zaken}{21}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Toegankelijkheid}{19}{section.2.1}
+\contentsline {section}{\numberline {2.1}Toegankelijkheid}{21}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Wetgeving}{20}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.1}Wetgeving}{22}{subsection.2.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.1.1}Verdrag inzake rechten van personen met een handicap}{20}{subsubsection.2.1.1.1}
+\contentsline {subsubsection}{\numberline {2.1.1.1}Verdrag inzake rechten van personen met een handicap}{22}{subsubsection.2.1.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.1.2}The European Accessibility Act}{20}{subsubsection.2.1.1.2}
+\contentsline {subsubsection}{\numberline {2.1.1.2}The European Accessibility Act}{22}{subsubsection.2.1.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.1.3}Directive (EU) 2016/2102}{21}{subsubsection.2.1.1.3}
+\contentsline {subsubsection}{\numberline {2.1.1.3}Directive (EU) 2016/2102}{23}{subsubsection.2.1.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}W3C WAI toegankelijkheid standaarden/richtlijnen}{21}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.2}W3C WAI toegankelijkheid standaarden/richtlijnen}{23}{subsection.2.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.3}Doelgroep}{22}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.3}Doelgroep}{24}{subsection.2.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Beperkingen}{23}{section.2.2}
+\contentsline {section}{\numberline {2.2}Beperkingen}{25}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Visueel}{23}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.1}Visueel}{25}{subsection.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.1.1}Kleurenblindheid}{23}{subsubsection.2.2.1.1}
+\contentsline {subsubsection}{\numberline {2.2.1.1}Kleurenblindheid}{25}{subsubsection.2.2.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.1.2}Slechtziend en blindheid}{24}{subsubsection.2.2.1.2}
+\contentsline {subsubsection}{\numberline {2.2.1.2}Slechtziend en blindheid}{26}{subsubsection.2.2.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.1.3}Verhogen toegankelijkheid}{24}{subsubsection.2.2.1.3}
+\contentsline {subsubsection}{\numberline {2.2.1.3}Verhogen toegankelijkheid}{26}{subsubsection.2.2.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Auditief}{24}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.2}Auditief}{26}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.2.1}Slechthorend en doof}{25}{subsubsection.2.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2.1}Slechthorend en doof}{27}{subsubsection.2.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.2.2}Verhogen toegankelijkheid}{25}{subsubsection.2.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.2}Verhogen toegankelijkheid}{27}{subsubsection.2.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}Motorisch}{25}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.3}Motorisch}{27}{subsection.2.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.3.1}Verhogen toegankelijkheid}{25}{subsubsection.2.2.3.1}
+\contentsline {subsubsection}{\numberline {2.2.3.1}Verhogen toegankelijkheid}{27}{subsubsection.2.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.4}Cognitief}{25}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.4}Cognitief}{27}{subsection.2.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.4.1}Verhogen toegankelijkheid}{26}{subsubsection.2.2.4.1}
+\contentsline {subsubsection}{\numberline {2.2.4.1}Verhogen toegankelijkheid}{28}{subsubsection.2.2.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Mobiele platformen}{26}{section.2.3}
+\contentsline {section}{\numberline {2.3}Mobiele platformen}{28}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Android}{28}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.1}Android}{30}{subsection.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}iOS}{29}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.2}iOS}{31}{subsection.2.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Gerelateerd onderzoek}{30}{section.2.4}
+\contentsline {section}{\numberline {2.4}Gerelateerd onderzoek}{32}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Methodologie}{31}{chapter.3}
+\contentsline {chapter}{\numberline {3}Methodologie}{33}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Functionaliteiten in Android en iOS}{31}{section.3.1}
+\contentsline {section}{\numberline {3.1}Functionaliteiten in Android en iOS}{33}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Richtlijnen voor toegankelijkheid mobiele applicaties}{32}{section.3.2}
+\contentsline {section}{\numberline {3.2}Richtlijnen voor toegankelijkheid mobiele applicaties}{34}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Toetsen toegankelijkheid a.d.h.v. richtlijnen}{32}{section.3.3}
+\contentsline {section}{\numberline {3.3}Toetsen toegankelijkheid a.d.h.v. richtlijnen}{34}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Functionaliteiten in Android en iOS}{33}{chapter.4}
+\contentsline {chapter}{\numberline {4}Functionaliteiten in Android en iOS}{35}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Toegankelijkheidsfunctionaliteiten in Android}{33}{section.4.1}
+\contentsline {section}{\numberline {4.1}Toegankelijkheidsfunctionaliteiten in Android}{35}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}Zelfgebouwde toegankelijkheidsfunctionaliteiten}{33}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.1}Zelfgebouwde toegankelijkheidsfunctionaliteiten}{35}{subsection.4.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}Visueel}{34}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.2}Visueel}{36}{subsection.4.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.2.1}TalkBack}{34}{subsubsection.4.1.2.1}
+\contentsline {subsubsection}{\numberline {4.1.2.1}TalkBack}{36}{subsubsection.4.1.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.2.2}Vergroten lettertype}{37}{subsubsection.4.1.2.2}
+\contentsline {subsubsection}{\numberline {4.1.2.2}Vergroten lettertype}{39}{subsubsection.4.1.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.2.3}Weergavegrootte aanpassen }{39}{subsubsection.4.1.2.3}
+\contentsline {subsubsection}{\numberline {4.1.2.3}Weergavegrootte aanpassen }{41}{subsubsection.4.1.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.2.4}Vergroting}{39}{subsubsection.4.1.2.4}
+\contentsline {subsubsection}{\numberline {4.1.2.4}Vergroting}{41}{subsubsection.4.1.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.2.5}Filters voor kleurenblindheid}{40}{subsubsection.4.1.2.5}
+\contentsline {subsubsection}{\numberline {4.1.2.5}Filters voor kleurenblindheid}{42}{subsubsection.4.1.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.2.6}Hoger contrast tekst}{40}{subsubsection.4.1.2.6}
+\contentsline {subsubsection}{\numberline {4.1.2.6}Hoger contrast tekst}{42}{subsubsection.4.1.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.2.7}Inverteren kleuren}{41}{subsubsection.4.1.2.7}
+\contentsline {subsubsection}{\numberline {4.1.2.7}Inverteren kleuren}{43}{subsubsection.4.1.2.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.3}Auditief}{41}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.3}Auditief}{43}{subsection.4.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.3.1}Mono-geluid}{41}{subsubsection.4.1.3.1}
+\contentsline {subsubsection}{\numberline {4.1.3.1}Mono-geluid}{43}{subsubsection.4.1.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.3.2}Ondertitelingen}{41}{subsubsection.4.1.3.2}
+\contentsline {subsubsection}{\numberline {4.1.3.2}Ondertitelingen}{43}{subsubsection.4.1.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.3.3}Geluidsversterker}{43}{subsubsection.4.1.3.3}
+\contentsline {subsubsection}{\numberline {4.1.3.3}Geluidsversterker}{45}{subsubsection.4.1.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.4}Motorisch}{43}{subsection.4.1.4}
+\contentsline {subsection}{\numberline {4.1.4}Motorisch}{45}{subsection.4.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.4.1}Toegang via schakelaars}{43}{subsubsection.4.1.4.1}
+\contentsline {subsubsection}{\numberline {4.1.4.1}Toegang via schakelaars}{45}{subsubsection.4.1.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.4.2}Scherm automatisch draaien}{44}{subsubsection.4.1.4.2}
+\contentsline {subsubsection}{\numberline {4.1.4.2}Scherm automatisch draaien}{46}{subsubsection.4.1.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.4.3}Vertraging voor blijvend aanraken}{44}{subsubsection.4.1.4.3}
+\contentsline {subsubsection}{\numberline {4.1.4.3}Vertraging voor blijvend aanraken}{46}{subsubsection.4.1.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.4.4}Hardware shortcut voor activatie functionaliteiten}{44}{subsubsection.4.1.4.4}
+\contentsline {subsubsection}{\numberline {4.1.4.4}Hardware shortcut voor activatie functionaliteiten}{46}{subsubsection.4.1.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.5}Cognitief}{44}{subsection.4.1.5}
+\contentsline {subsection}{\numberline {4.1.5}Cognitief}{46}{subsection.4.1.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.5.1}Animaties verwijderen}{44}{subsubsection.4.1.5.1}
+\contentsline {subsubsection}{\numberline {4.1.5.1}Animaties verwijderen}{46}{subsubsection.4.1.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Toegankelijkheidsfunctionaliteiten in iOS}{45}{section.4.2}
+\contentsline {section}{\numberline {4.2}Toegankelijkheidsfunctionaliteiten in iOS}{47}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Visueel}{45}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.1}Visueel}{47}{subsection.4.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.1.1}VoiceOver}{45}{subsubsection.4.2.1.1}
+\contentsline {subsubsection}{\numberline {4.2.1.1}VoiceOver}{47}{subsubsection.4.2.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.1.2}Zoom}{48}{subsubsection.4.2.1.2}
+\contentsline {subsubsection}{\numberline {4.2.1.2}Zoom}{50}{subsubsection.4.2.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.1.3}Vergrootglas}{49}{subsubsection.4.2.1.3}
+\contentsline {subsubsection}{\numberline {4.2.1.3}Vergrootglas}{51}{subsubsection.4.2.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.1.4}Inverteren kleuren}{49}{subsubsection.4.2.1.4}
+\contentsline {subsubsection}{\numberline {4.2.1.4}Inverteren kleuren}{51}{subsubsection.4.2.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.1.5}Kleurenfilters}{49}{subsubsection.4.2.1.5}
+\contentsline {subsubsection}{\numberline {4.2.1.5}Kleurenfilters}{51}{subsubsection.4.2.1.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.1.6}Vergroten tekst}{49}{subsubsection.4.2.1.6}
+\contentsline {subsubsection}{\numberline {4.2.1.6}Vergroten tekst}{51}{subsubsection.4.2.1.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.1.7}Verminderen transparantie}{51}{subsubsection.4.2.1.7}
+\contentsline {subsubsection}{\numberline {4.2.1.7}Verminderen transparantie}{53}{subsubsection.4.2.1.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.1.8}Verhogen contrast}{52}{subsubsection.4.2.1.8}
+\contentsline {subsubsection}{\numberline {4.2.1.8}Verhogen contrast}{54}{subsubsection.4.2.1.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.1.9}Vette tekst}{52}{subsubsection.4.2.1.9}
+\contentsline {subsubsection}{\numberline {4.2.1.9}Vette tekst}{54}{subsubsection.4.2.1.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Auditief}{52}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.2}Auditief}{54}{subsection.4.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.2.1}LED Flash voor notificaties}{52}{subsubsection.4.2.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2.1}LED Flash voor notificaties}{54}{subsubsection.4.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.2.2}Mono-geluid}{53}{subsubsection.4.2.2.2}
+\contentsline {subsubsection}{\numberline {4.2.2.2}Mono-geluid}{55}{subsubsection.4.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.2.3}Kiezen van balans tussen linker en rechter audiokanaal}{53}{subsubsection.4.2.2.3}
+\contentsline {subsubsection}{\numberline {4.2.2.3}Kiezen van balans tussen linker en rechter audiokanaal}{55}{subsubsection.4.2.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.2.4}Ondertiteling}{53}{subsubsection.4.2.2.4}
+\contentsline {subsubsection}{\numberline {4.2.2.4}Ondertiteling}{55}{subsubsection.4.2.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.3}Motorisch}{53}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.3}Motorisch}{55}{subsection.4.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.3.1}Shortcut activatie toegankelijkheidsfunctionaliteiten}{53}{subsubsection.4.2.3.1}
+\contentsline {subsubsection}{\numberline {4.2.3.1}Shortcut activatie toegankelijkheidsfunctionaliteiten}{55}{subsubsection.4.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.3.2}Switch Control}{54}{subsubsection.4.2.3.2}
+\contentsline {subsubsection}{\numberline {4.2.3.2}Switch Control}{56}{subsubsection.4.2.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.3.3}AssistiveTouch}{54}{subsubsection.4.2.3.3}
+\contentsline {subsubsection}{\numberline {4.2.3.3}AssistiveTouch}{56}{subsubsection.4.2.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.3.4}Aangepaste aanraking}{54}{subsubsection.4.2.3.4}
+\contentsline {subsubsection}{\numberline {4.2.3.4}Aangepaste aanraking}{56}{subsubsection.4.2.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.4}Cognitief}{55}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.4}Cognitief}{57}{subsection.4.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.4.1}Verminderen van bewegingen}{55}{subsubsection.4.2.4.1}
+\contentsline {subsubsection}{\numberline {4.2.4.1}Verminderen van bewegingen}{57}{subsubsection.4.2.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.4.2}Begeleide toegang}{55}{subsubsection.4.2.4.2}
+\contentsline {subsubsection}{\numberline {4.2.4.2}Begeleide toegang}{57}{subsubsection.4.2.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Verschillen/gelijkenissen in functionaliteiten Android en iOS}{57}{section.4.3}
+\contentsline {section}{\numberline {4.3}Verschillen/gelijkenissen in functionaliteiten Android en iOS}{59}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Richtlijnen voor mobiele applicaties}{59}{chapter.5}
+\contentsline {chapter}{\numberline {5}Richtlijnen voor mobiele applicaties}{61}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}WCAG richtlijnen}{59}{section.5.1}
+\contentsline {section}{\numberline {5.1}WCAG richtlijnen}{61}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}WCAG-richtlijnen voor mobiele applicaties}{61}{section.5.2}
+\contentsline {section}{\numberline {5.2}WCAG-richtlijnen voor mobiele applicaties}{62}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.1}Principe 1: Waarneembaar}{61}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.1}Principe 1: Waarneembaar}{63}{subsection.5.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.1.1}Richtlijn 1.1 - Tekst alternatieven}{61}{subsubsection.5.2.1.1}
+\contentsline {subsubsection}{\numberline {5.2.1.1}Richtlijn 1.1 - Tekst alternatieven}{63}{subsubsection.5.2.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.1.2}Richtlijn 1.2: Tijds-gebaseerde media}{62}{subsubsection.5.2.1.2}
+\contentsline {subsubsection}{\numberline {5.2.1.2}Richtlijn 1.2: Tijds-gebaseerde media}{64}{subsubsection.5.2.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.1.3}Richtlijn 1.3 - Aanpasbaar}{66}{subsubsection.5.2.1.3}
+\contentsline {subsubsection}{\numberline {5.2.1.3}Richtlijn 1.3 - Aanpasbaar}{67}{subsubsection.5.2.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.1.4}Richtlijn 1.4 - Onderscheidbaar}{69}{subsubsection.5.2.1.4}
+\contentsline {subsubsection}{\numberline {5.2.1.4}Richtlijn 1.4 - Onderscheidbaar}{70}{subsubsection.5.2.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Succesfactor 1.4.12: tekst regelafstand (AA)}{73}{section*.8}
+\contentsline {subsection}{\numberline {5.2.2}Principe 2: Bedienbaar}{74}{subsection.5.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Succesfactor 1.4.13: inhoud bij focussen op element (AA)}{73}{section*.9}
+\contentsline {subsubsection}{\numberline {5.2.2.1}Richtlijn 2.1 - Schakelaar toegankelijk}{75}{subsubsection.5.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.2}Principe 2: Bedienbaar}{73}{subsection.5.2.2}
+\contentsline {subsubsection}{\numberline {5.2.2.2}Richtlijn 2.2 - Genoeg tijd}{77}{subsubsection.5.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.2.1}Richtlijn 2.1 - Toetsenbord toegankelijk}{73}{subsubsection.5.2.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2.3}Richtlijn 2.3 - Aanvallen en fysieke reacties}{79}{subsubsection.5.2.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.2.2}Richtlijn 2.2 - Genoeg tijd}{75}{subsubsection.5.2.2.2}
+\contentsline {subsubsection}{\numberline {5.2.2.4}Richtlijn 2.4 - Navigeerbaar}{80}{subsubsection.5.2.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.2.3}Richtlijn 2.3 - Aanvallen en fysieke reacties}{76}{subsubsection.5.2.2.3}
+\contentsline {subsubsection}{\numberline {5.2.2.5}Richtlijn 2.5 - Invoermogelijkheden}{83}{subsubsection.5.2.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.2.4}Richtlijn 2.4 - Navigeerbaar}{76}{subsubsection.5.2.2.4}
+\contentsline {subsection}{\numberline {5.2.3}Principe 3: Verstaanbaar}{87}{subsection.5.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.2.5}Richtlijn 2.5 - Invoermogelijkheden}{78}{subsubsection.5.2.2.5}
+\contentsline {subsubsection}{\numberline {5.2.3.1}Richtlijn 3.1 - Leesbaar}{87}{subsubsection.5.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.3}Principe 3: Verstaanbaar}{81}{subsection.5.2.3}
+\contentsline {subsubsection}{\numberline {5.2.3.2}Richtlijn 3.2 - Voorspelbaar}{87}{subsubsection.5.2.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.3.1}Richtlijn 3.1 - Leesbaar}{81}{subsubsection.5.2.3.1}
+\contentsline {subsubsection}{\numberline {5.2.3.3}Richtlijn 3.3 - Invoer assistentie}{89}{subsubsection.5.2.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.3.2}Richtlijn 3.2 - Voorspelbaar}{81}{subsubsection.5.2.3.2}
+\contentsline {subsection}{\numberline {5.2.4}Principe 3: Robust}{91}{subsection.5.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.3.3}Richtlijn 3.2 - Invoer assistentie}{83}{subsubsection.5.2.3.3}
+\contentsline {subsubsection}{\numberline {5.2.4.1}Richtlijn 4.1 - Compatibel}{91}{subsubsection.5.2.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Toetsen van applicaties a.d.h.v. richtlijnen}{85}{chapter.6}
+\contentsline {chapter}{\numberline {6}Toetsen van applicaties a.d.h.v. richtlijnen}{93}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Opstellen van checklist }{85}{section.6.1}
+\contentsline {section}{\numberline {6.1}Opstellen van checklist }{93}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Toetsen van mobiele applicaties a.d.h.v. checklist}{86}{section.6.2}
+\contentsline {section}{\numberline {6.2}Toetsen van mobiele applicaties a.d.h.v. checklist}{94}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Conclusie}{89}{chapter.7}
+\contentsline {subsection}{\numberline {6.2.1}De Lijn}{94}{subsection.6.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{91}{appendix.A}
+\contentsline {subsubsection}{\numberline {6.2.1.1}Android}{94}{subsubsection.6.2.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Introductie}{91}{section.A.1}
+\contentsline {subsubsection}{\numberline {6.2.1.2}iOS}{95}{subsubsection.6.2.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}State-of-the-art}{92}{section.A.2}
+\contentsline {subsubsection}{\numberline {6.2.1.3}Resultaten}{95}{subsubsection.6.2.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Methodologie}{93}{section.A.3}
+\contentsline {subsection}{\numberline {6.2.2}itsme}{96}{subsection.6.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Verwachte resultaten}{93}{section.A.4}
+\contentsline {subsubsection}{\numberline {6.2.2.1}Android}{96}{subsubsection.6.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.5}Verwachte conclusies}{93}{section.A.5}
+\contentsline {subsubsection}{\numberline {6.2.2.2}iOS}{97}{subsubsection.6.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografie}{95}{appendix*.10}
+\contentsline {subsubsection}{\numberline {6.2.2.3}Resultaten}{97}{subsubsection.6.2.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Conclusie}{99}{chapter.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{101}{appendix.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}Introductie}{101}{section.A.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.2}State-of-the-art}{102}{section.A.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.3}Methodologie}{103}{section.A.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.4}Verwachte resultaten}{103}{section.A.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.5}Verwachte conclusies}{103}{section.A.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}Checklist richtlijnen mobiele applicaties}{105}{appendix.B}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.1}Blanco checklist}{106}{section.B.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.2}De Lijn - Android checklist}{109}{section.B.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.3}De Lijn - iOS checklist}{112}{section.B.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.4}itsme - Android checklist}{115}{section.B.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.5}itsme - iOS checklist}{118}{section.B.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliografie}{121}{appendix*.8}
 \contentsfinish 

@@ -7,3 +7,7 @@
 //
 
 import Foundation
+enum RestrictieEnum: String {
+    case inschakelen = "Inschakelen"
+    case uitschakelen = "Uitschakelen"
+}

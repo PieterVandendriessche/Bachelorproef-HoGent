@@ -10,11 +10,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var gaOnlineKnop: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        print(UIAccessibility.isGuidedAccessEnabled)
+        
+    }
+    
+    @objc private func updateViewForGuidedAccess() {
+        print("THAT HAPPEND")
     }
 
-
+    @IBAction func test(_ sender: Any) {
+        print(UIAccessibility.isGuidedAccessEnabled)
+    }
+    
 }
 

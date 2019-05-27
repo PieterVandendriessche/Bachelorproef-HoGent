@@ -1,6 +1,6 @@
 \chapter{\IfLanguageName{dutch}{Richtlijnen voor mobiele applicaties}{Richtlijnen voor  mobiele applicaties}}
 \label{ch:Richtlijnen voor toegankelijkheid mobiele applicaties}
-Een ontwikkelaar moet kunnen nagaan of zijn mobiele applicatie toegankelijk is. De bestaande richtlijnen zijn intimiderend, en moeilijk toepasbaar op mobiele applicaties. Daardoor kan men moeilijk toetsen wanneer men een toegankelijke mobiele applicatie heeft. In dit hoofdstuk wordt aan de hand van de WCAG richtlijnen een maatstaf opgesteld voor ontwikkelaars. Hierdoor kan vlot een inzicht gecreëerd worden over de toegankelijkheid van een mobiele applicatie.
+Een ontwikkelaar moet kunnen nagaan of zijn mobiele applicatie toegankelijk is. De bestaande richtlijnen zijn intimiderend, en niet direct toepasbaar op mobiele applicaties. Daardoor kan men moeilijk toetsen wanneer men een toegankelijke mobiele applicatie heeft. In dit hoofdstuk wordt aan de hand van de WCAG richtlijnen een maatstaf opgesteld voor ontwikkelaars. Hierdoor kan vlot een inzicht gecreëerd worden over de toegankelijkheid van een mobiele applicatie.
 
 \section{WCAG richtlijnen}
 \label{sec:WCAGrichtlijn}
@@ -25,30 +25,34 @@ Elk succescriteria bevat een niveau, deze niveaus komen overeen met de afstemmin
     \item Niveau AAA: Voldoet aan niveau A, AA en AAA succescriteria.
 \end{itemize}
 
-Binnen dit onderzoek zullen wij ons focussen op niveau A en niveau AA succesfactoren. De WCAG richtlijnen raden af om alle succescriteria te proberen afstemmen tot niveau AAA. Ze vermelden dat het onmogelijk is om deze allemaal te behalen. 
+Binnen dit onderzoek zullen wij ons focussen op niveau A en niveau AA succesfactoren. De WCAG richtlijnen raden af om alle succescriteria te proberen afstemmen tot niveau AAA. Ze vermelden dat het bijna onmogelijk is om deze allemaal te behalen. Als voorbeeld:  \emph{Succesfactor 1.2.6: Er wordt een gebarentaalvertolking geleverd voor alle vooraf opgenomen audiocontent in gesyncroniseerde media. (Level AAA)}. Er kan gesteld worden, dat dit onmogelijk is voor vele applicaties om daaraan te voldoen \autocite{WCAG2.1Criteria}.
 
-Als voorbeeld:  \emph{Succesfactor 1.2.6: Er wordt een gebarentaalvertolking geleverd voor alle vooraf opgenomen audiocontent in gesyncroniseerde media. (Level AAA)}. Er kan gesteld worden, dat dit onmogelijk is voor vele applicaties om daaraan te voldoen \autocite{WCAG2.1Criteria}.
-
-In het vervolg van deze sectie gaan wordt per principe de richtlijnen en succesfactoren bespreken. Om een indruk te kunnen geven van de potentiële impact op de gebruikers van een succesfactor wordt er een score aan toegekend. Deze score drukt de potentiële impact uit op de gebruikservaring van de app (of een specifieke functionaliteit ervan) voor een van de 4 (ruim gedefinieerde) doelgroepen.
-Hoe hoger de score, hoe aannemelijker het is dat een correcte toepassing van dit WCAG-criterium een bovengemiddelde impact heeft op de gebruikerservaring. De scores hebben de volgende betekenis:
+\section{WCAG-richtlijnen voor mobiele applicaties}
+\label{sec:WCAGrichtlijnMobiel}
+In het vervolg van deze sectie wordt per principe de richtlijnen en succesfactoren besproken. Om een indruk te kunnen geven van de potentiële impact op de gebruikers van een succesfactor wordt er een score aan toegekend. Deze score drukt de potentiële impact uit op de gebruikservaring van de app (of een specifieke functionaliteit ervan) voor een van de 4 (ruim gedefinieerde) doelgroepen.
+Hoe hoger de score, hoe aannemelijker het is dat een correcte toepassing van de succesfactor een bovengemiddelde impact heeft op de gebruikerservaring. De scores hebben de volgende betekenis:
 \begin{enumerate}
     \item Geen bovengemiddelde impact
     \item Bovengemiddelde impact
     \item Essentiële impact
 \end{enumerate}
 
+De onderstaande principes, richtlijnen en succesfactoren zijn dus gebaseerd op de bestaande WCAG 2.1 richtlijnen\footnote{\url{https://www.w3.org/WAI/WCAG21/quickref/}}. Deze worden vertaalt naar het gebruik in mobiele applicaties. De succesfactoren die moeilijk toepasbaar op mobiele applicaties zijn, of teveel focussen op inhoud, worden buiten beschouwing gelaten. Bij sommige succesfactoren zijn bepaalde vereisten weggelaten, omdat deze moeilijk te testen zijn. Dit onderzoek richt zich enkel op welke inspanningen een ontwikkelaar kan doen voor het toegankelijk maken van een mobiele applicatie. Voor te voldoen aan de WCAG 2.1 niveau AA richtlijnen, dienen natuurlijk ook succesfactoren die focussen op inhoud ook in acht genomen te worden. Dit betekent dat, wanneer men voldoet aan de richtlijnen opgesteld in dit onderzoek, men niet automatisch voldoet aan de WCAG 2.1 niveau AA richtlijnen. Er wordt dan ook duidelijk vermeld welke succesfactoren buiten beschouwing werden gehouden.
 
-\newpage
-\section{WCAG-richtlijnen voor mobiele applicaties}
-\label{sec:WCAGrichtlijnMobiel}
-De onderstaande principes, richtlijnen en succesfactoren zijn dus gebaseerd op de bestaande WCAG 2.1 richtlijnen\footnote{\url{https://www.w3.org/WAI/WCAG21/quickref/}}. Deze worden vertaalt naar het gebruik in mobiele applicaties. De succesfactoren die moeilijk toepasbaar op mobiele applicaties zijn, of teveel focussen op inhoud, worden buiten beschouwing gelaten. Dit onderzoek richt zich enkel op welke inspanningen een ontwikkelaar kan doen voor het toegankelijk maken van een mobiele applicatie. Voor te voldoen aan de WCAG 2.1 niveau AA richtlijnen, dienen de succesfactoren die focussen op inhoud ook in acht genomen te worden.
+Per succesfactor wordt ook verwezen naar platform specifieke features. Dit wil zeggen dat gebruikers de opgesomde functionaliteiten kunnen gebruiken voor inhoud waar te nemen of te bedienen. 
+
 \subsection{Principe 1: Waarneembaar}
 \label{sec:waarneembaarWCAG}
-Dit principe stelt dat informatie en elementen van een applicatie gepresenteerd moeten worden zodanig dat men die kan waarnemen.
+Dit principe stelt dat informatie en elementen van een applicatie gepresenteerd moeten worden zodanig dat men die kan waarnemen. De informatie kan daarbij waargenomen door tal van functionaliteiten, waaronder screenreaders. Een mobiele applicatie is waarneembaar voor een groot aantal gebruikers, wanneer men voldoet aan de volgende richtlijnen: \begin{itemize}
+    \item Richtlijn 1.1: tekst-alternatieven
+     \item Richtlijn 1.2: tijds-gebaseerde media
+      \item Richtlijn 1.3: aanpasbaar
+      \item Richtlijn 1.4: onderscheidbaar
+\end{itemize}
 
 
 \subsubsection{Richtlijn 1.1 - Tekst alternatieven}
-Gebruikers kunnen nood hebben aan een alternatief voor inhoud die geen tekst bevat. Voor deze richtlijn te faciliteren moet aan de succesfactoren in tabel xx voldaan worden.
+Gebruikers kunnen nood hebben aan een alternatief voor inhoud die geen tekst bevat. Voor deze richtlijn te faciliteren moet aan succesfactor 1.1.1 voldaan worden.
 \newpage
 \begin{table}[H]
     \centering
@@ -65,7 +69,7 @@ Gebruikers kunnen nood hebben aan een alternatief voor inhoud die geen tekst bev
             \item Tekstalternatieven voorzien voor niet-tekst inhoud (bv. afbeeldingen, knoppen, …)
         \end{itemize}                                                                                                                                                                                                      \\ 
         \hline
-        \textbf{Beschrijving}                & Vooral gebruikers met een visuele beperking zullen gebruik maken van VoiceOver of TalkBack. Ze besturen hun smartphone via audio feedback. Alle elementen die tekst bevatten worden voorgelezen. Sommige elementen bevatten geen of weinig betekenisvolle tekst. Men moet dus goede tekst alternatieven voorzien voor niet-tekst inhoud.  \\ 
+        \textbf{Beschrijving}                & Vooral gebruikers met een visuele beperking zullen gebruik maken van VoiceOver of TalkBack. Ze besturen hun smartphone via audio feedback. Alle elementen die tekst bevatten worden voorgelezen. Sommige elementen bevatten geen of weinig betekenisvolle tekst. Men moet dus goede tekst alternatieven voorzien voor niet-tekst inhoud. Deze alternatieven kunnen bijvoorbeeld beschrijvingen zijn.  \\ 
         \hline
         \textbf{Impact op gebruikers}        & 
         \begin{itemize}
@@ -93,6 +97,7 @@ Gebruikers moeten een alternatief hebben voor tijds-gebaseerde media. Dit is zow
     \item Succesfactor 1.2.4: ondertitelingen bij live video’s met audio (AA)
     \item Succesfactor 1.2.5: audiodescriptie bij vooraf opgenomen video’s met audio (AA)
 \end{itemize}
+\newpage
 \begin{table}[H]
     \centering
     \caption{Succesfactor 1.2.1: vooraf opgenomen geluid of beeld}
@@ -124,7 +129,6 @@ Gebruikers moeten een alternatief hebben voor tijds-gebaseerde media. Dit is zow
         \hline
     \end{tabular}
 \end{table}
-\newpage
 \begin{table}[H]
     \centering
         \caption{Succesfactor 1.2.2: ondertitelingen bij vooraf opgenomen video’s met audio}
@@ -208,7 +212,7 @@ Gebruikers moeten een alternatief hebben voor tijds-gebaseerde media. Dit is zow
             \item Ondertitelingen toevoegen aan live video’s waar geluid is.
         \end{itemize}                                                                                                                                                                                                      \\ 
         \hline
-        \textbf{Beschrijving}                & Gebruikers met een auditieve beperking hebben vooral baat bij het gebruik van ondertite- lingen in een live video met geluid.  \\ 
+        \textbf{Beschrijving}                & Gebruikers met een auditieve beperking hebben vooral baat bij het gebruik van ondertitelingen in een live video met geluid.  \\ 
         \hline
         \textbf{Impact op gebruikers}        & 
         \begin{itemize}
@@ -302,7 +306,7 @@ Deze richtlijn focust op het feit dat alle informatie beschikbaar is in de vorm 
         \end{itemize}                                                                                                                                                                                                                       
         \\ 
         \hline
-        \textbf{Beschrijving}                & Een gebruiker die gebruik maakt van een screenreader voor te navigeren. Alle informatie op het scherm moet daarvoor kunnen bepaald worden door die software. \\ 
+        \textbf{Beschrijving}                & Een gebruiker die gebruik maakt van een screenreader voor te navigeren wenst alle informatie waar te nemen. Alle informatie op het scherm moet daarvoor kunnen bepaald worden door de screenreader. \\ 
         \hline
         \textbf{Impact op gebruikers}        & 
         \begin{itemize}
@@ -367,7 +371,7 @@ Deze richtlijn focust op het feit dat alle informatie beschikbaar is in de vorm 
         \hline
         \textbf{Naam}                         & Zintuiglijke eigenschappen~~                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      \\ 
         \hline
-        \textbf{Slagen van succesfactor}      & Instructies geven die waarneembaar zijn voor verschillende zintuigen (visueel, auditief, ...).                                                                                                                                                                                                                                                                                                                                                                                                                    \\ 
+        \textbf{Slagen van succesfactor}      & Instructies dienen gegeven worden die waarneembaar zijn voor verschillende zintuigen (visueel, auditief, ...).                                                                                                                                                                                                                                                                                                                                                                                                                    \\ 
         \hline
         \textbf{Beschrijving}                 & Deze succesfactor verhindert dat gebruikers met een visuele beperking een mobiele applicatie niet kunnen bedienen door onduidelijke instructies. Bijvoorbeeld: een blinde gebruiker zal niks zijn met de instructie om op de derde knop links te drukken. Voor zo’n actie uit te voeren mag men niet blind zijn. Hetzelfde voor mensen met een auditieve beperking, wanneer instructies enkel via geluid worden gegeven, kan deze gebruiker geen actie ondernemen.  \\ 
         \hline
@@ -439,7 +443,7 @@ Deze richtlijn focust op het feit dat alle informatie beschikbaar is in de vorm 
         \hline
         \textbf{Naam}                         & Oriëntatie scherm~                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      \\ 
         \hline
-        \textbf{Slagen van succesfactor}      & Alle informatie en functionaliteiten moeten  identiek zijn in zowel portet- als landschapmodus.                                                                                                                                                                                                                                                                                                                                                            \\ 
+        \textbf{Slagen van succesfactor}      & Alle informatie en functionaliteiten moeten identiek zijn in zowel portret- als landschapmodus.                                                                                                                                                                                                                                                                                                                                                            \\ 
         \hline
         \textbf{Beschrijving}                 & Een smartphone kan gebruikt worden in portret- of landschapmodus. Men kan wisselen van modus door het apparaat te roteren. Gebruikers met een motorische beperking zullen vaak niet de mogelijkheid hebben om te wisselen van modus. \\ 
         \hline
@@ -455,39 +459,6 @@ Deze richtlijn focust op het feit dat alle informatie beschikbaar is in de vorm 
     \end{tabular}
 \end{table}
 
-%\paragraph{Succesfactor 1.3.4:  Oriëntatie scherm (AA)}
-%Een smartphone kan gebruikt worden in portret- of landschapmodus. Men kan wisselen van modus door het apparaat te roteren. 
-%Gebruikers met een motorische beperking zullen vaak niet de mogelijkheid hebben om te wisselen van modus. Daarom stelt deze succesfactor dat de inhoud van een mobiele applicatie hetzelfde moet zijn in zowel portret- als landschapmodus.
-
-%Om te voldoen aan deze succesfactor dient:
-%\begin{itemize}
-%    \item Alle informatie en functionaliteiten identiek zijn in zowel portet- als landschapmodus.
-%\end{itemize}
-
-%Een ontwikkelaar moet rekening houden met de mogelijkheid tot roteren van het scherm bij het ontwikkelen van de applicatie. Wanneer men de lay-out opmaakt dient men hier aandacht aan te besteden.
-
-%Een succesvolle implementatie van de succesfactor biedt voordeel aan mensen met een motorische beperking.
-
-
-
-
-%\paragraph{Succesfactor 1.3.5:  Identificeerbaar doel van invoerveld (AA)}
-%Wanneer men een formulier of veld moet invullen moet elk veld een duidelijk identificeerbaar doel hebben. Dit kan zijn door het gebruik van labels, maar ook door de juiste metadata aan een veld te geven.
-%Wanneer metadata toegevoegd is, kan het besturingssysteem eventueel aanbevelingen geven aan de gebruiker welke informatie ingevuld moet worden.
-
-%Om te voldoen aan deze succesfactor dient men:
-%\begin{itemize}
-  %  \item Aan elk veld een duidelijk doel te koppelen.
-%\end{itemize}
-
-%Voor aan deze succesfactor te voldoen kan men dus kiezen voor duidelijke labels, en eventueel metadata te koppelen aan velden. Binnen iOS kan men gebruik maken van \emph{Text input traits}, in Android kan men een \emph{inputType} koppelen aan een element.
-
-%Een succesvolle implementatie van de succesfactor biedt voordeel aan mensen met een:
-%\begin{itemize}
-%    \item Cognitieve beperking: moeilijkheden met taal, of geheugen
-%    \item Motorische beperking: moeite met invullen van velden
-%    \item Visuele beperking: duidelijkere beschrijving verwachte input (screenreader)
-%\end{itemize}
 
 \newpage
 \begin{table}[H]
@@ -501,7 +472,7 @@ Deze richtlijn focust op het feit dat alle informatie beschikbaar is in de vorm 
         \hline
         \textbf{Naam}                         & identificeerbaar doel van invoerveld~                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      \\ 
         \hline
-        \textbf{Slagen van succesfactor}      & Aan elk veld een moet een duidelijk doel gekoppeld zijn, hetzij een label of metadata.                                                                                                                                                                                                                                                                                             \\ 
+        \textbf{Slagen van succesfactor}      & Aan elk veld een moet een duidelijk doel gekoppeld zijn, met hetzij een label of metadata.                                                                                                                                                                                                                                                                                             \\ 
         \hline
         \textbf{Beschrijving}                 & Wanneer men een formulier of veld moet invullen moet elk veld een duidelijk identificeerbaar doel hebben. Dit kan zijn door het gebruik van labels, maar ook door de juiste metadata aan een veld te geven. Wanneer metadata toegevoegd is, kan het besturingssysteem eventueel aanbevelingen geven aan de gebruiker welke informatie ingevuld moet worden. \\ 
         \hline
@@ -528,12 +499,12 @@ Deze richtlijn focust zich op het makkelijker maken van waarnemen van inhoud. Di
     \item Succesfactor 1.4.4:  schalen van tekst (AA)
     \item Succesfactor 1.4.5:  tekst in een afbeelding (AA)
     \item Succesfactor 1.4.11:  niet-tekst contrast (AA)
-    \item Succesfactor 1.4.12:  regelafstand (AA)
     \item Succesfactor 1.4.13:  inhoud bij focussen op element (AA)
 \end{itemize}
 
 De volgende succesfactor is niet/onvoldoende toepasbaar op mobiele applicaties: \begin{itemize}
     \item Succesfactor 1.4.10:  reflow (AA)
+    \item Succesfactor 1.4.12: tekst regelafstand (AA)
 \end{itemize}
 
 
@@ -549,7 +520,7 @@ De volgende succesfactor is niet/onvoldoende toepasbaar op mobiele applicaties: 
         \hline
         \textbf{Naam}                         & Gebruik van kleur~                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      \\ 
         \hline
-        \textbf{Slagen van succesfactor}      & Informatie mag niet enkel door kleur weergegeven worden.                                                                                                                                                                                                                                                                     \\ 
+        \textbf{Slagen van succesfactor}      & Informatie mag niet enkel in kleur weergegeven worden.                                                                                                                                                                                                                                                                     \\ 
         \hline
         \textbf{Beschrijving}                 & Gebruikers die moeite hebben met het onderscheiden van kleuren moeten duidelijk informatie van elkaar kunnen onderscheiden. Wanneer men enkel gebruik maakt van kleur bij bijvoorbeeld instructies, bestaat de kans dat een persoon met kleurenblindheid dit niet ziet. Men kan bijvoorbeeld een tekstalternatief voorzien, om de informatie duidelijk te maken. \\ 
         \hline
@@ -601,7 +572,7 @@ De volgende succesfactor is niet/onvoldoende toepasbaar op mobiele applicaties: 
         \hline
         \textbf{Level}                        & AA                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 \\ 
         \hline
-        \textbf{Naam}                         & contrast (Minimum)~                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      \\ 
+        \textbf{Naam}                         & Contrast (Minimum)~                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      \\ 
         \hline
         \textbf{Slagen van succesfactor}      & Het hebben van een contrast ratio van minstens \textbf{4.5:1} tussen tekstkleur en de achtergrondkleur van de tekst.                                                                                                                                                                                                    \\ 
         \hline
@@ -609,7 +580,7 @@ De volgende succesfactor is niet/onvoldoende toepasbaar op mobiele applicaties: 
         \hline
         \textbf{Impact op gebruikers}         &  
         \begin{itemize}
-            \item Visuele beperking 3, screenreaders worden niet onderdrukt door geluiden
+            \item Visuele beperking 3, tekst valt makkelijker te differentiëren van de achtergrond
         \end{itemize}                                                                                                                                                                                                                                                                                                                                                                                                                    \\ 
         \hline
         \textbf{Testen}                       & Wanneer de kleur van tekst en zijn achtergrondkleur een contrast lager hebben dan 4.5:1 kan gesteld worden dat we niet voldoen aan deze richtlijn. Een voorbeeld van een tool om een contrast ratio te bereken is  \emph{WebAim Color Contrast Checker}\tnote{1}.                                                                                                                                                                                                                                 \\
@@ -634,7 +605,7 @@ De volgende succesfactor is niet/onvoldoende toepasbaar op mobiele applicaties: 
         \hline
         \textbf{Naam}                         & Schalen van tekst~                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      \\ 
         \hline
-        \textbf{Slagen van succesfactor}      & De tekstelementen moeten kunnen geschaald worden.                                                                                                                                                                                                                                                                                                                                                            \\ 
+        \textbf{Slagen van succesfactor}      & De tekstelementen moeten kunnen geschaald worden. Alle informatie moet waarneembaar blijven wanneer de tekst geschaald is.                                                                                                                                                                                                                                                                                                                                                           \\ 
         \hline
         \textbf{Beschrijving}                 & Gebruikers met een visuele beperking kunnen gebruik maken van de mogelijkheid tot het vergroten/schalen van tekst. Dit maakt het makkelijker waarneembaar voor hen. Mobiele applicaties moeten compatibel zijn met de voorkeur van de gebruiker.\\ 
         \hline
@@ -648,7 +619,7 @@ De volgende succesfactor is niet/onvoldoende toepasbaar op mobiele applicaties: 
             \item iOS: zie \ref{subsec:iOSSchalenTekst}
         \end{itemize}                                                                                                                                                                                                                                                                                                                                   \\ 
         \hline
-        \textbf{Testen}                       & Wanneer men instelt dat de tekst moet schalen, dient de tekst in de applicatie mee te schalen. Is dit niet het geval, dan voldoet men niet aan deze succesfactor.                                                                                                                                                                                                                                                                            \\
+        \textbf{Testen}                       & Wanneer men instelt dat de tekst moet schalen, dient de tekst in de applicatie mee te schalen. De tekst dient nog steeds waarneembaar te zijn. Is dit niet het geval, dan voldoet men niet aan deze succesfactor.                                                                                                                                                                                                                                                                            \\
         \hline
     \end{tabular}
 \end{table}
@@ -666,7 +637,7 @@ De volgende succesfactor is niet/onvoldoende toepasbaar op mobiele applicaties: 
         \hline
         \textbf{Naam}                         & Afbeeldingen van tekst~                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      \\ 
         \hline
-        \textbf{Slagen van succesfactor}      & Gebruik geen foto's om tekst weer te geven.                                                                                                                                                                                                                                                                                                                                                            \\ 
+        \textbf{Slagen van succesfactor}      & Gebruik geen afbeeldingen om tekst weer te geven.                                                                                                                                                                                                                                                                                                                                                            \\ 
          \hline
         \textbf{Uitzonderingen}     & 
         \begin{itemize}
@@ -674,11 +645,11 @@ De volgende succesfactor is niet/onvoldoende toepasbaar op mobiele applicaties: 
             \item Decoratieve tekst, zonder inhoud.
         \end{itemize}                                                                                                                                                                                                   \\ 
         \hline
-        \textbf{Beschrijving}                 & Mensen die nood hebben aan het schalen van tekst, doen dit zodat ze dan alle inhoud goed kunnen waarnemen. De tekst in een foto kan niet geschaald worden.\\ 
+        \textbf{Beschrijving}                 & Mensen die nood hebben aan het schalen van tekst, doen dit zodat ze dan alle inhoud goed kunnen waarnemen. De tekst in een afbeelding kan niet geschaald worden. Ook kunnen afbeeldingen afleidend werken.\\ 
         \hline
         \textbf{Impact op gebruikers}         &  
         \begin{itemize}
-            \item Visuele beperking 2, leesbaarheid wordt verhoogd 
+            \item Visuele beperking 3, leesbaarheid wordt verhoogd 
             \item Cognitieve beperking 2, beperkt afleiding in het lezen van tekst
         \end{itemize}                                                                                                                                                                                                                       \\ 
         \hline
@@ -700,7 +671,7 @@ De volgende succesfactor is niet/onvoldoende toepasbaar op mobiele applicaties: 
             \hline
             \textbf{Naam}                         & Niet-tekst contrast~                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      \\ 
             \hline
-            \textbf{Slagen van succesfactor}      & De volgende zaken moeten een contrast ratio hebben van minstens van minstens \textbf{3:1}: \begin{itemize}
+            \textbf{Slagen van succesfactor}      & De volgende zaken moeten een contrast ratio hebben van minstens \textbf{3:1}: \begin{itemize}
                 \item UI elementen.
                  \item Grafische elementen, die inhoud hebben.
             \end{itemize}                                                                                                                                                                                  \\ 
@@ -726,14 +697,63 @@ De volgende succesfactor is niet/onvoldoende toepasbaar op mobiele applicaties: 
 
 
 
-\paragraph{Succesfactor 1.4.12:  tekst regelafstand (AA)}
-\paragraph{Succesfactor 1.4.13:  inhoud bij focussen op element (AA)}
+
+\begin{table}[H]
+    \centering
+    \caption{Succesfactor 1.4.13: inhoud bij focussen op een element}
+    
+    
+    \hspace*{-1cm}\begin{tabular}{|l|p{12cm}|} 
+        \hline
+        \textbf{Succesfactor}                 & 1.4.13                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         \\ 
+        \hline
+        \textbf{Level}                        & AA                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 \\ 
+        \hline
+        \textbf{Naam}                         & Inhoud bij focussen op een element~                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      \\ 
+        \hline
+        \textbf{Slagen van succesfactor}      & Wanneer een element focus krijgt, en er komt extra inhoud tevoorschijn, moet het element voldoen aan: \begin{itemize}
+            \item Er is een mogelijkheid tot het verbergen van de extra inhoud.
+            \item De extra inhoud mag niet verdwijnen wanneer deze aangeraakt wordt.
+            \item De extra inhoud blijft zichtbaar tot deze verborgen wordt, of de inhoud niet meer geldig is.
+        \end{itemize}                                                                                                                                                                                  \\ 
+        \hline
+        \textbf{Uitzonderingen}     & 
+        \begin{itemize}
+            \item Meldingen over invoerfouten moeten niet verborgen kunnen worden.
+            \item De extra inhoud verbergt geen andere inhoud.
+        \end{itemize}                                                                                                                                                                                                   \\ 
+        \hline
+        \textbf{Beschrijving}                 & Deze succesfactor garandeert dat gebruikers makkelijker de extra inhoud, die door het aanraken van een element getoond wordt, kan waarnemen.  Een gebruiker kan bijvoorbeeld de extra inhoud waarnemen door deze aan te raken, en dan wanneer men loslaat deze laten verdwijnen.\\ 
+        \hline
+        \textbf{Impact op gebruikers}         &  
+        \begin{itemize}
+            \item Motorische beperking 3, makkelijker te besturen van elementen met extra inhoud.
+            \item Visuele beperking 2, inhoud blijft zichtbaar bij gebruik extra functionaliteiten.
+            \item Cognitieve beperking 2, mogelijkheid tot het sluiten van storende extra inhoud.
+        \end{itemize}                                                                                                                                                                                                                                                                                                                                                                                                                    \\ 
+        \hline
+        \textbf{Testen}                       & Wanneer extra inhoud getoond wordt door het aanraken van een element, moet deze zichtbaar blijven gedurende de aanraking. Wanneer er bijvoorbeeld naast de extra inhoud en naast het element geklikt wordt, mag de extra inhoud verdwijnen.  Wanneer men niet voldoet aan de voorwaarden van deze succesfactor, slaagt men niet bij het implementeren ervan.                                                                                                                                                                            \\
+        \hline
+    \end{tabular}
+    
+\end{table}
 
 \subsection{Principe 2: Bedienbaar}
 \label{sec:bedienbaarWCAG}
-TODO: uitleg
-\subsubsection{Richtlijn 2.1 - Toetsenbord toegankelijk}
-TODO: uitleg
+Dit principe richt zich op het bedienbaar/bruikbaar maken van mobiele applicaties. Acties die een gebruiker niet kan uitvoeren zijn een nefast de gebruiker. Elk onderdeel van een applicatie dient bedienbaar te zijn. De richtlijnen die dit principe ondersteunen zijn: \begin{itemize}
+    \item Richtlijn 2.1: schakelaar toegankelijk
+    \item Richtlijn 2.2: voldoende tijd
+    \item Richtlijn 2.3: aanvallen en fysieke reacties
+    \item Richtlijn 2.4: navigeerbaar 
+    \item Richtlijn 2.5: invoermogelijkheden
+\end{itemize}
+\subsubsection{Richtlijn 2.1 - Schakelaar toegankelijk}
+Gebruikers met een beperking, die niet instaat zijn om de smartphone op de voorziene wijze bedienen, moeten gebruik kunnen maken van een alternatief. In smartphones wordt dit alternatief 'schakelaars' genoemd. De bestaande WCAG-richtlijnen richten zich op toetsenborden. Terwijl dat een smartphone meerdere invoermogelijkheden biedt (Zie \ref{subsec:schakelAndroid} en \ref{subsec:schakeliOS}). Daardoor wordt zowel de richtlijn, als de bijhorende succesfactoren aangepast hierop. Voor het gebruik van 'schakelaars' te faciliteren in mobiele applicaties dient aan de volgende succesfactoren voldaan te worden: \begin{itemize}
+    \item Succesfactor 2.1.1 : bedienbaar via schakelaar (A)
+    \item Succesfactor 2.1.2 : geen val voor schakelaars (A)
+    
+    \item Succesfactor 2.1.4 : toetsenbord shortcuts (A)
+\end{itemize}
 \begin{table}[H]
     \centering
     \caption{Succesfactor 2.1.1 : bedienbaar via schakelaars}
@@ -751,7 +771,8 @@ TODO: uitleg
         \hline
         \textbf{Impact op gebruikers}         &  
         \begin{itemize}
-            \item Visuele beperking 3, toegankelijker maken van besturen
+            \item Motorische beperking 3, toegankelijker maken van besturen
+                   \item Visuele beperking 2, toegankelijker maken navigeren
         \end{itemize}                                                                                                                                                                                                                                                                                                                                                                                                                    \\ 
         \hline
         \textbf{Platform specifieke feature}  & \begin{itemize}
@@ -763,7 +784,7 @@ TODO: uitleg
         \hline
     \end{tabular}
 \end{table}
-
+\newpage
 \begin{table}[H]
     \centering
     \caption{Succesfactor 2.1.2 : geen val voor schakelaars}
@@ -781,7 +802,8 @@ TODO: uitleg
         \hline
         \textbf{Impact op gebruikers}         &  
         \begin{itemize}
-            \item Visuele beperking 2, toegankelijker maken van besturen
+            \item Visuele beperking 2, verhinderen dat men vast zit bij navigeren.
+            \item Motorische beperking 3, toegankelijker maken van besturen.
         \end{itemize}                                                                                                                                                                                                                                                                                                                                                                                                                    \\ 
         \hline
         \textbf{Platform specifieke feature}  & \begin{itemize}
@@ -805,7 +827,7 @@ TODO: uitleg
         \hline
         \textbf{Naam}                         & Toetsenbord shortcuts ~                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      \\ 
         \hline
-        \textbf{Slagen van succesfactor}      & Wanneer een applicatie een toetsenbord shortcut moet men voldoen aan 1 van de volgende situaties: \begin{itemize}
+        \textbf{Slagen van succesfactor}      & Wanneer een applicatie een toetsenbord shortcut gebruikt, moet men voldoen aan 1 van de volgende situaties: \begin{itemize}
             \item Mogelijkheid tot uitschakelen shortcut.
             \item Het kunnen veranderen van de toets van de shortcut.
             \item Shortcut is enkel actief wanneer een bepaald element een focus heeft.
@@ -826,7 +848,11 @@ TODO: uitleg
 \end{table}
 
 \subsubsection{Richtlijn 2.2 - Genoeg tijd}
-TODO: beschrijven
+Gebruikers met een beperking kunnen gefrustreerd geraken wanneer men onvoldoende tijd krijgt voor het waarnemen/gebruiken van inhoud. Deze frustratie zal vaak ook lijden tot een negatieve ervaring. Men kan dit voorkomen/beperken door de te voldoen aan deze richtlijn. De volgende succesfactoren bepalen of aan de richtlijn voldaan wordt: \begin{itemize}
+    \item Succesfactor 2.2.1: aanpasbare timing
+    \item Succesfactor 2.2.2 pauzeer, stoppen, verbergen
+\end{itemize}
+
 \begin{table}[H]
     \centering
     \caption{Succesfactor 2.2.1: aanpasbare timing}
@@ -847,7 +873,7 @@ TODO: beschrijven
         \hline
         \textbf{Uitzonderingen}     & 
         \begin{itemize}
-            \item Tijdslimiet voor real-time gebeurtenissen.
+            \item Tijdslimiet is voor real-time gebeurtenissen.
             \item Inhoud is een livestream.
             \item Tijdslimiet is essentieel.
         \end{itemize}                                                                                                                                                                                                   \\ 
@@ -857,6 +883,7 @@ TODO: beschrijven
         \textbf{Impact op gebruikers}         &  
         \begin{itemize}
             \item Visuele beperking 3, meer tijd voor inhoud waar te nemen.
+               \item Motorische beperking 2, meer tijd voor acties te kunnen uitvoeren.
             \item Cognitieve beperking 3, meer tijd voor lezen inhoud.
         \end{itemize}                                                                                                                                                                                                                                                                                                                                                                                                                    \\ 
         \hline
@@ -865,22 +892,22 @@ TODO: beschrijven
     \end{tabular}
     
 \end{table}
-
+\newpage
 \begin{table}[H]
     \centering
-    \caption{Succesfactor 2.2.2 pauzeer, stoppen, verbergen}
+    \caption{Succesfactor 2.2.2: pauzeer, stoppen, verbergen}
     
     
     \hspace*{-1cm}\begin{tabular}{|l|p{12cm}|} 
         \hline
-        \textbf{Succesfactor}                 & 2.1.2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          \\ 
+        \textbf{Succesfactor}                 & 2.2.2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          \\ 
         \hline
         \textbf{Level}                        & A                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 \\ 
         \hline
         \textbf{Naam}                         & Pauzeer, stoppen, verbergen~                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      \\ 
         \hline
         \textbf{Slagen van succesfactor}      & \begin{itemize}
-            \item Bewegende inhoud moet een optie hebben tot het pauzeren, stoppen of verbergen ervan. 
+            \item Bewegende inhoud moet een optie hebben tot het pauzeren, stoppen of verbergen van de beweging. 
             \item Inhoud die automatisch update, moet kunnen gepauzeerd worden.
         \end{itemize}                                                                                                                                                                   \\ 
         \hline
@@ -895,7 +922,6 @@ TODO: beschrijven
         \hline
         \textbf{Impact op gebruikers}         &  
         \begin{itemize}
-            \item Visuele beperking 2, meer tijd voor inhoud waar te nemen.
             \item Cognitieve beperking 3, minder afleiding bij waarnemen inhoud.
         \end{itemize}                                                                                                                                                                                                                                                                                                                                                                                                                    \\ 
         \hline
@@ -906,15 +932,50 @@ TODO: beschrijven
 \end{table}
 
 \subsubsection{Richtlijn 2.3 - Aanvallen en fysieke reacties}
-Bepaalde gebruikers van een mobiele applicatie zijn zeer gevoelig aan flitsende beelden. Aanvallen en/of fysieke reacties kunnen het gevolg zijn van blootstelling aan flitsende beelden. De volgende succesfactoren zijn van toepassing op deze richtlijn: 
+Bepaalde gebruikers van een mobiele applicatie zijn zeer gevoelig aan flitsende beelden. Aanvallen en/of fysieke reacties kunnen het gevolg zijn van blootstelling aan flitsende beelden. 
+
+De bestaande WCAG-richtlijn bevat succesfactor \emph{2.3.1: drie flitsen of onder de drempel}. Deze succesfactor beperkt het gebruik van meer dan 3 flitsen gedurende 1 seconde op webpagina's. Wanneer de flitsen blijven onder een bepaalde drempelwaarde op vlak van intensiteit, dan wordt deze aanvaard. 
+
+Door het gebrek van de mogelijkheid om software te installeren die de intensiteit van flitsen kan bepalen op smartphones, wordt in dit onderzoek de drempelwaarde verworpen. De volgende succesfactoren zijn van toepassing op deze richtlijn: 
 \begin{itemize}
     \item Succesfactor 2.3.1: drie flitsen na elkaar (A)
 \end{itemize}
+
+
+\begin{table}[H]
+    \centering
+    \caption{Succesfactor 2.3.1: drie flitsen na elkaar}
+    
+    
+    \hspace*{-1cm}\begin{tabular}{|l|p{12cm}|} 
+        \hline
+        \textbf{Succesfactor}                 & 2.3.1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          \\ 
+        \hline
+        \textbf{Level}                        & A                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 \\ 
+        \hline
+        \textbf{Naam}                         & Drie flitsen na elkaar~                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      \\ 
+        \hline
+        \textbf{Slagen van succesfactor}      & Er mogen niet meer dan 3 flitsen per seconde plaatsvinden.                                                                                                                                   \\ 
+      
+        \hline
+        \textbf{Beschrijving}                 & Flitsen kunnen bepaalde gebruikers een epilepsie aanval bezorgen. Veelvuldige flitsen na elkaar worden best vermeden.  \\ 
+        \hline
+        \textbf{Impact op gebruikers}         &  
+        \begin{itemize}
+            \item Cognitieve beperking 3, voorkomen van aanval door flitsen.
+        \end{itemize}                                                                                                                                                                                                                                                                                                                                                                                                                    \\ 
+        \hline
+        \textbf{Testen}                       & Wanneer men meer dan drie flitsen kan waarnemen gedurende 1 seconde, kan gesteld worden dat niet voldaan wordt aan deze succesfactor.                                                                                                                                                                                                               \\
+        \hline
+    \end{tabular}
+    
+\end{table}
 
 \subsubsection{Richtlijn 2.4 - Navigeerbaar}
 Gebruikers moeten de mogelijkheid hebben om te navigeren binnen een applicatie. Voor gebruikers met een beperking kan dit een opgave zijn. Duidelijkheid over waar een gebruiker zich bevindt is dus de essentie. De volgende succesfactoren zijn van toepassing op deze richtlijn: 
 \begin{itemize}
     \item Succesfactor 2.4.2: scherm-titel (A)
+            \item Succesfactor 2.4.3: focus volgorde (A)
      \item Succesfactor 2.4.4: knop/link doel (A)
         \item Succesfactor 2.4.7: zichtbare focus (AA)
 \end{itemize}
@@ -929,11 +990,12 @@ De volgende succesfactoren zijn niet/beperkt toepasbaar op mobiele applicaties:
 
 De volgende succesfactoren zijn te wijten aan inhoud, en vallen buiten de scope van dit onderzoek: 
 \begin{itemize}
-            \item Succesfactor 2.4.3: focus order (A)
+
     \item Succesfactor 2.4.6: headers en labels (AA)
     
 \end{itemize}
-Beide succesfactoren zijn afhankelijk van de inhoud, wat niet het onderzoeksdomein is. Toch is het niet af te raden om ook aan de bovenstaande succescriteria te voldoen. 
+Beide succesfactoren zijn afhankelijk van de inhoud, wat niet valt binnen de scope van dit onderzoek. Toch is het \textbf{niet} af te raden om ook aan de bovenstaande succescriteria te voldoen. 
+\newpage
 \begin{table}[H]
     \centering
     \caption{Succesfactor 2.4.2 scherm-titel}
@@ -966,6 +1028,47 @@ Beide succesfactoren zijn afhankelijk van de inhoud, wat niet het onderzoeksdome
 
 \begin{table}[H]
     \centering
+    \caption{Succesfactor 2.4.3: focus volgorde}
+    
+    
+    \hspace*{-1cm}\begin{tabular}{|l|p{12cm}|} 
+        \hline
+        \textbf{Succesfactor}                 & 2.4.3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          \\ 
+        \hline
+        \textbf{Level}                        & A                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 \\ 
+        \hline
+        \textbf{Naam}                         & Focus volgorde~                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      \\ 
+        \hline
+        \textbf{Slagen van succesfactor}      & Er moet in een logische volgorde kunnen genavigeerd worden naar de verschillende elementen op een scherm.                                                            \\ 
+                \hline
+        \textbf{Uitzondering}     & 
+        Wanneer de informatie niet dient waargenomen te worden in een bepaalde volgorde.                                                                                                                                                                                                    \\ 
+        
+        \hline
+        
+        \textbf{Beschrijving}                 & De volgorde dat gebruikers elementen waarnemen heeft invloed op hoe men de informatie verwerkt. Een gebruiker met een visuele beperking kan daardoor informatie waarnemen die totaal geen context heeft, doordat de elementen niet logisch navigeerbaar zijn. Een gebruiker met een motorische beperking moet veel moeite doen om te navigeren naar het gewenste element. In zowel iOS en Android kan ingesteld worden in welke volgorde over de elementen genavigeerd kan worden.\\ 
+        \hline
+        \textbf{Impact op gebruikers}         &  
+        \begin{itemize}
+            \item Visuele beperking 3, ondersteunen van begrijpen van context.
+            \item Motorische beperking 2, makkelijker navigeerbaar.
+        \end{itemize}                                                                                                                                                                                                                                                                                                                                                                                                                    \\ 
+    \hline
+    \textbf{Platform specifieke feature} & \begin{itemize}
+        \item iOS: VoiceOver, zie \ref{subsec:VoiceOver}.
+        \item Android: TalkBack, zie \ref{subsec:TalkBack}
+            \item iOS: Switch Control, zie \ref{subsec:schakeliOS}.
+        \item Android: Toegang via schakelaars, zie \ref{subsec:schakelAndroid}
+    \end{itemize}                                                                                                                                                                       \\ 
+        \hline
+        \textbf{Testen}                       & Wanneer informatie duidelijk in een bepaalde volgorde dient waargenomen te worden, maar men kan niet de focus navigeren in die volgorde, slaagt men niet in het implementeren van deze succesfactor.                                                                                                                                                                                \\
+        \hline
+    \end{tabular}
+    
+\end{table}
+
+\begin{table}[H]
+    \centering
     \caption{Succesfactor 2.4.4 knop doel}
     
     
@@ -975,7 +1078,7 @@ Beide succesfactoren zijn afhankelijk van de inhoud, wat niet het onderzoeksdome
         \hline
         \textbf{Level}                        & A                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 \\ 
         \hline
-        \textbf{Naam}                         & Knop/link doel~                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      \\ 
+        \textbf{Naam}                         & Knop doel~                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      \\ 
         \hline
         \textbf{Slagen van succesfactor}      & Het doel van een knop moet duidelijk beschreven zijn.                                                                                                                                 \\ 
         
@@ -998,7 +1101,7 @@ Beide succesfactoren zijn afhankelijk van de inhoud, wat niet het onderzoeksdome
     \end{tabular}
     
 \end{table}
-
+\newpage
 \begin{table}[H]
     \centering
     \caption{Succesfactor 2.4.7 zichtbare focus}
@@ -1020,7 +1123,7 @@ Beide succesfactoren zijn afhankelijk van de inhoud, wat niet het onderzoeksdome
         \textbf{Impact op gebruikers}         &  
         \begin{itemize}
             \item Visuele beperking 3, faciliteren waarnemen en navigeren.
-            \item Visuele beperking 3, makkelijker navigeren binnen applicatie.
+            \item Motorische beperking 3, makkelijker navigeren binnen applicatie.
             
         \end{itemize}                                                                                                                                                                                                                                                                                                                                                                                                                    \\ 
         \hline
@@ -1036,15 +1139,14 @@ Beide succesfactoren zijn afhankelijk van de inhoud, wat niet het onderzoeksdome
 \end{table}
 
 \subsubsection{Richtlijn 2.5 - Invoermogelijkheden}
-TODO beschrijving
-De volgende succesfactoren zijn van toepassing op deze richtlijn: 
+Het invoeren van gegevens kan voor gebruikers met een beperking een lastige opgave zijn. Vaak zijn die gebruikers niet in staat om te doen wat van hun verwacht wordt. Deze richtlijn voorkomt problemen bij het invoeren van gegevens. De volgende succesfactoren zijn van toepassing op deze richtlijn: 
 \begin{itemize}
     \item Succesfactor 2.5.1: aanwijsgebaren (A)
      \item Succesfactor 2.5.2: aanwijzen annuleren (A)
      \item Succesfactor 2.5.3: label in naam (A)
           \item Succesfactor 2.5.4: bewegings-aansturing (A)
 \end{itemize}
-
+\newpage
 \begin{table}[H]
     \centering
     \caption{Succesfactor 2.5.1 aanwijsgebaren}
@@ -1068,7 +1170,7 @@ De volgende succesfactoren zijn van toepassing op deze richtlijn:
         \textbf{Impact op gebruikers}         &  
         \begin{itemize}
             \item Motorische beperking 3, vermijden van moeilijke aanwijsgebaren.
-  
+              \item Visuele beperking 2, vermijden van verkeerd uitvoeren gebaren door het niet kunnen voorstellen wat het gebaar is.
             
         \end{itemize}                                                                                                                                                                                                                                                                                                                                                                                                                    \\ 
        
@@ -1092,9 +1194,9 @@ De volgende succesfactoren zijn van toepassing op deze richtlijn:
         \hline
         \textbf{Naam}                         & Aanwijzen annuleren~                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      \\ 
         \hline
-        \textbf{Slagen van succesfactor}      & Voor functionaliteiten dient met een enkele aanraking geactiveerd kunnen worden dient het te voldoen aan 1 van de volgende voorwaarden:
+        \textbf{Slagen van succesfactor}      & Voor functionaliteiten in een mobiele applicatie  die met een enkele aanraking geactiveerd kunnen worden, dient deze te voldoen aan minstens 1 van de volgende voorwaarden:
         \begin{itemize}
-            \item De functionaliteit pas geactiveerd wordt wanneer men zijn vinger heeft opgeheven.
+            \item De functionaliteit wordt pas geactiveerd wanneer een gebruiker zijn vinger heeft opgeheven.
             \item Er een undo mogelijkheid is.
             \item Het uitvoeren van de functionaliteit bij het indrukken is essentieel.
         \end{itemize}                                                                                                 \\ 
@@ -1104,6 +1206,7 @@ De volgende succesfactoren zijn van toepassing op deze richtlijn:
         \textbf{Impact op gebruikers}         &  
         \begin{itemize}
             \item Motorische beperking 3, vermijden van ongewenst activeren functionaliteiten.
+               \item Visuele beperking 2, vermijden van ongewenst activeren functionaliteit door gebruik screenreader.
             
             
         \end{itemize}                                                                                                                                                                                                                                                                                                                                                                                                                                                               \\ 
@@ -1113,7 +1216,7 @@ De volgende succesfactoren zijn van toepassing op deze richtlijn:
     \end{tabular}
     
 \end{table}
-
+\newpage
 \begin{table}[H]
     \centering
     \caption{Succesfactor 2.5.3: label in naam}
@@ -1170,7 +1273,7 @@ De volgende succesfactoren zijn van toepassing op deze richtlijn:
         \textbf{Uitzondering}     & 
         \begin{itemize}
             \item Beweging is voor gebruik van toegankelijkheidsfunctionaliteiten.
-            \item Beweging is essentieel.
+            \item Beweging is essentieel voor gebruik van applicatie.
         \end{itemize}                                                                                                                                                                                           \\ 
 
         \hline
@@ -1178,7 +1281,7 @@ De volgende succesfactoren zijn van toepassing op deze richtlijn:
         \hline
         \textbf{Impact op gebruikers}         &  
         \begin{itemize}
-            \item Motorische beperking 2, faciliteren van gebruik functionaliteiten.
+            \item Motorische beperking 3, faciliteren van gebruik functionaliteiten.
             
             
         \end{itemize}                                                                                                                                                                                                                                                                                                     \\ 
@@ -1191,7 +1294,12 @@ De volgende succesfactoren zijn van toepassing op deze richtlijn:
 \end{table}
 \subsection{Principe 3: Verstaanbaar}
 \label{sec:verstaanbaarWCAG}
-
+Een mobiele applicatie moet verstaanbaar zijn. Dit betekent dat gebruikers de informatie moeten kunnen waarnemen, maar ook acties moeten kunnen uitvoeren. De volgende richtlijnen zorgen dat een mobiele applicatie voldoet aan dit principe:
+\begin{itemize}
+    \item Richtlijn 3.1: leesbaar
+    \item Richtlijn 3.2: voorspelbaar
+    \item Richtlijn 3.3: invoer assistentie
+\end{itemize}
 \subsubsection{Richtlijn 3.1 - Leesbaar}
 Gebruikers moeten de mogelijkheid hebben om de inhoud te verstaan, dit is door het gebruik van de taal. Maar ook de gebruikte taal speelt hier invloed op. Sommige gebruikers hebben moeite met het interpreteren van een vreemde taal, en wensen de inhoud aangepast naar hun taal. Deze richtlijn valt buiten de scope van dit onderzoek, de succesfactoren zijn vooral gericht op inhoud. De volgende succesfactoren zullen dus niet besproken worden: \begin{itemize}
     \item Succesfactor 3.1.1: taal van een pagina (A)
@@ -1251,10 +1359,13 @@ Bepaalde richtlijnen richten zich op de inhoud van een applicatie, daarom zullen
         \hline
         \textbf{Level}                        & A                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               \\ 
         \hline
-        \textbf{Naam}                         & Bij focus~                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      \\ 
+        \textbf{Naam}                         & Bij invoer~                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      \\ 
         \hline
-        \textbf{Slagen van succesfactor}      & Bij elementen waar men gegevens kan invoeren, mag het element niet veranderen, tenzij de gebruiker gewaarschuwd werd.
+        \textbf{Slagen van succesfactor}      & Bij elementen waar men gegevens kan invoeren, mag het element niet veranderen.
         \\  
+        \hline
+        \textbf{Uitzonderingen}     & 
+   De gebruiker werd gewaarschuwd van de verandering.                                                                                                                                                                                           \\ 
         \hline
         \textbf{Beschrijving}                 & Het invoeren van gegevens is vaak belangrijk bij het gebruik van een applicatie. Het invoeren van de gegevens moet dan ook voorspelbaar zijn. Een gebruiker moet een waarschuwing ontvangen wanneer een element veranderd bij invoer. Dit kan bijvoorbeeld voorkomen bij het invoeren van een datum.  \\ 
         \hline
@@ -1272,13 +1383,195 @@ Bepaalde richtlijnen richten zich op de inhoud van een applicatie, daarom zullen
     
 \end{table}
 \newpage
-\subsubsection{Richtlijn 3.2 - Invoer assistentie}
+\subsubsection{Richtlijn 3.3 - Invoer assistentie}
 Wanneer een gebruiker een fout maakt bij het invoeren van gegevens, is het wenselijk dat duidelijk is wat fout is. Deze richtlijn beschrijft een aantal succesfactoren die fouten duidelijker overbrengen naar de gebruiker. De volgende succesfactoren worden besproken: \begin{itemize}
     \item Succesfactor 3.3.1: fouten identificatie (A)
-        \item Succesfactor 3.3.4: error preventie (A)
+         \item Succesfactor 3.3.2: labels of instructies (A)
+    \item Succesfactor 3.3.3: error suggestie (AA)
+        \item Succesfactor 3.3.4: error preventie (financiële en juridische invoer) (AA)
 \end{itemize}
 
-De volgende succesfactoren focussen zich op inhoud van de mobiele applicatie, deze vallen buiten de scope van dit onderzoek: \begin{itemize}
-     \item Succesfactor 3.3.2: labels of instructies (A)
-      \item Succesfactor 3.3.3: error suggestie (AA)
+\begin{table}[H]
+    \centering
+    \caption{Succesfactor 3.3.1: fouten identificatie}
+    
+    
+    \hspace*{-1cm}\begin{tabular}{|l|p{12cm}|} 
+        \hline
+        \textbf{Succesfactor}                 & 3.3.1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        \\ 
+        \hline
+        \textbf{Level}                        & A                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               \\ 
+        \hline
+        \textbf{Naam}                         & Fouten identificatie~                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      \\ 
+        \hline
+        \textbf{Slagen van succesfactor}      & Wanneer een fout is gedetecteerd, bevindt er zich uitleg over de fout op het scherm.
+        \\  
+        \hline
+        \textbf{Beschrijving}                 & Gebruikers met een visuele beperking kunnen vaak niet identificeren waarom ze een fout maken. Een label die beschrijft welke fout er gemaakt werd, maakt het duidelijk voor de fout te begrijpen. Ook gebruikers met een cognitieve beperking zullen ondersteund worden wanneer een duidelijke beschrijving van de fout voorzien wordt. Wanneer enkel iconen of andere visuele indicaties van de fout weergegeven worden, kan dit onduidelijk zijn voor hen.\\ 
+        \hline
+        \textbf{Impact op gebruikers}         &  
+        \begin{itemize}
+            \item Visuele beperking 3, waarneembaar maken van fouten.
+            \item Cognitieve beperking 2, duidelijker maken waar een fout is opgelopen.
+        \end{itemize}                                                                                                                                                                                                                                                                                                     \\ 
+        
+        \hline
+        \textbf{Testen}                       & Wanneer een fout wordt gemaakt bij het invoeren van gegevens moet een duidelijke foutboodschap zichtbaar zijn. Anders voldoet men niet aan deze richtlijn.                       \\
+        \hline
+    \end{tabular}
+    
+\end{table}
+\newpage
+\begin{table}[H]
+    \centering
+    \caption{Succesfactor 3.3.2: labels of instructies}
+    
+    
+    \hspace*{-1cm}\begin{tabular}{|l|p{12cm}|} 
+        \hline
+        \textbf{Succesfactor}                 & 3.3.2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        \\ 
+        \hline
+        \textbf{Level}                        & A                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               \\ 
+        \hline
+        \textbf{Naam}                         & Labels of instructies~                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      \\ 
+        \hline
+        \textbf{Slagen van succesfactor}      & Instructies zijn voorzien, wanneer er invoer wordt verwacht van een gebruiker.
+        \\  
+        \hline
+        \textbf{Beschrijving}                 & Het geven van instructies maakt het makkelijker om te begrijpen welke invoer verwacht wordt van een gebruiker.\\ 
+        \hline
+        \textbf{Impact op gebruikers}         &  
+        \begin{itemize}
+            \item Visuele beperking 3, waarneembaar maken van verwachte invoer.
+            \item Cognitieve beperking 2, duidelijk maken welke invoer verwacht wordt.
+        \end{itemize}                                                                                                                                                                                                                                                                                                     \\ 
+        
+        \hline
+        \textbf{Testen}                       & Bij het ontbreken van instructies bij een invoerveld kan gesteld worden dat niet voldaan wordt aan deze richtlijn.                      \\
+        \hline
+    \end{tabular}
+    
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption{Succesfactor 3.3.3: error suggestie}
+    
+    
+    \hspace*{-1cm}\begin{tabular}{|l|p{12cm}|} 
+        \hline
+        \textbf{Succesfactor}                 & 3.3.3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        \\ 
+        \hline
+        \textbf{Level}                        & AA                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               \\ 
+        \hline
+        \textbf{Naam}                         & Error suggestie~                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      \\ 
+        \hline
+        \textbf{Slagen van succesfactor}      & Wanneer een invoerfout is gedetecteerd, en er zijn aanbevelingen te geven, moeten deze getoond worden.
+        \\  
+         \hline
+        \textbf{Uitzondering}     & 
+        Wanneer de invoer te maken heeft met veiligheid, en een suggestie deze in gevaar zou brengen.                                                                                                                                                                                                 \\ 
+        \hline
+        \textbf{Beschrijving}                 & Succesfactor 3.3.1 zorgt dat gebruikers ingelicht worden bij het maken van een fout. Bepaalde gebruikers kunnen het moeilijk vinden om deze fout te verbeteren. Wanneer het mogelijk is, moeten er dus suggesties gedaan worden.  \\ 
+        \hline
+        \textbf{Impact op gebruikers}         &  
+        \begin{itemize}
+            \item Visuele beperking 2, duidelijker maken wat de aard van fout is.
+            \item Motorische beperking 2, verminderen van gegevens dat ingevoerd moeten worden.
+            \item Cognitieve beperking 3, verstaanbaar maken hoe een veld ingevoerd dient te worden.
+        \end{itemize}                                                                                                                                                                                                                                                                                                     \\ 
+        
+        \hline
+        \textbf{Testen}                       & Wanneer men er van uit gaat dat er suggesties mogelijk zijn, dienen die weergegeven te worden. Anders faalt men in het implementeren van dit succescriteria.                     \\
+        \hline
+    \end{tabular}
+    
+\end{table}
+\newpage
+\begin{table}[H]
+    \centering
+    \caption{Succesfactor 3.3.4: error preventie (financiële en juridische invoer)}
+    
+    
+    \hspace*{-1cm}\begin{tabular}{|l|p{12cm}|} 
+        \hline
+        \textbf{Succesfactor}                 & 3.3.4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        \\ 
+        \hline
+        \textbf{Level}                        & AA                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               \\ 
+        \hline
+        \textbf{Naam}                         & Error preventie (financiële en juridische invoer)~                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      \\ 
+        \hline
+        \textbf{Slagen van succesfactor}      & Wanneer gebruikers gevoelige data invoeren voor financiële transacties of juridische verbintenissen dient de mobiele applicatie minstens één van de volgende zaken te doen: \begin{itemize}
+            \item De mogelijkheid geven om de ingevoerde data ongedaan te maken.
+            \item De ingevoerde data controleren op fouten, en de mogelijkheid geven tot het verbeteren ervan.
+            \item De gebruiker de ingevoerde data laten bevestigen.
+        \end{itemize}
+        \\  
+        
+        \hline
+        \textbf{Beschrijving}                 & Deze succesfactor voorkomt dat gebruikers grove fouten maken, te wijten aan invoer in hun applicatie. Zonder deze beveiliging kunnen gebruikers ongewild grote financiële/juridische problemen krijgen.    \\ 
+        \hline
+        \textbf{Impact op gebruikers}         &  
+        \begin{itemize} 
+            \item Visuele beperking 3
+            \item Motorische beperking 3
+            \item Cognitieve beperking 3
+        \end{itemize}                                                                                                                                                                                                                                                                                                     \\ 
+        
+        \hline
+        \textbf{Testen}                       & Wanneer de mobiele applicatie invoer vraagt voor financiële transacties of juridische verbintenissen dient voldaan te worden aan minstens één van de beveiligingsmaatregelen.   Wanneer dit niet het geval is, slaagt men niet voor het implementeren van deze succesfactor.               \\
+        \hline
+    \end{tabular}
+    
+\end{table}
+\subsection{Principe 3: Robust}
+\label{sec:robustWCAG}
+Bij het gebruik van allerlei functionaliteiten/technologieën moet de gebruiker steeds de inhoud van een  applicatie kunnen waarnemen. Daarvoor moet de applicatie robuust genoeg zijn. Richtlijn \textit{4.1 - compatibel} zorgt ervoor dat dit mogelijk is.
+\subsubsection{Richtlijn 4.1 - Compatibel}
+De technologieën en functionaliteiten die gebruikt worden zullen steeds bruikbaar in een applicatie, wanneer de applicatie compatibel is met die technologieën en functionaliteiten. De volgende succesfactor verhoogt de compatibiliteit van mobiele applicaties: \begin{itemize}
+ \item Succesfactor 4.1.3: status berichten
 \end{itemize}
+
+
+De andere succesfactoren die binnen deze richtlijn vallen zijn specifiek gericht op comptabiliteit met HTML-elementen.
+De volgende succesfactoren zijn niet/beperkt toepasbaar op mobiele applicaties:
+\begin{itemize}
+    \item Succesfactor 4.1.1: parsen (A)
+    \item Succesfactor 4.1.2: naam, rol, waarde (A)
+\end{itemize}
+
+Zo bepaalt \textit{succesfactor 4.1.1: parsen} dat de inhoud van een webpagina steeds moet voldoen aan een bepaalde syntax. Binnen Android en iOS zorgt de compiler dat syntax gerespecteerd wordt. 
+
+\textit{Succesfactor 4.1.2: naam, rol, waarde} bepaalt dan weer dat het type element, de naam van het element en de waarde ervan moet kunnen bepaald worden, maar ook de rol binnen de applicatie. Binnen iOS en Android wordt dit standaard gedaan voor elk element. Een screenreader kan deze waarden dan ook voorlezen. Sommige elementen bevatten dan wel weer geen zinvolle beschrijving.
+
+\begin{table}[H]
+    \centering
+    \caption{Succesfactor 4.1.3: status berichten}
+    
+    
+    \hspace*{-1cm}\begin{tabular}{|l|p{12cm}|} 
+        \hline
+        \textbf{Succesfactor}                 & 4.1.3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       \\ 
+        \hline
+        \textbf{Level}                        & AA                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               \\ 
+        \hline
+        \textbf{Naam}                         & Status berichten~                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      \\ 
+        \hline
+        \textbf{Slagen van succesfactor}      & In het geval er inhoud is toegevoegd of veranderd, en de gebruiker daarvan op de hoogte gebracht moet worden, moet dit zonder de focus van de gebruiker te forceren naar de inhoud.
+        \\  
+        
+        \hline
+        \textbf{Beschrijving}                 & Wanneer een applicatie de focus van een screenreader van een gebruiker eist, kan dit de gebruiker afleiden. Daarom is het raadzaam om de functionaliteit te gebruiken om aankondigingen te maken voor gebruikers met screenreaders.   \\ 
+        \hline
+        \textbf{Impact op gebruikers}         &  
+        \begin{itemize}
+            \item Visuele beperking 3, behouden van context bij meldingen
+        \end{itemize}                                                                                                                                                                                                                                                                                                     \\ 
+        
+        \hline
+        \textbf{Testen}                       & Wanneer men een screenreader heeft geactiveerd, en de inhoud verandert, mag de focus van de screenreader niet aangepast zijn. Anders voldoet men niet aan deze succesfactor.              \\
+        \hline
+    \end{tabular}
+    
+\end{table}
+

@@ -10,6 +10,7 @@
 \usepackage{framed}
 \usepackage{color}
 \usepackage{threeparttable}
+\usepackage[final]{pdfpages}
 \usepackage{float}
 \setcounter{secnumdepth}{3}
 \definecolor{mygreen}{RGB}{50, 110, 76}
@@ -166,8 +167,21 @@ Het onderwerp van deze bachelorproef is gebaseerd op een onderzoeksvoorstel dat 
 
 %%---------- Andere bijlagen --------------------------------------------------
 % TODO: Voeg hier eventuele andere bijlagen toe
+\chapter{Checklist richtlijnen mobiele applicaties}
+\includepdf[pages=1,pagecommand=\section{Blanco checklist} \label{sec:blancoChecklist}]{../testenApplicatie/blancoChecklist.pdf}
+\includepdf[pages=2-3]{../testenApplicatie/blancoChecklist.pdf}
 %\input{...}
+\includepdf[pages=1,pagecommand=\section{De Lijn - Android checklist} \label{sec:checkListAndroidDeLijn}]{../testenApplicatie/DeLijn-Android.pdf}
+\includepdf[pages=2-3]{../testenApplicatie/DeLijn-Android.pdf}
+%\input{...}
+\includepdf[pages=1,pagecommand=\section{De Lijn - iOS checklist} \label{sec:checklistiOSDeLijn}]{../testenApplicatie/DeLijn-iOS.pdf}
+\includepdf[pages=2-3]{../testenApplicatie/DeLijn-iOS.pdf}
+%itsme
+\includepdf[pages=1,pagecommand=\section{itsme - Android checklist} \label{sec:checkListAndroiditsme}]{../testenApplicatie/itsme-Android.pdf}
+\includepdf[pages=2-3]{../testenApplicatie/itsme-Android.pdf}
 
+\includepdf[pages=1,pagecommand=\section{itsme - iOS checklist} \label{sec:checkListiOSitsme}]{../testenApplicatie/itsme-iOS.pdf}
+\includepdf[pages=2-3]{../testenApplicatie/itsme-iOS.pdf}
 %%---------- Referentielijst --------------------------------------------------
 
 \printbibliography[heading=bibintoc]

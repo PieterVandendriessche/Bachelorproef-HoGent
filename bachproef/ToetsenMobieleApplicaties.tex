@@ -1,10 +1,183 @@
 \chapter{\IfLanguageName{dutch}{Toetsen van applicaties a.d.h.v. richtlijnen}{Testing of mobile applications}}
 \label{ch:toetsenApplicaties}
-
+In hoofdstuk \ref{ch:Richtlijnen voor toegankelijkheid mobiele applicaties} werd nagegaan of het mogelijk was om de bestaande WCAG richtlijnen bruikbaar te maken voor mobiele applicaties. In dit hoofdstuk wordt a.d.h.v. de opgestelde richtlijnen enkele applicaties getoetst op het voldoen eraan.
 \section{Opstellen van checklist }
 \label{sec:checklist}
-\lipsum[76-80]
+Vertrekkende van de richtlijnen die in hoofdstuk \ref{ch:Richtlijnen voor toegankelijkheid mobiele applicaties} opgesteld werden is het mogelijk om een checklist te maken. Deze checklist bevat alle succesfactoren waar een ontwikkelaar aan moet voldoen. Dankzij de checklist kan hij dan ook direct inzicht krijgen in welke opzichten zijn mobiele applicatie aangepast moet worden. 
+
+Elke succesfactor beschreven in de checklist bevat de slaagcriteria, uitzonderingen en de impact op de gebruiker. De score per doelgroep die de impact aanduidt toont aan hoeveel impact het slagen van de succesfactor heeft op de gebruikerservaring van deze doelgroep. Ook hieruit kan een ontwikkelaar duidelijk afleiden welke doelgroepen hij voldoende ondersteunt. 
+
+Zoals reeds vermeld werd in hoofdstuk \ref{ch:Richtlijnen voor toegankelijkheid mobiele applicaties} voldoet men niet automatisch aan de WCAG 2.1 niveau AA richtlijnen. Daarvoor dient men nog de succesfactoren die focussen op inhoud in acht te nemen. Deze succesfactoren vallen buiten de scope van dit onderzoek. 
+
+Een blanco checklist zit in bijlage \ref{sec:blancoChecklist}. Vanuit deze checklist kan een ontwikkelaar toetsen of zijn mobiele applicatie voldoet aan de opgestelde succesfactoren.
 
 \section{Toetsen van mobiele applicaties a.d.h.v. checklist}
 \label{sec:checklistTesting}
-\lipsum[76-80]
+%TODO: beschrijven waarom wee niet algemeen veel applicaties testen?
+
+In sectie \ref{directive} werd besproken dat richtlijn 2016/2102 van het Europese parlement de lidstaten aanspoort dat mobiele applicaties van de overheid te laten voldoen aan de WCAG 2.1 richtlijnen niveau AA. In dit onderzoek zullen we dan ook voor enkele mobiele applicaties van de overheid nagaan in welke mate deze voldoen aan de succesfactoren die opgesteld werden in dit onderzoek. De richtlijnen uit dit onderzoek leunen zeer sterk aan bij de WCAG 2.1 richtlijnen niveau AA, met uitzondering van enkele succesfactoren.
+
+\subsection{De Lijn}
+De mobiele applicatie kan gevonden worden in de Google Play Store\footnote{\url{https://play.google.com/store/apps/details?id=com.themobilecompany.delijn}} en App Store\footnote{\url{https://itunes.apple.com/be/app/de-lijn/id456910787?l=nl&mt=8}}. De volgende functionaliteiten werden getest: \begin{itemize}
+    \item Opstart applicatie
+    \item Plannen van een route
+    \item Zoeken van haltes
+    \item Aankopen van een ticket
+\end{itemize}
+
+\subsubsection{Android}
+\begin{table} [H]
+    \centering
+    \caption{Specificaties test: De Lijn - Android}
+    \begin{tabular}{|l|l|l|l|l|} 
+        \hline
+        \multicolumn{2}{|l|}{\textbf{Mobiele Applicatie } } &  & \multicolumn{2}{l|}{\textbf{Smartphone }}  \\ 
+        \hline
+        \textbf{Naam}           & De Lijn                   &  & \textbf{Naam}           & Nexus 6p         \\ 
+        \hline
+        \textbf{Versie}         & 4.5.4                     &  & \textbf{Android versie} & 8.1.0            \\ 
+        \hline
+        \textbf{Laatste update} & 10 mei 2019               &  & \textbf{Test datum}     & 24 mei 2019      \\
+        \hline
+    \end{tabular}
+\end{table}
+
+
+
+Bij het testen van de mobiele applicatie, viel op dat het bij het eerste keer opstarten, het onmogelijk is om de applicatie te bedienen met een schakelaar. Het introductiescherm vereist een sleep gebaar. Ook viel op dat sommige elementen niet benoemd werden. De tekst van de applicatie kan niet geschaald worden. Bij het gebruik van het navigatiemenu met TalkBack of een schakelaar, is het onmogelijk om deze te sluiten.
+
+Aan de volgende succesfactoren werd niet voldaan tijdens het testen van de applicatie: \begin{itemize}
+    \item Succesfactor 1.1.1
+    \item Succesfactor 1.3.1
+    \item Succesfactor 1.3.4
+        \item Succesfactor 1.4.4
+            \item Succesfactor 1.4.13
+                \item Succesfactor 2.1.1
+                    \item Succesfactor 2.1.2
+                        \item Succesfactor 2.5.1
+                            \item Succesfactor 3.2.2
+                                \item Succesfactor 1.3.1
+\end{itemize}
+
+Zie bijlage \ref{sec:checkListAndroidDeLijn} voor de checklist met de resultaten van de audit.
+
+\subsubsection{iOS}
+\begin{table} [H]
+    \centering
+    \caption{Specificaties test: De Lijn - iOS}
+    \begin{tabular}{|l|l|l|l|l|} 
+        \hline
+        \multicolumn{2}{|l|}{\textbf{Mobiele Applicatie } } &  & \multicolumn{2}{l|}{\textbf{Smartphone }}  \\ 
+        \hline
+        \textbf{Naam}           & De Lijn                   &  & \textbf{Naam}           & iPhone 7 Plus         \\ 
+        \hline
+        \textbf{Versie}         & 4.5.0                     &  & \textbf{iOS versie} & 12.2           \\ 
+        \hline
+        \textbf{Laatste update} & 7 mei 2019               &  & \textbf{Test datum}     & 24 mei 2019      \\
+        \hline
+    \end{tabular}
+\end{table}
+
+Dezelfde opmerkingen betreffende het opstarten, niet kunnen bedienen met schakelaars en het benoemen van elementen zijn geldig bij de iOS versie van de applicatie. Ook is in de iOS versie van de applicatie het niet mogelijk om het navigatiemenu te sluiten bij gebruik met VoiceOver.
+
+Aan de volgende succesfactoren werd niet voldaan tijdens het testen van de applicatie: \begin{itemize}
+        \item Succesfactor 1.1.1
+    \item Succesfactor 1.3.1
+    \item Succesfactor 1.3.4
+    \item Succesfactor 1.4.4
+    \item Succesfactor 1.4.13
+    \item Succesfactor 2.1.1
+    \item Succesfactor 2.1.2
+    \item Succesfactor 2.5.1
+    \item Succesfactor 3.2.2
+\end{itemize}
+
+Zie bijlage \ref{sec:checklistiOSDeLijn} voor de checklist met de resultaten van de audit.
+
+\subsubsection{Resultaten}
+De mobiele applicatie faalt in het voldoen van dezelfde succesfactoren in iOS en Android. De bijhorende impact van die succesfactoren toont dat de mobiele applicatie mindere gebruikerservaring geeft bij gebruikers met een motorische beperking of visuele beperking.
+
+Het navigeren in de applicatie is soms onmogelijk. het meest opvallende geval, was bij het gebruik van het navigatiemenu. Gebruikers moeten naast dat menu klikken om het te kunnen sluiten. Dit is niet mogelijk wanneer gebruikers enkel focus kunnen leggen op het menu.
+
+\subsection{itsme}
+De mobiele applicatie kan gevonden worden in de Google Play Store\footnote{\url{https://play.google.com/store/apps/details?id=be.bmid.itsme}} en App Store\footnote{\url{https://itunes.apple.com/be/app/itsme/id1181309300?ls=1&mt=8}}. De volgende functionaliteiten werden getest: \begin{itemize}
+    \item Opstart applicatie
+    \item Registratie (ingeven pincode)
+    \item Inloggen met een account
+    \item Wijzigen e-mailadres account
+    \item Wijzigen pincode 
+\end{itemize}
+\subsubsection{Android}
+\begin{table} [H]
+    \centering
+    \caption{Specificaties test: itsme - Android}
+    \begin{tabular}{|l|l|l|l|l|} 
+        \hline
+        \multicolumn{2}{|l|}{\textbf{Mobiele Applicatie } } &  & \multicolumn{2}{l|}{\textbf{Smartphone }}  \\ 
+        \hline
+        \textbf{Naam}           & itsme                   &  & \textbf{Naam}           & Nexus 6p         \\ 
+        \hline
+        \textbf{Versie}         & 1.40.1                     &  & \textbf{Android versie} & 8.1.0            \\ 
+        \hline
+        \textbf{Laatste update} & 23 april 2019               &  & \textbf{Test datum}     & 26 mei 2019      \\
+        \hline
+    \end{tabular}
+\end{table}
+
+De mobiele applicatie blijkt niet bruikbaar te zijn voor gebruikers met een motorische of visuele beperking wanneer een pincode dient ingegeven te worden. Naast het logo, en de menuknop blijken de meeste elementen correct benoemd te zijn. De applicatie ondersteunt ook geen oriëntatie in landschapsmodus. De tekstelementen schalen in deze versie van de applicatie mee.
+
+ Aan de volgende succesfactoren werd niet voldaan tijdens het testen van de applicatie: \begin{itemize}
+     \item Succesfactor 1.1.1
+          \item Succesfactor 1.3.4
+               \item Succesfactor 1.3.5
+                    \item Succesfactor 1.4.3
+                         \item Succesfactor 2.1.1
+                              \item Succesfactor 2.4.4
+                                   \item Succesfactor 2.4.7
+                                        \item Succesfactor 2.5.3
+                                             \item Succesfactor 3.3.3
+                                                  \item Succesfactor 4.1.3
+ \end{itemize}
+
+Zie bijlage \ref{sec:checkListAndroiditsme} voor de checklist met de resultaten van de audit.
+
+\subsubsection{iOS}
+
+\begin{table} [H]
+    \centering
+    \caption{Specificaties test: itsme - iOS}
+    \begin{tabular}{|l|l|l|l|l|} 
+        \hline
+        \multicolumn{2}{|l|}{\textbf{Mobiele Applicatie } } &  & \multicolumn{2}{l|}{\textbf{Smartphone }}  \\ 
+        \hline
+        \textbf{Naam}           & itsme                   &  & \textbf{Naam}           & iPhone 7 Plus         \\ 
+        \hline
+        \textbf{Versie}         & 1.40.2                     &  & \textbf{iOS versie} & 12.2           \\ 
+        \hline
+        \textbf{Laatste update} & 9 mei 2019               &  & \textbf{Test datum}     & 26 mei 2019      \\
+        \hline
+    \end{tabular}
+\end{table}
+In de iOS versie van itsme is de tekst in het introductiescherm moeilijk waarneembaar voor een screenreader. De tekst staat verdeeld in verschillende labels. Ook kan tekst in de applicatie niet geschaald worden. Er is bij sommige elementen geen beschrijving beschikbaar. Ook blijkt het ingeven van een pincode onmogelijk bij het gebruik van schakelaars of VoiceOver.
+
+
+Aan de volgende succesfactoren werd niet voldaan tijdens het testen van de applicatie: \begin{itemize}
+    \item Succesfactor 1.1.1
+        \item Succesfactor 1.3.2
+    \item Succesfactor 1.3.4
+    \item Succesfactor 1.3.5
+    \item Succesfactor 1.4.3
+        \item Succesfactor 1.4.4
+    \item Succesfactor 2.1.1
+      \item Succesfactor 2.4.3
+    \item Succesfactor 2.4.4
+    \item Succesfactor 2.4.7
+    %\item Succesfactor 2.5.3
+    \item Succesfactor 3.3.3
+    \item Succesfactor 4.1.3
+\end{itemize}
+Zie bijlage \ref{sec:checkListiOSitsme} voor de checklist met de resultaten van de audit.
+\subsubsection{Resultaten}
+De mobiele applicatie itsme voldoet niet aan een groot aantal succesfactoren die directe impact hebben op gebruikers met een motorische of visuele beperking. Bij beide doelgroepen is het onmogelijk om zich te registreren, of in te loggen in de applicatie. Bij het invoeren van een pincode geeft de applicatie geen focus op het numeriek toetsenbord.
+
+Het is mogelijk om tekst te schalen in Android, maar niet in iOS. Beide versies van de applicatie ondersteunen ook niet het roteren van het scherm. Ze voldoen ook niet aan het minimum contrast voor tekst. Bij het ingeven van foutieve gegevens, verandert de focus van de gebruiker. Dit kan gebruikers met een visuele beperking verwarren. 
